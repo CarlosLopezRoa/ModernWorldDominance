@@ -1,0 +1,83 @@
+BASE_REGLES_ANALYSE_TYPOLOGIE = (
+CONTENU = (MEMO,FICHIER,ENTETE,VALEURS_PROPRES,DICO_VARIABLES,COORDONNEES_VARIABLES
+),
+MEMO = (
+ ""
+),
+FICHIER = (
+ fac_base = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.GUS",
+ nom_version = "SpadVersion:v7.0",
+ date_creation = "27/01/2006",
+ nom_filiere = "FILIERE.FIL",
+ path_filiere = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\",
+ base = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_10.sba"
+),
+ENTETE = (
+ titre = "Simple Correspondence Analysis                                                  ",
+ sous_titre ="",
+ type_analyse =           4,
+ poids_individus_actifs = 0.1690000E+03,
+ nombre_axes =           1,
+ nombre_variables_actives =           5,
+ nombre_modalites_actives =           0,
+ maximum_modalites_variables =           1,
+ nombre_coupures =           0,
+ nombre_modalites_partitions =           0,
+ maximum_modalites_partitions =           0
+),
+VALEURS_PROPRES = (
+ (
+   0.4438472E+00)
+),
+DICO_VARIABLES = (
+ (1,  continu,"","Afri","Africa",0,  0.000000E+00,  0.600000E+01,  0.350000E+02,
+   0.1698225E+02, 0.1406682E+02, 0.6000000E+01, 0.3500000E+02,  5,(
+  ( 0.1050000E+03,1),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.6400000E+02,1))),
+ (2,  continu,"","Asia","Asia",0,  0.000000E+00,  0.210000E+02,  0.220000E+02,
+   0.2162130E+02, 0.4850627E+00, 0.2100000E+02, 0.2200000E+02,  6,(
+  ( 0.6400000E+02,1),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.1050000E+03,1))),
+ (3,  continu,"","Euro","Europe",0,  0.000000E+00,  0.100000E+01,  0.400000E+02,
+   0.2523077E+02, 0.1891745E+02, 0.1000000E+01, 0.4000000E+02,  5,(
+  ( 0.6400000E+02,1),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.1050000E+03,1))),
+ (4,  continu,"","Ocea","Oceania",0,  0.000000E+00,  0.400000E+01,  0.700000E+01,
+   0.5863905E+01, 0.1455188E+01, 0.4000000E+01, 0.7000000E+01,  6,(
+  ( 0.6400000E+02,1),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.1050000E+03,1))),
+ (5,  continu,"","Amer","America",0,  0.000000E+00,  0.300000E+01,  0.300000E+02,
+   0.1977515E+02, 0.1309669E+02, 0.3000000E+01, 0.3000000E+02,  5,(
+  ( 0.6400000E+02,1),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.0000000E+00,0),  
+  ( 0.1050000E+03,1))),
+),
+COORDONNEES_VARIABLES = (
+   (           1,     8214317,-0.9791729E+00,
+    0.4100000E+02, 0.9587796E+00),
+   (           2,     8214317,-0.2261024E+00,
+    0.4300000E+02, 0.5112233E-01),
+   (           3,     8214317, 0.7304373E+00,
+    0.4100000E+02, 0.5335389E+00),
+   (           4,     8214317, 0.3105145E-01,
+    0.1100000E+02, 0.9641485E-03),
+   (           5,     8214317, 0.5933029E+00,
+    0.3300000E+02, 0.3520084E+00)
+),
+);

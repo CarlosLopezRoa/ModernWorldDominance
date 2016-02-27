@@ -1,0 +1,458 @@
+a1SELECTION OF CASES AND VARIABLES                         
+b2SUPPLEMENTARY CATEGORICAL VARIABLES
+X      2 VARIABLES      11 ASSOCIATED CATEGORIES
+ E----------------------------------------------------------------------------------------------------------------------------------
+     2 . Continent                                                    (   6 CATEGORIES )
+    35 . SectorLaborFractions                                         (   5 CATEGORIES )
+ F----------------------------------------------------------------------------------------------------------------------------------
+b2ACTIVE CONTINUOUS VARIABLES
+X     16 VARIABLES
+ E----------------------------------------------------------------------------------------------------------------------------------
+    11 . LifeExpectancy                                               ( CONTINUOUS )
+    15 . Population                                                   ( CONTINUOUS )
+    18 . TotalFertilityRate                                           ( CONTINUOUS )
+    22 . ForeignExchangeReserves                                      ( CONTINUOUS )
+    23 . GDP                                                          ( CONTINUOUS )
+    25 . GDPPerCapita                                                 ( CONTINUOUS )
+    32 . LaborForce                                                   ( CONTINUOUS )
+    41 . ElectricityProduction                                        ( CONTINUOUS )
+    48 . OilExports                                                   ( CONTINUOUS )
+    52 . Airports                                                     ( CONTINUOUS )
+    57 . InternetUsers                                                ( CONTINUOUS )
+    65 . RoadLength                                                   ( CONTINUOUS )
+    69 . ArableLandArea                                               ( CONTINUOUS )
+    71 . Area                                                         ( CONTINUOUS )
+    87 . MilitaryExpenditures                                         ( CONTINUOUS )
+    88 . MilitaryFitPopulation                                        ( CONTINUOUS )
+ F----------------------------------------------------------------------------------------------------------------------------------
+b2SUPPLEMENTARY CONTINUOUS VARIABLES
+X     66 VARIABLES
+ E----------------------------------------------------------------------------------------------------------------------------------
+     3 . AdultPopulation                                              ( CONTINUOUS )
+     4 . AnnualBirths                                                 ( CONTINUOUS )
+     5 . AnnualDeaths                                                 ( CONTINUOUS )
+     6 . BirthRateFraction                                            ( CONTINUOUS )
+     7 . ChildPopulation                                              ( CONTINUOUS )
+     8 . DeathRateFraction                                            ( CONTINUOUS )
+     9 . ElderlyPopulation                                            ( CONTINUOUS )
+    10 . InfantMortalityFraction                                      ( CONTINUOUS )
+    12 . LiteracyFraction                                             ( CONTINUOUS )
+    13 . MedianAge                                                    ( CONTINUOUS )
+    14 . MigrationRateFraction                                        ( CONTINUOUS )
+    16 . PopulationGrowth                                             ( CONTINUOUS )
+    17 . PovertyFraction                                              ( CONTINUOUS )
+    20 . ExchangeRate                                                 ( CONTINUOUS )
+    21 . ExternalDebt                                                 ( CONTINUOUS )
+    24 . GDPAtParity                                                  ( CONTINUOUS )
+    26 . GDPRealGrowth                                                ( CONTINUOUS )
+    27 . GovernmentDebt                                               ( CONTINUOUS )
+    28 . GovernmentExpenditures                                       ( CONTINUOUS )
+    29 . GovernmentReceipts                                           ( CONTINUOUS )
+    30 . IndustrialProductionGrowth                                   ( CONTINUOUS )
+    31 . InflationRate                                                ( CONTINUOUS )
+    33 . PriceIndex                                                   ( CONTINUOUS )
+    34 . UnemploymentFraction                                         ( CONTINUOUS )
+    38 . ElectricityConsumption                                       ( CONTINUOUS )
+    39 . ElectricityExports                                           ( CONTINUOUS )
+    40 . ElectricityImports                                           ( CONTINUOUS )
+    42 . NaturalGasConsumption                                        ( CONTINUOUS )
+    43 . NaturalGasExports                                            ( CONTINUOUS )
+    44 . NaturalGasImports                                            ( CONTINUOUS )
+    45 . NaturalGasProduction                                         ( CONTINUOUS )
+    46 . NaturalGasReserves                                           ( CONTINUOUS )
+    47 . OilConsumption                                               ( CONTINUOUS )
+    49 . OilImports                                                   ( CONTINUOUS )
+    50 . OilProduction                                                ( CONTINUOUS )
+    51 . OilReserves                                                  ( CONTINUOUS )
+    53 . AMRadioStations                                              ( CONTINUOUS )
+    54 . CellularPhones                                               ( CONTINUOUS )
+    55 . FMRadioStations                                              ( CONTINUOUS )
+    56 . InternetHosts                                                ( CONTINUOUS )
+    58 . MerchantShips                                                ( CONTINUOUS )
+    59 . MerchantShipsDeadWeight                                      ( CONTINUOUS )
+    60 . MerchantShipsGross                                           ( CONTINUOUS )
+    61 . PavedAirports                                                ( CONTINUOUS )
+    62 . PhoneLines                                                   ( CONTINUOUS )
+    63 . RadioStations                                                ( CONTINUOUS )
+    64 . RailwayLength                                                ( CONTINUOUS )
+    66 . ShortWaveRadioStations                                       ( CONTINUOUS )
+    67 . TelevisionStations                                           ( CONTINUOUS )
+    68 . UnpavedAirports                                              ( CONTINUOUS )
+    70 . ArableLandFraction                                           ( CONTINUOUS )
+    72 . BoundaryLength                                               ( CONTINUOUS )
+    73 . CoastlineLength                                              ( CONTINUOUS )
+    74 . CropsLandArea                                                ( CONTINUOUS )
+    75 . CropsLandFraction                                            ( CONTINUOUS )
+    76 . HighestElevation                                             ( CONTINUOUS )
+    77 . IrrigatedLandArea                                            ( CONTINUOUS )
+    78 . IrrigatedLandFraction                                        ( CONTINUOUS )
+    79 . LandArea                                                     ( CONTINUOUS )
+    80 . LowestElevation                                              ( CONTINUOUS )
+    81 . WaterArea                                                    ( CONTINUOUS )
+    82 . MilitaryAgeFemales                                           ( CONTINUOUS )
+    83 . MilitaryAgeMales                                             ( CONTINUOUS )
+    84 . MilitaryAgePopulation                                        ( CONTINUOUS )
+    85 . MilitaryAgeRate                                              ( CONTINUOUS )
+    86 . MilitaryExpenditureFraction                                  ( CONTINUOUS )
+ F----------------------------------------------------------------------------------------------------------------------------------
+Z 
+p 
+B2CASES
+ E----------------------------- NUMBER --------------WEIGHT ---------------
+   WEIGHT OF CASES      : Weight of objects, uniform equal to 1.                  UNIF
+   KEPT ............... NITOT =    192      PITOT =             192.000
+   ACTIVE ............. NIACT =    192      PIACT =             192.000
+   SUPPLEMENTARY ...... NISUP =      0      PISUP =               0.000
+ F-------------------------------------------------------------------------
+Z 
+Z 
+P 
+a1PRINCIPAL COMPONENTS ANALYSIS                            
+b2SUMMARY STATISTICS OF CONTINUOUS VARIABLES
+ ETOTAL COUNT    :     192             TOTAL WEIGHT   :     192.00
+ e+-------------------------------------------------------+----------------------+----------------------+
+ e| NUM . IDEN - LABEL                  COUNT     WEIGHT  |      MEAN  STD.DEV.  |   MINIMUM   MAXIMUM  |
+ e+-------------------------------------------------------+----------------------+----------------------+
+  |  11 . Life - LifeExpectancy           192     192.00  |     70.37      8.93  |     45.56     83.58  |
+  |  15 . Popu - Population               192     192.00  |      6.23      1.01  |      3.00      9.00  |
+  |  18 . Tota - TotalFertilityRate       192     192.00  |      2.82      1.40  |      1.19      7.56  |
+  |  22 . Fore - ForeignExchangeReser     153     153.00  |      9.77      0.94  |      7.38     12.31  |
+  |  23 . GDP  - GDP                      192     192.00  |     10.36      1.08  |      7.39     13.15  |
+  |  25 . GDPP - GDPPerCapita             192     192.00  |      3.64      0.71  |      2.14      5.33  |
+  |  32 . Labo - LaborForce               185     185.00  |      5.88      0.98  |      3.00      8.00  |
+  |  41 . Elec - ElectricityProductio     184     184.00  |      9.83      1.16  |      7.15     12.62  |
+  |  48 . OilE - OilExports               128     128.00  |      4.17      1.32  |      1.00      6.00  |
+  |  52 . Airp - Airports                 188     188.00  |      1.15      0.78  |      0.00      4.00  |
+  |  57 . Inte - InternetUsers            190     190.00  |      5.35      1.09  |      2.00      8.00  |
+  |  65 . Road - RoadLength               192     192.00  |      3.83      1.00  |      0.00      6.00  |
+  |  69 . Arab - ArableLandArea           190     190.00  |      3.39      1.25  |      0.00      6.00  |
+  |  71 . Area - Area                     192     192.00  |      4.39      1.25  |      0.00      7.00  |
+  |  87 . Mili - MilitaryExpenditures     165     165.00  |      8.60      1.10  |      5.77     11.70  |
+  |  88 . Mili - MilitaryFitPopulatio     192     192.00  |      5.82      0.98  |      3.00      8.00  |
+  |-------------------------------------------------------|----------------------|-----------------------
+  |   3 . Adul - AdultPopulation          192     192.00  |      6.02      1.00  |      3.00      8.00  |
+  |   4 . Annu - AnnualBirths             192     192.00  |      4.51      1.03  |      2.00      7.00  |
+  |   5 . Annu - AnnualDeaths             192     192.00  |      4.15      1.06  |      1.00      7.00  |
+  |   6 . Birt - BirthRateFraction        192     192.00  |      0.02      0.01  |      0.01      0.09  |
+  |   7 . Chil - ChildPopulation          192     192.00  |      5.62      1.02  |      3.00      8.00  |
+  |   8 . Deat - DeathRateFraction        192     192.00  |      0.01      0.00  |      0.00      0.02  |
+  |   9 . Elde - ElderlyPopulation        192     192.00  |      5.02      1.08  |      2.00      8.00  |
+  |  10 . Infa - InfantMortalityFract     191     191.00  |      0.03      0.03  |      0.00      0.18  |
+  |  12 . Lite - LiteracyFraction         188     188.00  |      0.84      0.19  |      0.22      1.00  |
+  |  13 . Medi - MedianAge                182     182.00  |     27.56      8.38  |     15.09     44.86  |
+  |  14 . Migr - MigrationRateFractio     191     191.00  |      0.00      0.00  |     -0.02      0.02  |
+  |  16 . Popu - PopulationGrowth         192     192.00  |      0.01      0.01  |     -0.01      0.04  |
+  |  17 . Pove - PovertyFraction          139     139.00  |      0.32      0.19  |      0.04      0.86  |
+  |  20 . Exch - ExchangeRate             192     192.00  |      1.33      1.49  |     -0.57     12.44  |
+  |  21 . Exte - ExternalDebt             185     185.00  |     10.01      1.18  |      7.00     13.09  |
+  |  24 . GDPA - GDPAtParity              192     192.00  |     10.54      1.04  |      7.17     13.16  |
+  |  26 . GDPR - GDPRealGrowth            192     192.00  |      0.04      0.04  |     -0.15      0.16  |
+  |  27 . Gove - GovernmentDebt           127     127.00  |     10.26      0.94  |      8.25     12.91  |
+  |  28 . Gove - GovernmentExpenditur     189     189.00  |      9.08      1.19  |      7.00     12.00  |
+  |  29 . Gove - GovernmentReceipts       189     189.00  |      9.06      1.19  |      7.00     12.00  |
+  |  30 . Indu - IndustrialProduction     170     170.00  |      0.03      0.04  |     -0.15      0.14  |
+  |  31 . Infl - InflationRate            192     192.00  |      0.12      0.10  |     -0.19      0.52  |
+  |  33 . Pric - PriceIndex               192     192.00  |    188.32     71.41  |     67.30    410.74  |
+  |  34 . Unem - UnemploymentFraction     168     168.00  |      0.14      0.16  |      0.00      0.90  |
+  |  38 . Elec - ElectricityConsumpti     183     183.00  |      9.78      1.15  |      7.11     12.59  |
+  |  39 . Elec - ElectricityExports        81      81.00  |      8.67      1.15  |      5.00     10.00  |
+  |  40 . Elec - ElectricityImports        92      92.00  |      8.59      1.09  |      4.00     10.00  |
+  |  42 . Natu - NaturalGasConsumptio     106     106.00  |      9.18      0.97  |      7.00     11.00  |
+  |  43 . Natu - NaturalGasExports         43      43.00  |      9.23      0.96  |      7.00     11.00  |
+  |  44 . Natu - NaturalGasImports         63      63.00  |      9.14      0.81  |      7.00     11.00  |
+  |  45 . Natu - NaturalGasProduction      90      90.00  |      9.03      1.18  |      6.00     11.00  |
+  |  46 . Natu - NaturalGasReserves       100     100.00  |     11.05      1.18  |      7.43     13.65  |
+  |  47 . OilC - OilConsumption           182     182.00  |      4.19      1.04  |      2.00      7.00  |
+  |  49 . OilI - OilImports               180     180.00  |      4.10      0.98  |      2.00      7.00  |
+  |  50 . OilP - OilProduction            109     109.00  |      4.27      1.35  |      0.00      6.00  |
+  |  51 . OilR - OilReserves               96      96.00  |      8.22      1.36  |      5.00     11.00  |
+  |  53 . AMRa - AMRadioStations          171     171.00  |      0.63      0.77  |      0.00      3.00  |
+  |  54 . Cell - CellularPhones           191     191.00  |      5.94      1.08  |      2.00      8.00  |
+  |  55 . FMRa - FMRadioStations          182     182.00  |      0.87      0.77  |      0.00      3.00  |
+  |  56 . Inte - InternetHosts            191     191.00  |      3.74      1.83  |      0.00      8.00  |
+  |  58 . Merc - MerchantShips            148     148.00  |      1.05      0.88  |      0.00      3.00  |
+  |  59 . Merc - MerchantShipsDeadWei     143     143.00  |      5.01      1.31  |      2.00      8.00  |
+  |  60 . Merc - MerchantShipsGross       143     143.00  |      4.92      1.19  |      3.00      8.00  |
+  |  61 . Pave - PavedAirports            187     187.00  |      0.73      0.68  |      0.00      3.00  |
+  |  62 . Phon - PhoneLines               192     192.00  |      5.18      1.10  |      3.00      8.00  |
+  |  63 . Radi - RadioStations            192     192.00  |      1.13      0.80  |      0.00      4.00  |
+  |  64 . Rail - RailwayLength            134     134.00  |      2.75      0.83  |      0.00      5.00  |
+  |  66 . Shor - ShortWaveRadioStatio     144     144.00  |      0.19      0.42  |      0.00      2.00  |
+  |  67 . Tele - TelevisionStations       186     186.00  |      0.65      0.76  |      0.00      3.00  |
+  |  68 . Unpa - UnpavedAirports          174     174.00  |      0.98      0.70  |      0.00      3.00  |
+  |  70 . Arab - ArableLandFraction       192     192.00  |      0.15      0.14  |      0.00      0.67  |
+  |  72 . Boun - BoundaryLength           192     192.00  |      2.83      0.67  |      0.00      5.00  |
+  |  73 . Coas - CoastlineLength          150     150.00  |      2.48      0.81  |      0.00      5.00  |
+  |  74 . Crop - CropsLandArea            182     182.00  |      3.06      0.94  |      0.86      5.11  |
+  |  75 . Crop - CropsLandFraction        182     182.00  |     -1.90      0.83  |     -4.00     -0.18  |
+  |  76 . High - HighestElevation         192     192.00  |   2729.79   2008.44  |      2.00   8850.00  |
+  |  77 . Irri - IrrigatedLandArea        163     163.00  |      2.67      1.08  |      1.00      5.00  |
+  |  78 . Irri - IrrigatedLandFractio     164     164.00  |      0.03      0.05  |      0.00      0.36  |
+  |  79 . Land - LandArea                 192     192.00  |      4.37      1.24  |      0.00      7.00  |
+  |  80 . Lowe - LowestElevation           37      37.00  |      1.59      0.59  |      0.00      3.00  |
+  |  81 . Wate - WaterArea                147     147.00  |      3.02      0.95  |      1.00      5.00  |
+  |  82 . Mili - MilitaryAgeFemales       158     158.00  |      5.83      0.80  |      4.00      8.00  |
+  |  83 . Mili - MilitaryAgeMales         189     189.00  |      5.66      0.98  |      3.00      8.00  |
+  |  84 . Mili - MilitaryAgePopulatio     158     158.00  |      6.12      0.81  |      4.00      8.00  |
+  |  85 . Mili - MilitaryAgeRate          192     192.00  |      4.46      0.99  |      2.00      7.00  |
+  |  86 . Mili - MilitaryExpenditureF     190     190.00  |      0.02      0.02  |      0.00      0.11  |
+ f+-------------------------------------------------------+----------------------+----------------------+
+Z 
+p 
+b2CORRELATION MATRIX
+cE     |   Life   Popu   Tota   Fore   GDP    GDPP   Labo   Elec   OilE   Airp   Inte   Road   Arab   Area   Mili   Mili
+  -----+----------------------------------------------------------------------------------------------------------------
+  Life |   1.00
+  Popu |  -0.14   1.00
+  Tota |  -0.81   0.13   1.00
+  Fore |   0.35   0.42  -0.39   1.00
+  GDP  |   0.42   0.71  -0.40   0.69   1.00
+  GDPP |   0.77  -0.21  -0.72   0.41   0.49   1.00
+  Labo |  -0.05   0.84   0.02   0.47   0.73  -0.13   1.00
+  Elec |   0.50   0.58  -0.52   0.70   0.88   0.47   0.62   1.00
+  OilE |   0.15   0.28  -0.11   0.47   0.46   0.34   0.23   0.42   1.00
+  Airp |   0.16   0.59  -0.14   0.45   0.64   0.12   0.59   0.66   0.32   1.00
+  Inte |   0.37   0.70  -0.38   0.60   0.88   0.32   0.71   0.82   0.34   0.62   1.00
+  Road |   0.07   0.82  -0.09   0.50   0.80   0.04   0.80   0.68   0.23   0.68   0.75   1.00
+  Arab |  -0.17   0.81   0.11   0.37   0.64  -0.19   0.84   0.54   0.18   0.64   0.63   0.78   1.00
+  Area |  -0.24   0.79   0.23   0.30   0.57  -0.26   0.77   0.45   0.21   0.65   0.54   0.78   0.79   1.00
+  Mili |   0.48   0.47  -0.44   0.74   0.79   0.53   0.47   0.79   0.56   0.54   0.69   0.55   0.40   0.32   1.00
+  Mili |   0.00   0.88  -0.01   0.49   0.78  -0.10   0.93   0.67   0.27   0.65   0.77   0.84   0.82   0.79   0.52   1.00
+  -----+----------------------------------------------------------------------------------------------------------------
+ F     |   Life   Popu   Tota   Fore   GDP    GDPP   Labo   Elec   OilE   Airp   Inte   Road   Arab   Area   Mili   Mili
+Z 
+Z 
+p 
+b2TEST-VALUES MATRIX
+cE     |   Life   Popu   Tota   Fore   GDP    GDPP   Labo   Elec   OilE   Airp   Inte   Road   Arab   Area   Mili   Mili
+  -----+----------------------------------------------------------------------------------------------------------------
+  Life |  99.99
+  Popu |  -1.89  99.99
+  Tota | -15.43   1.86  99.99
+  Fore |   4.48   5.48  -5.07  99.99
+  GDP  |   6.19  12.17  -5.85  10.47  99.99
+  GDPP |  14.16  -3.00 -12.56   5.45   7.46  99.99
+  Labo |  -0.68  16.43   0.29   6.34  12.67  -1.79  99.99
+  Elec |   7.47   9.03  -7.76  10.81  18.54   6.98   9.91  99.99
+  OilE |   1.75   3.26  -1.24   5.80   5.64   4.02   2.71   5.01  99.99
+  Airp |   2.17   9.31  -1.95   5.98  10.49   1.63   9.17  10.75   3.77  99.99
+  Inte |   5.31  11.93  -5.54   8.67  19.26   4.64  12.05  15.71   3.98   9.85  99.99
+  Road |   1.00  16.23  -1.18   6.77  15.22   0.50  15.13  11.19   2.69  11.34  13.46  99.99
+  Arab |  -2.32  15.56   1.55   4.82  10.35  -2.66  16.53   8.23   2.04  10.33  10.17  14.40  99.99
+  Area |  -3.42  14.70   3.27   3.82   8.87  -3.65  13.93   6.64   2.43  10.54   8.38  14.49  14.64  99.99
+  Mili |   6.68   6.55  -6.04  11.80  13.88   7.54   6.63  13.70   7.13   7.77  10.98   7.91   5.47   4.28  99.99
+  Mili |  -0.03  18.99  -0.11   6.70  14.62  -1.38  22.51  11.01   3.16  10.71  14.16  17.14  15.75  14.79   7.38  99.99
+  -----+----------------------------------------------------------------------------------------------------------------
+ F     |   Life   Popu   Tota   Fore   GDP    GDPP   Labo   Elec   OilE   Airp   Inte   Road   Arab   Area   Mili   Mili
+Z 
+Z 
+P 
+b2EIGENVALUES
+X COMPUTATIONS PRECISION SUMMARY : TRACE BEFORE DIAGONALISATION..  16.0000
+X                                  SUM OF EIGENVALUES............  16.0000
+c2HISTOGRAM OF THE FIRST  16 EIGENVALUES
+ e+--------+------------+-------------+-------------+----------------------------------------------------------------------------------+
+ e| NUMBER | EIGENVALUE | PERCENTAGE  |  CUMULATED  |                                                                                  |
+ e|        |            |             |  PERCENTAGE |                                                                                  |
+ e+--------+------------+-------------+-------------+----------------------------------------------------------------------------------+
+  |    1   |   8.6572   |     54.11   |     54.11   | ******************************************************************************** |
+  |    2   |   3.6686   |     22.93   |     77.04   | **********************************                                               |
+  |    3   |   1.0036   |      6.27   |     83.31   | **********                                                                       |
+  |    4   |   0.5279   |      3.30   |     86.61   | *****                                                                            |
+  |    5   |   0.4182   |      2.61   |     89.22   | ****                                                                             |
+  |    6   |   0.2930   |      1.83   |     91.05   | ***                                                                              |
+  |    7   |   0.2454   |      1.53   |     92.59   | ***                                                                              |
+  |    8   |   0.2237   |      1.40   |     93.98   | ***                                                                              |
+  |    9   |   0.1952   |      1.22   |     95.20   | **                                                                               |
+  |   10   |   0.1875   |      1.17   |     96.38   | **                                                                               |
+  |   11   |   0.1526   |      0.95   |     97.33   | **                                                                               |
+  |   12   |   0.1359   |      0.85   |     98.18   | **                                                                               |
+  |   13   |   0.1337   |      0.84   |     99.02   | **                                                                               |
+  |   14   |   0.0959   |      0.60   |     99.62   | *                                                                                |
+  |   15   |   0.0535   |      0.33   |     99.95   | *                                                                                |
+  |   16   |   0.0080   |      0.05   |    100.00   | *                                                                                |
+ f+--------+------------+-------------+-------------+----------------------------------------------------------------------------------+
+Z
+p 
+c2RESEARCH OF IRREGULARITIES (THIRD DIFFERENCES)
+ e+--------------+--------------+------------------------------------------------------+
+ e| IRREGULARITY | IRREGULARITY |                                                      |
+ e|    BETWEEN   |    VALUE     |                                                      |
+ e+--------------+--------------+------------------------------------------------------+
+  |    2  --  3  |    -1823.18  | **************************************************** |
+  |    3  --  4  |     -381.76  | ***********                                          |
+  |    1  --  2  |     -134.22  | ****                                                 |
+  |    5  --  6  |      -51.72  | **                                                   |
+  |   13  -- 14  |      -50.15  | **                                                   |
+  |   10  -- 11  |      -47.94  | **                                                   |
+  |    6  --  7  |      -32.71  | *                                                    |
+ f+--------------+--------------+------------------------------------------------------+
+Z 
+p 
+c2RESEARCH OF IRREGULARITIES (SECOND DIFFERENCES)
+ e+--------------+--------------+------------------------------------------------------+
+ e| IRREGULARITY | IRREGULARITY |                                                      |
+ e|    BETWEEN   |    VALUE     |                                                      |
+ e+--------------+--------------+------------------------------------------------------+
+  |    1  --  2  |     2323.52  | **************************************************** |
+  |    2  --  3  |     2189.30  | *************************************************    |
+  |    3  --  4  |      366.12  | *********                                            |
+  |    5  --  6  |       77.66  | **                                                   |
+  |    6  --  7  |       25.93  | *                                                    |
+  |    8  --  9  |       20.75  | *                                                    |
+  |   10  -- 11  |       18.20  | *                                                    |
+  |   11  -- 12  |       14.52  | *                                                    |
+ f+--------------+--------------+------------------------------------------------------+
+Z 
+p 
+b2ANDERSON'S LAPLACE INTERVALS
+c2WITH 0.95 THRESHOLD
+ e+--------+--------------------------------------------------------+
+ e| NUMBER |   LOWER LIMIT         EIGENVALUE         UPPER LIMIT   |
+ e+--------+--------------------------------------------------------+
+  |    1   |      6.9209             8.6572            10.3935      |
+  |    2   |      2.9328             3.6686             4.4044      |
+  |    3   |      0.8023             1.0036             1.2049      |
+  |    4   |      0.4220             0.5279             0.6337      |
+  |    5   |      0.3344             0.4182             0.5021      |
+ f+--------+--------------------------------------------------------+
+Z 
+p 
+c2LENGTH AND RELATIVE POSITION OF INTERVALS
+  1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .*---------------------+----------------------*
+  2 . . . . . . . . . . . . . . . . .*--------+--------*. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  3 . . .*--+--*. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  4 .*+*. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  5 *+* . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+ F
+Z 
+Z 
+P 
+b2COORDINATES OF VARIABLES ON  AXES  1 TO  5
+c2ACTIVE VARIABLES
+ e----------------------------+------------------------------------+-------------------------------+-------------------------------
+ e         VARIABLES          |             COORDINATES            | VARIABLE-FACTOR CORRELATIONS  |    NORMED EIGENVECTORS
+ e----------------------------+------------------------------------+-------------------------------+-------------------------------
+ eIDEN - SHORT LABEL          |    1      2      3      4      5   |    1     2     3     4     5  |    1     2     3     4     5
+ e----------------------------+------------------------------------+-------------------------------+-------------------------------
+  Life - LifeExpectancy       |   0.25  -0.85   0.27  -0.08   0.10 |  0.25 -0.85  0.27 -0.08  0.10 |  0.09 -0.44  0.27 -0.11  0.16
+  Popu - Population           |   0.83   0.43  -0.01   0.11   0.11 |  0.83  0.43 -0.01  0.11  0.11 |  0.28  0.22 -0.01  0.16  0.17
+  Tota - TotalFertilityRate   |  -0.26   0.82  -0.33  -0.01   0.02 | -0.26  0.82 -0.33 -0.01  0.02 | -0.09  0.43 -0.33 -0.02  0.04
+  Fore - ForeignExchangeReser |   0.70  -0.34  -0.25   0.29  -0.46 |  0.70 -0.34 -0.25  0.29 -0.46 |  0.24 -0.18 -0.25  0.41 -0.71
+  GDP  - GDP                  |   0.94  -0.22   0.02   0.05   0.14 |  0.94 -0.22  0.02  0.05  0.14 |  0.32 -0.12  0.02  0.07  0.22
+  GDPP - GDPPerCapita         |   0.24  -0.89  -0.04  -0.08   0.12 |  0.24 -0.89 -0.04 -0.08  0.12 |  0.08 -0.47 -0.04 -0.12  0.19
+  Labo - LaborForce           |   0.85   0.36   0.10   0.17   0.05 |  0.85  0.36  0.10  0.17  0.05 |  0.29  0.19  0.10  0.23  0.08
+  Elec - ElectricityProductio |   0.87  -0.33   0.06  -0.02  -0.05 |  0.87 -0.33  0.06 -0.02 -0.05 |  0.30 -0.17  0.06 -0.03 -0.07
+  OilE - OilExports           |   0.45  -0.24  -0.79  -0.09   0.23 |  0.45 -0.24 -0.79 -0.09  0.23 |  0.15 -0.13 -0.79 -0.13  0.36
+  Airp - Airports             |   0.77   0.07   0.01  -0.56  -0.24 |  0.77  0.07  0.01 -0.56 -0.24 |  0.26  0.04  0.01 -0.78 -0.36
+  Inte - InternetUsers        |   0.89  -0.14   0.15   0.09   0.14 |  0.89 -0.14  0.15  0.09  0.14 |  0.30 -0.07  0.15  0.12  0.22
+  Road - RoadLength           |   0.88   0.22   0.14  -0.03   0.03 |  0.88  0.22  0.14 -0.03  0.03 |  0.30  0.12  0.14 -0.04  0.05
+  Arab - ArableLandArea       |   0.79   0.45   0.09  -0.02  -0.03 |  0.79  0.45  0.09 -0.02 -0.03 |  0.27  0.23  0.09 -0.03 -0.05
+  Area - Area                 |   0.73   0.53   0.00  -0.18   0.01 |  0.73  0.53  0.00 -0.18  0.01 |  0.25  0.28  0.00 -0.25  0.01
+  Mili - MilitaryExpenditures |   0.77  -0.42  -0.24   0.06  -0.10 |  0.77 -0.42 -0.24  0.06 -0.10 |  0.26 -0.22 -0.23  0.08 -0.16
+  Mili - MilitaryFitPopulatio |   0.89   0.32   0.09   0.11   0.07 |  0.89  0.32  0.09  0.11  0.07 |  0.30  0.17  0.09  0.14  0.11
+ f----------------------------+------------------------------------+-------------------------------+-------------------------------
+Z 
+p 
+c2SUPPLEMENTARY VARIABLES
+ e----------------------------+------------------------------------+-------------------------------+-------------------------------
+ e         VARIABLES          |             COORDINATES            | VARIABLE-FACTOR CORRELATIONS  |    NORMED EIGENVECTORS
+ e----------------------------+------------------------------------+-------------------------------+-------------------------------
+ eIDEN - SHORT LABEL          |    1      2      3      4      5   |    1     2     3     4     5  |    1     2     3     4     5
+ e----------------------------+------------------------------------+-------------------------------+-------------------------------
+  Adul - AdultPopulation      |   0.87   0.36   0.06   0.10   0.08 |  0.87  0.36  0.06  0.10  0.08 |
+  Annu - AnnualBirths         |   0.75   0.55  -0.04   0.09   0.04 |  0.75  0.55 -0.04  0.09  0.04 |
+  Annu - AnnualDeaths         |   0.81   0.46   0.04   0.13   0.07 |  0.81  0.46  0.04  0.13  0.07 |
+  Birt - BirthRateFraction    |  -0.30   0.74  -0.30   0.00   0.00 | -0.30  0.74 -0.30  0.00  0.00 |
+  Chil - ChildPopulation      |   0.79   0.50   0.01   0.09   0.02 |  0.79  0.50  0.01  0.09  0.02 |
+  Deat - DeathRateFraction    |  -0.01   0.27  -0.03   0.11  -0.11 | -0.01  0.27 -0.03  0.11 -0.11 |
+  Elde - ElderlyPopulation    |   0.91   0.19   0.15   0.12   0.04 |  0.91  0.19  0.15  0.12  0.04 |
+  Infa - InfantMortalityFract |  -0.18   0.80  -0.23   0.10  -0.09 | -0.18  0.80 -0.23  0.10 -0.09 |
+  Lite - LiteracyFraction     |   0.14  -0.74   0.19  -0.13   0.01 |  0.14 -0.74  0.19 -0.13  0.01 |
+  Medi - MedianAge            |   0.38  -0.73   0.28   0.08   0.05 |  0.38 -0.73  0.28  0.08  0.05 |
+  Migr - MigrationRateFractio |   0.17  -0.14  -0.03   0.01   0.04 |  0.17 -0.14 -0.03  0.01  0.04 |
+  Popu - PopulationGrowth     |  -0.15   0.68  -0.31  -0.06   0.10 | -0.15  0.68 -0.31 -0.06  0.10 |
+  Pove - PovertyFraction      |  -0.31   0.55  -0.08  -0.11   0.02 | -0.31  0.55 -0.08 -0.11  0.02 |
+  Exch - ExchangeRate         |   0.00   0.56  -0.01   0.04   0.08 |  0.00  0.56 -0.01  0.04  0.08 |
+  Exte - ExternalDebt         |   0.81  -0.33   0.05   0.04   0.09 |  0.81 -0.33  0.05  0.04  0.09 |
+  GDPA - GDPAtParity          |   0.96  -0.11   0.03   0.07   0.13 |  0.96 -0.11  0.03  0.07  0.13 |
+  GDPR - GDPRealGrowth        |   0.08   0.27  -0.03   0.18   0.00 |  0.08  0.27 -0.03  0.18  0.00 |
+  Gove - GovernmentDebt       |   0.64  -0.15  -0.06   0.06   0.00 |  0.64 -0.15 -0.06  0.06  0.00 |
+  Gove - GovernmentExpenditur |   0.88  -0.29  -0.01   0.04   0.08 |  0.88 -0.29 -0.01  0.04  0.08 |
+  Gove - GovernmentReceipts   |   0.88  -0.29  -0.01   0.02   0.10 |  0.88 -0.29 -0.01  0.02  0.10 |
+  Indu - IndustrialProduction |  -0.02   0.25  -0.08   0.10   0.03 | -0.02  0.25 -0.08  0.10  0.03 |
+  Infl - InflationRate        |   0.08   0.09  -0.04   0.12   0.12 |  0.08  0.09 -0.04  0.12  0.12 |
+  Pric - PriceIndex           |   0.10  -0.26  -0.02   0.15   0.08 |  0.10 -0.26 -0.02  0.15  0.08 |
+  Unem - UnemploymentFraction |  -0.23   0.38  -0.07   0.03  -0.20 | -0.23  0.38 -0.07  0.03 -0.20 |
+  Elec - ElectricityConsumpti |   0.88  -0.32   0.04  -0.02  -0.02 |  0.88 -0.32  0.04 -0.02 -0.02 |
+  Elec - ElectricityExports   |   0.19  -0.16  -0.12   0.06  -0.05 |  0.19 -0.16 -0.12  0.06 -0.05 |
+  Elec - ElectricityImports   |   0.26  -0.32  -0.02   0.04   0.05 |  0.26 -0.32 -0.02  0.04  0.05 |
+  Natu - NaturalGasConsumptio |   0.36  -0.17  -0.20   0.06  -0.05 |  0.36 -0.17 -0.20  0.06 -0.05 |
+  Natu - NaturalGasExports    |   0.03   0.03  -0.17  -0.07   0.03 |  0.03  0.03 -0.17 -0.07  0.03 |
+  Natu - NaturalGasImports    |   0.28  -0.08  -0.20   0.01  -0.01 |  0.28 -0.08 -0.20  0.01 -0.01 |
+  Natu - NaturalGasProduction |   0.26  -0.12  -0.27   0.00  -0.07 |  0.26 -0.12 -0.27  0.00 -0.07 |
+  Natu - NaturalGasReserves   |   0.21  -0.09  -0.30  -0.03  -0.05 |  0.21 -0.09 -0.30 -0.03 -0.05 |
+  OilC - OilConsumption       |   0.82  -0.31  -0.01  -0.01  -0.08 |  0.82 -0.31 -0.01 -0.01 -0.08 |
+  OilI - OilImports           |   0.75  -0.33   0.06   0.11   0.03 |  0.75 -0.33  0.06  0.11  0.03 |
+  OilP - OilProduction        |   0.29  -0.08  -0.48  -0.08   0.02 |  0.29 -0.08 -0.48 -0.08  0.02 |
+  OilR - OilReserves          |   0.23  -0.06  -0.44  -0.12  -0.02 |  0.23 -0.06 -0.44 -0.12 -0.02 |
+  AMRa - AMRadioStations      |   0.66  -0.05   0.04  -0.15  -0.16 |  0.66 -0.05  0.04 -0.15 -0.16 |
+  Cell - CellularPhones       |   0.88   0.13   0.10   0.11   0.15 |  0.88  0.13  0.10  0.11  0.15 |
+  FMRa - FMRadioStations      |   0.63  -0.15   0.21  -0.09  -0.03 |  0.63 -0.15  0.21 -0.09 -0.03 |
+  Inte - InternetHosts        |   0.66  -0.41   0.21  -0.05   0.06 |  0.66 -0.41  0.21 -0.05  0.06 |
+  Merc - MerchantShips        |   0.25  -0.25   0.03   0.14  -0.16 |  0.25 -0.25  0.03  0.14 -0.16 |
+  Merc - MerchantShipsDeadWei |   0.30  -0.31  -0.07   0.14  -0.05 |  0.30 -0.31 -0.07  0.14 -0.05 |
+  Merc - MerchantShipsGross   |   0.33  -0.34  -0.06   0.11   0.00 |  0.33 -0.34 -0.06  0.11  0.00 |
+  Pave - PavedAirports        |   0.80  -0.13   0.01  -0.22  -0.12 |  0.80 -0.13  0.01 -0.22 -0.12 |
+  Phon - PhoneLines           |   0.89  -0.21   0.15   0.07   0.08 |  0.89 -0.21  0.15  0.07  0.08 |
+  Radi - RadioStations        |   0.78  -0.09   0.14  -0.10  -0.02 |  0.78 -0.09  0.14 -0.10 -0.02 |
+  Rail - RailwayLength        |   0.51  -0.15  -0.16   0.03   0.00 |  0.51 -0.15 -0.16  0.03  0.00 |
+  Shor - ShortWaveRadioStatio |   0.33  -0.01  -0.01  -0.09  -0.18 |  0.33 -0.01 -0.01 -0.09 -0.18 |
+  Tele - TelevisionStations   |   0.75  -0.30   0.06  -0.04  -0.12 |  0.75 -0.30  0.06 -0.04 -0.12 |
+  Unpa - UnpavedAirports      |   0.52   0.07  -0.13  -0.46  -0.19 |  0.52  0.07 -0.13 -0.46 -0.19 |
+  Arab - ArableLandFraction   |   0.13   0.05   0.24   0.33   0.10 |  0.13  0.05  0.24  0.33  0.10 |
+  Boun - BoundaryLength       |   0.71   0.27   0.06  -0.15  -0.02 |  0.71  0.27  0.06 -0.15 -0.02 |
+  Coas - CoastlineLength      |   0.54  -0.03  -0.02  -0.20  -0.02 |  0.54 -0.03 -0.02 -0.20 -0.02 |
+  Crop - CropsLandArea        |   0.66   0.29   0.04  -0.04  -0.16 |  0.66  0.29  0.04 -0.04 -0.16 |
+  Crop - CropsLandFraction    |  -0.26  -0.23   0.11   0.26  -0.01 | -0.26 -0.23  0.11  0.26 -0.01 |
+  High - HighestElevation     |   0.51   0.27   0.06  -0.09  -0.07 |  0.51  0.27  0.06 -0.09 -0.07 |
+  Irri - IrrigatedLandArea    |   0.57   0.00  -0.01   0.03  -0.14 |  0.57  0.00 -0.01  0.03 -0.14 |
+  Irri - IrrigatedLandFractio |   0.14  -0.13   0.19   0.29   0.08 |  0.14 -0.13  0.19  0.29  0.08 |
+  Land - LandArea             |   0.74   0.52  -0.01  -0.19   0.01 |  0.74  0.52 -0.01 -0.19  0.01 |
+  Lowe - LowestElevation      |  -0.03   0.07  -0.14  -0.01   0.06 | -0.03  0.07 -0.14 -0.01  0.06 |
+  Wate - WaterArea            |   0.38   0.22  -0.17  -0.16  -0.13 |  0.38  0.22 -0.17 -0.16 -0.13 |
+  Mili - MilitaryAgeFemales   |   0.70   0.13  -0.07   0.08  -0.20 |  0.70  0.13 -0.07  0.08 -0.20 |
+  Mili - MilitaryAgeMales     |   0.83   0.34   0.05   0.16   0.03 |  0.83  0.34  0.05  0.16  0.03 |
+  Mili - MilitaryAgePopulatio |   0.72   0.13  -0.06   0.06  -0.23 |  0.72  0.13 -0.06  0.06 -0.23 |
+  Mili - MilitaryAgeRate      |   0.79   0.50   0.00   0.11   0.05 |  0.79  0.50  0.00  0.11  0.05 |
+  Mili - MilitaryExpenditureF |   0.23   0.05  -0.22   0.06   0.07 |  0.23  0.05 -0.22  0.06  0.07 |
+ f----------------------------+------------------------------------+-------------------------------+-------------------------------
+Z 
+Z 
+P 
+b2COORDINATES AND TEST-VALUES OF CATEGORIES
+c2AXES  1 TO  5
+ e+---------------------------------------------+-------------------------------+------------------------------------+----------+
+ e|                 CATEGORIES                  |          TEST-VALUES          |             COORDINATES            |          |
+ e|---------------------------------------------|-------------------------------|------------------------------------|----------|
+ e| IDEN - LABEL                COUNT   ABS.WT  |   1     2     3     4     5   |    1      2      3      4      5   |  DISTO.  |
+ e+---------------------------------------------+-------------------------------+------------------------------------+----------+
+DE|    2 . Continent                                                                                                            |
+  | m1   - Africa                 53     53.00  |  -2.6   9.1  -3.2   0.2   1.1 |  -0.89   2.04  -0.37   0.02   0.09 |     5.19 |
+  | m2   - Asia                   48     48.00  |   3.3  -0.6  -0.7   4.2   0.1 |   1.23  -0.14  -0.09   0.39   0.01 |     1.87 |
+  | m3   - Europe                 42     42.00  |   2.1  -6.4   3.9   0.3   0.9 |   0.86  -1.68   0.53   0.03   0.08 |     4.03 |
+  | m4   - NorthAmerica           23     23.00  |  -1.4  -2.2   1.6  -2.0   0.0 |  -0.83  -0.82   0.32  -0.28   0.00 |     1.68 |
+  | m5   - Oceania                14     14.00  |  -4.5  -1.7  -2.3  -2.2  -2.7 |  -3.45  -0.86  -0.59  -0.42  -0.46 |    13.67 |
+  | m6   - SouthAmerica           12     12.00  |   2.0   0.0   0.8  -3.4  -0.8 |   1.61   0.02   0.23  -0.69  -0.14 |     3.34 |
+ F+---------------------------------------------+-------------------------------+------------------------------------+----------+
+DE|   35 . SectorLaborFractions                                                                                                 |
+  | m1   - Agriculture            64     64.00  |  -0.9   9.0  -0.4   1.7   0.8 |  -0.27   1.77  -0.04   0.13   0.06 |     3.24 |
+  | m2   - Industry                3      3.00  |  -0.7  -1.9  -0.1   1.7   1.2 |  -1.15  -2.09  -0.06   0.71   0.43 |     6.54 |
+  | m3   - IndustryAndServices     2      2.00  |  -1.0  -0.8  -0.5   0.8  -1.1 |  -2.09  -1.04  -0.33   0.41  -0.52 |     8.70 |
+  | m4   - Services              100    100.00  |   3.8  -8.3   2.4  -2.7  -0.1 |   0.78  -1.10   0.17  -0.13   0.00 |     1.87 |
+  |  35_ - *Missing value*        23     23.00  |  -4.0   0.6  -3.0   0.7  -1.2 |  -2.32   0.22  -0.59   0.10  -0.16 |     5.90 |
+ F+---------------------------------------------+-------------------------------+------------------------------------+----------+
+Z 
+Z 
+Z 
+P 

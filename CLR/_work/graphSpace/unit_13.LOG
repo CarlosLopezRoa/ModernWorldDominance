@@ -1,0 +1,267 @@
+X OUT = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.LST"
+p 
+a1METHOD ** SELEC **
+X Selection of cases and variables for the analysis                               
+b2PROCESS STARTING TIME ON FEBRUARY   5 ,2016 AT   3 - 17 - 50
+Z 
+p 
+b2PARAMETERS READED ON NDICA
+  RECORD 1 ........... TITLE :                                                                                 
+  RECORD 2 ........... NQEXA =    5  : NUMBER OF NUMERICAL RECORDED VARIABLES
+                       NXMOD =    1  : MAXIMUM NUMBER OF CATEGORIES
+                       NQTEX =    0  : NUMBER OF TEXTUAL RECORDED VARIABLES
+Z 
+p 
+b2PARAMETERS READED ON NDONA
+  RECORD 1 ........... TITLE :                                                                                 
+  RECORD 2 ........... NQEXA =      5     : NUMBER OF NUMERICAL RECORDED VARIABLES
+                       NIDI  =     15     : LENGHT OF CASES'S IDENTIFIER
+                       NIEXA =      2     : NUMBER OF RECORDED CASES
+                       TEST  =-999999.00  : MISSING VALUE FOR CONTINUOUS VARIABLES
+                       NQTEX =      0     : NUMBER OF TEXTUAL RECORDED VARIABLES
+Z 
+p 
+b2METHOD'S PARAMETERS
+     LSELI  =       0       selection of individuals (0=ALL, 1=LIST, 2=FILT).                              
+     IMASS  =       0       number of variable serving as weight (0=UNIF).                                 
+     LZERO  =       1       recoding zero values in categories (0=NOREC, 1=REC).                           
+     LEDIT  =       1       printout of dictionary (0=NO, 1=SHORT, 2=LONG).                                
+   * NXFIL  =      20       maximum number of constants in filter (IF LSELI = FILT or 2).                  
+   * TIRER  =       0       random drawing of a sub-sample                                                 
+     LESTI  =       1       estimation of missing values for active frequencies (1=YES,0=NO)               
+Z 
+p 
+b2LISTS OF SELECTED VARIABLES.
+  : ---- RETAINED VARIABLE(S)                                                     
+     1     FREQ ACT 1--5                                                                   
+     2     END                                                                             
+p
+b2SUMMARY OF SELECTION OF VARIABLES
+ e----------+--------+-------------------------------------------------------
+ e  STATUS  |  COUNT |                          NUMBERS
+ e----------+--------+-------------------------------------------------------
+            |        |
+   FREQ ACT |    5   |    1    2    3    4    5
+ f----------+--------+-------------------------------------------------------
+p 
+b2PARAMETERS RECORDED ON NDON 
+  RECORD 1 ........... TITLE : Selection of cases and variables for the analysis                               
+  RECORD 2 ........... NVTOT =      6     : NUMBER OF RECORDED VARIABLES
+                       NIDI  =     15     : LENGHT OF CASES'S IDENTIFIER
+                       NITOT =      2     : NUMBER OF RECORDED CASES
+                       TEST  =-999999.00  : MISSING VALUE FOR CONTINUOUS VARIABLES
+Z 
+p 
+b2PARAMETERS RECORDED ON NDIC 
+  RECORD 1 ........... TITLE : Selection of cases and variables for the analysis                               
+  RECORD 2........ ... NVTOT    =    6                          : NUMBER OF RECORDED VARIABLES
+                       NXMOC    =    1      NXMAC    =    0     : MAXIMUM NUMBER OF CATEGORIES (ALL VARIABLES, ACTIVE VARIABLES)
+                       NMTOT    =    0      NMACT    =    0     : TOTAL NUMBER OF CATEGORIES   (ALL VARIABLES, ACTIVE VARIABLES)
+                       NITOT    =    2      NIACT    =    2     : NUMBER OF CASES (ALL, ACTIVE)
+                       PITOT    =  169.00   PIACT    =  169.00  : WEIGHT OF CASES (ALL, ACTIVE)
+                       LANAL    =    1                          : MISSING DATA HANDLING
+                       NVSTA(1) =    0      NVSTA(2) =    0     : NUMBER OF CATEGORICAL VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(3) =    0      NVSTA(4) =    0     : NUMBER OF CONTINUOUS VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(5) =    5      NVSTA(6) =    0     : NUMBER OF FREQUENCY VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NUMBER OF DISTANCE VARIABLES (ACTIVE, SUPPLEMENTARY)
+Z
+p 
+b2PARAMETERS READED ON NDIC 
+  RECORD 1 ........... TITLE : Selection of cases and variables for the analysis                               
+  RECORD 2........ ... NVTOT    =    6                          : NUMBER OF RECORDED VARIABLES
+                       NXMOC    =    1      NXMAC    =    0     : MAXIMUM NUMBER OF CATEGORIES (ALL VARIABLES, ACTIVE VARIABLES)
+                       NMTOT    =    0      NMACT    =    0     : TOTAL NUMBER OF CATEGORIES   (ALL VARIABLES, ACTIVE VARIABLES)
+                       NITOT    =    2      NIACT    =    2     : NUMBER OF CASES (ALL, ACTIVE)
+                       PITOT    =  169.00   PIACT    =  169.00  : WEIGHT OF CASES (ALL, ACTIVE)
+                       LANAL    =    1                          : MISSING DATA HANDLING
+                       NVSTA(1) =    0      NVSTA(2) =    0     : NUMBER OF CATEGORICAL VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(3) =    0      NVSTA(4) =    0     : NUMBER OF CONTINUOUS VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(5) =    5      NVSTA(6) =    0     : NUMBER OF FREQUENCY VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NUMBER OF DISTANCE VARIABLES (ACTIVE, SUPPLEMENTARY)
+Z
+p 
+b2PARAMETERS READED ON NDIC 
+  RECORD 1 ........... TITLE : Selection of cases and variables for the analysis                               
+  RECORD 2........ ... NVTOT    =    6                          : NUMBER OF RECORDED VARIABLES
+                       NXMOC    =    1      NXMAC    =    0     : MAXIMUM NUMBER OF CATEGORIES (ALL VARIABLES, ACTIVE VARIABLES)
+                       NMTOT    =    0      NMACT    =    0     : TOTAL NUMBER OF CATEGORIES   (ALL VARIABLES, ACTIVE VARIABLES)
+                       NITOT    =    2      NIACT    =    2     : NUMBER OF CASES (ALL, ACTIVE)
+                       PITOT    =  169.00   PIACT    =  169.00  : WEIGHT OF CASES (ALL, ACTIVE)
+                       LANAL    =    1                          : MISSING DATA HANDLING
+                       NVSTA(1) =    0      NVSTA(2) =    0     : NUMBER OF CATEGORICAL VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(3) =    0      NVSTA(4) =    0     : NUMBER OF CONTINUOUS VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(5) =    5      NVSTA(6) =    0     : NUMBER OF FREQUENCY VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NUMBER OF DISTANCE VARIABLES (ACTIVE, SUPPLEMENTARY)
+Z
+b2PROCESS ENDING TIME ON FEBRUARY   5 ,2016 AT   3 - 17 - 50
+Z 
+ 2END OF METHOD ** SELEC **
+Z 
+p 
+a1METHOD ** CORBI **
+X Simple Correspondence Analysis                                                  
+b2PROCESS STARTING TIME ON FEBRUARY   5 ,2016 AT   3 - 17 - 50
+Z 
+p 
+b2PARAMETERS READED ON NDIC 
+  RECORD 1 ........... TITLE : Selection of cases and variables for the analysis                               
+  RECORD 2........ ... NVTOT    =    6                          : NUMBER OF RECORDED VARIABLES
+                       NXMOC    =    1      NXMAC    =    0     : MAXIMUM NUMBER OF CATEGORIES (ALL VARIABLES, ACTIVE VARIABLES)
+                       NMTOT    =    0      NMACT    =    0     : TOTAL NUMBER OF CATEGORIES   (ALL VARIABLES, ACTIVE VARIABLES)
+                       NITOT    =    2      NIACT    =    2     : NUMBER OF CASES (ALL, ACTIVE)
+                       PITOT    =  169.00   PIACT    =  169.00  : WEIGHT OF CASES (ALL, ACTIVE)
+                       LANAL    =    1                          : MISSING DATA HANDLING
+                       NVSTA(1) =    0      NVSTA(2) =    0     : NUMBER OF CATEGORICAL VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(3) =    0      NVSTA(4) =    0     : NUMBER OF CONTINUOUS VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(5) =    5      NVSTA(6) =    0     : NUMBER OF FREQUENCY VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NUMBER OF DISTANCE VARIABLES (ACTIVE, SUPPLEMENTARY)
+Z
+p 
+b2PARAMETERS READED ON NDON 
+  RECORD 1 ........... TITLE : Selection of cases and variables for the analysis                               
+  RECORD 2 ........... NVTOT =      6     : NUMBER OF RECORDED VARIABLES
+                       NIDI  =     15     : LENGHT OF CASES'S IDENTIFIER
+                       NITOT =      2     : NUMBER OF RECORDED CASES
+                       TEST  =-999999.00  : MISSING VALUE FOR CONTINUOUS VARIABLES
+Z 
+p 
+b2METHOD'S PARAMETERS
+X 
+  ATTENTION (VALPA-801)
+  LE PARAMETRE NAXE   EGAL A     10 DEPASSE SA BORNE SUPERIEURE
+  FIXEE A      1
+  ON LUI ATTRIBUE SA VALEUR PAR DEFAUT.
+X 
+   * NAXE   =       1       number of axes to be computed                                                  
+     NVEDI  =     ALL       numbre of eigenvalues included in the histogram.                               
+     LEDIN  =       2       printout of the coordinates to be printed (0=NO, 1=ACT, 2=ALL).                
+X 
+  ATTENTION (VALPA-801)
+  LE PARAMETRE NAXED  EGAL A      5 DEPASSE SA BORNE SUPERIEURE
+  FIXEE A      1
+  ON LUI ATTRIBUE SA VALEUR PAR DEFAUT.
+X 
+   * NAXED  =       4       number of coordinates to be printed.                                           
+     NITER  =       0       number of iterations (0=NO).                                                   
+   * NICTL  =       1       number of iterations to be verified (0=NO).                                    
+   * NBASE  =       4       dimension of the approximation subspace.                                       
+     VTCRI  =       0       choice of weights for test-values (1=ABSOLUTE WEIGHTS,0=RELATIF WEIGHTS)       
+     LEXCE  =       1       creating of a file results for EXCEL (0=NO, 1=YES).                            
+     LEXIND =       1       Writing of individuals results on file for EXCEL (0=NO, 1=YES).                
+Z 
+p 
+b2PARAMETERS RECORDED ON NGUS 
+  RECORD 1 ........... TITLE : Simple Correspondence Analysis                                                  
+  RECORD 2............ NAXE      =    1                           : NUMBER OF RECORDED AXIS
+                       LORIG     =    4                           : ORIGIN (CORRESPONDENCE  ANALYSIS )
+                       NIDI      =   15      NIDV      =    6     : LENGHT OF CASES'S IDENTIFIER
+                       NLTYP(1)  =    2      NLTYP(2)  =    0     : NUMBER OF CASES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(3)  =    0      NLTYP(4)  =    0     : NUMBER OF CATEGORIES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(5)  =    0      NLTYP(6)  =    0     : NUMBER OF CONTINOUS VARIABLES (ACTIVE ,SUPPLEMENTARY)
+                       NLTYP(7)  =    5      NLTYP(8)  =    0     : NUMBER OF FREQUENCY VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(9)  =    0      NLTYP(10) =    0     : NUMBER OF DISTANCE VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(11) =    0                           : OLD UNITARY AXIS (ACP)
+Z 
+b2PROCESS ENDING TIME ON FEBRUARY   5 ,2016 AT   3 - 17 - 50
+Z 
+ 2END OF METHOD ** CORBI **
+Z 
+p 
+a1METHOD ** ECGUS **
+X Writing the factorial graphic file                                              
+b2PROCESS STARTING TIME ON FEBRUARY   5 ,2016 AT   3 - 17 - 50
+Z 
+p 
+b2METHOD'S PARAMETERS
+     NIND   =   50000.000   Nombre maximum d'individus pour l'écriture du fichier FGF (0=illimite)         
+Z 
+p 
+b2PARAMETERS READED ON NDIC 
+  RECORD 1 ........... TITLE : Selection of cases and variables for the analysis                               
+  RECORD 2........ ... NVTOT    =    6                          : NUMBER OF RECORDED VARIABLES
+                       NXMOC    =    1      NXMAC    =    0     : MAXIMUM NUMBER OF CATEGORIES (ALL VARIABLES, ACTIVE VARIABLES)
+                       NMTOT    =    0      NMACT    =    0     : TOTAL NUMBER OF CATEGORIES   (ALL VARIABLES, ACTIVE VARIABLES)
+                       NITOT    =    2      NIACT    =    2     : NUMBER OF CASES (ALL, ACTIVE)
+                       PITOT    =  169.00   PIACT    =  169.00  : WEIGHT OF CASES (ALL, ACTIVE)
+                       LANAL    =    1                          : MISSING DATA HANDLING
+                       NVSTA(1) =    0      NVSTA(2) =    0     : NUMBER OF CATEGORICAL VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(3) =    0      NVSTA(4) =    0     : NUMBER OF CONTINUOUS VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(5) =    5      NVSTA(6) =    0     : NUMBER OF FREQUENCY VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NUMBER OF DISTANCE VARIABLES (ACTIVE, SUPPLEMENTARY)
+Z
+p 
+b2PARAMETERS READED ON NDON 
+  RECORD 1 ........... TITLE : Selection of cases and variables for the analysis                               
+  RECORD 2 ........... NVTOT =      6     : NUMBER OF RECORDED VARIABLES
+                       NIDI  =     15     : LENGHT OF CASES'S IDENTIFIER
+                       NITOT =      2     : NUMBER OF RECORDED CASES
+                       TEST  =-999999.00  : MISSING VALUE FOR CONTINUOUS VARIABLES
+Z 
+p 
+b2PARAMETERS READED ON NGUS 
+  RECORD 1 ........... TITLE : Simple Correspondence Analysis                                                  
+  RECORD 2............ NAXE      =    1                           : NUMBER OF RECORDED AXIS
+                       LORIG     =    4                           : ORIGIN (CORRESPONDENCE  ANALYSIS )
+                       NIDI      =   15      NIDV      =    6     : LENGHT OF CASES'S IDENTIFIER
+                       NLTYP(1)  =    2      NLTYP(2)  =    0     : NUMBER OF CASES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(3)  =    0      NLTYP(4)  =    0     : NUMBER OF CATEGORIES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(5)  =    0      NLTYP(6)  =    0     : NUMBER OF CONTINOUS VARIABLES (ACTIVE ,SUPPLEMENTARY)
+                       NLTYP(7)  =    5      NLTYP(8)  =    0     : NUMBER OF FREQUENCY VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(9)  =    0      NLTYP(10) =    0     : NUMBER OF DISTANCE VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(11) =    0                           : OLD UNITARY AXIS (ACP)
+Z 
+b2PROCESS ENDING TIME ON FEBRUARY   5 ,2016 AT   3 - 17 - 50
+Z 
+ 2END OF METHOD ** ECGUS **
+Z 
+X NREGL="C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.reg"
+p 
+a1METHOD ** RINDS **
+X Assignment rules for analyses and typologies                                    
+b2PROCESS STARTING TIME ON FEBRUARY   5 ,2016 AT   3 - 17 - 51
+Z 
+p 
+b2METHOD'S PARAMETERS
+     LTYPE  =       1       Rules files creation (1=After analysis, 2=After typologies).                   
+Z 
+p 
+b2PARAMETERS READED ON NDIC 
+  RECORD 1 ........... TITLE : Selection of cases and variables for the analysis                               
+  RECORD 2........ ... NVTOT    =    6                          : NUMBER OF RECORDED VARIABLES
+                       NXMOC    =    1      NXMAC    =    0     : MAXIMUM NUMBER OF CATEGORIES (ALL VARIABLES, ACTIVE VARIABLES)
+                       NMTOT    =    0      NMACT    =    0     : TOTAL NUMBER OF CATEGORIES   (ALL VARIABLES, ACTIVE VARIABLES)
+                       NITOT    =    2      NIACT    =    2     : NUMBER OF CASES (ALL, ACTIVE)
+                       PITOT    =  169.00   PIACT    =  169.00  : WEIGHT OF CASES (ALL, ACTIVE)
+                       LANAL    =    1                          : MISSING DATA HANDLING
+                       NVSTA(1) =    0      NVSTA(2) =    0     : NUMBER OF CATEGORICAL VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(3) =    0      NVSTA(4) =    0     : NUMBER OF CONTINUOUS VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(5) =    5      NVSTA(6) =    0     : NUMBER OF FREQUENCY VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NUMBER OF DISTANCE VARIABLES (ACTIVE, SUPPLEMENTARY)
+Z
+p 
+b2PARAMETERS READED ON NDON 
+  RECORD 1 ........... TITLE : Selection of cases and variables for the analysis                               
+  RECORD 2 ........... NVTOT =      6     : NUMBER OF RECORDED VARIABLES
+                       NIDI  =     15     : LENGHT OF CASES'S IDENTIFIER
+                       NITOT =      2     : NUMBER OF RECORDED CASES
+                       TEST  =-999999.00  : MISSING VALUE FOR CONTINUOUS VARIABLES
+Z 
+p 
+b2PARAMETERS READED ON NGUS 
+  RECORD 1 ........... TITLE : Simple Correspondence Analysis                                                  
+  RECORD 2............ NAXE      =    1                           : NUMBER OF RECORDED AXIS
+                       LORIG     =    4                           : ORIGIN (CORRESPONDENCE  ANALYSIS )
+                       NIDI      =   15      NIDV      =    6     : LENGHT OF CASES'S IDENTIFIER
+                       NLTYP(1)  =    2      NLTYP(2)  =    0     : NUMBER OF CASES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(3)  =    0      NLTYP(4)  =    0     : NUMBER OF CATEGORIES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(5)  =    0      NLTYP(6)  =    0     : NUMBER OF CONTINOUS VARIABLES (ACTIVE ,SUPPLEMENTARY)
+                       NLTYP(7)  =    5      NLTYP(8)  =    0     : NUMBER OF FREQUENCY VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(9)  =    0      NLTYP(10) =    0     : NUMBER OF DISTANCE VARIABLES (ACTIVE, SUPPLEMENTARY)
+                       NLTYP(11) =    0                           : OLD UNITARY AXIS (ACP)
+Z 
+b2PROCESS ENDING TIME ON FEBRUARY   5 ,2016 AT   3 - 17 - 51
+Z 
+ 2END OF METHOD ** RINDS **
+Z 
+a1NORMAL END OF ANALYSIS
+Z 

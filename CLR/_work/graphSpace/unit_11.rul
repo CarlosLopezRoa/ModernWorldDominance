@@ -1,0 +1,42 @@
+METHODE=DIS2G_QUANTI_FACTEURS
+[REGLES_EN_CLAIR]
+MODALITY_TRUNCATED_OVERRIDED
+TYPE_METHODE=DIS2G_QUANTI_FACTEURS
+Y	Rec_SectorLaborFractions	2
+IndustryAndServices	cible
+Agriculture
+NOMBRE_VAR_EXPLICATIVES	16
+NOMBRE_COEFFICIENTS	16
+CONSTANTE	-24.027
+LifeExpectancy	71.1755
+Population	6.33728
+TotalFertilityRate	2.73404
+ForeignExchangeReserves	9.81669
+GDP	10.4644
+GDPPerCapita	3.65395
+LaborForce	5.96364
+ElectricityProduction	9.96024
+OilExports	4.17949
+Airports	1.21687
+InternetUsers	5.48503
+RoadLength	3.93491
+ArableLandArea	3.48521
+Area	4.47337
+MilitaryExpenditures	8.66198
+MilitaryFitPopulation	5.91124
+1	0.352927	C	LifeExpectancy
+2	-0.0248532	C	Population
+3	-0.0488712	C	TotalFertilityRate
+4	0.00427018	C	ForeignExchangeReserves
+5	0.0023161	C	GDP
+6	0.024341	C	GDPPerCapita
+7	-0.0190679	C	LaborForce
+8	0.0061109	C	ElectricityProduction
+9	-0.0034594	C	OilExports
+10	-0.00597318	C	Airports
+11	-6.28079E-4	C	InternetUsers
+12	-0.0118165	C	RoadLength
+13	-0.031299	C	ArableLandArea
+14	-0.032288	C	Area
+15	0.00784157	C	MilitaryExpenditures
+16	-0.0174187	C	MilitaryFitPopulation

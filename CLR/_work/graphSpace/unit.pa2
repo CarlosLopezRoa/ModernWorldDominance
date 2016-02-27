@@ -1,0 +1,8 @@
+LOG = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit.logSba"
+OUT = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit.lstSba"
+NDICA = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit.lar"
+NDONA = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit.dar"
+FBDON = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit.sba"
+PROC LBASE
+Lecture de la base SPAD
+STOP

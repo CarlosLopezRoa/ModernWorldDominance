@@ -1,0 +1,38 @@
+X OUT = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_10.lstSba"
+X NDICA = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_10.lar"
+X NDONA = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_10.dar"
+X FBDON = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_10.sba"
+p 
+a1METHOD ** LBASE **
+X Lecture de la base SPAD                                                         
+b2PROCESS STARTING TIME ON FEBRUARY   5 ,2016 AT   3 - 12 - 57
+Z 
+p 
+b2READING SPAD DATASET
+  NAME OF DATASET               : C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_10.sba
+  NUMBER OF CASES               :      192
+  NUMBER OF NUMERICAL VARIABLES :       90
+  NUMBER OF TEXTUAL VARIABLES   :        0
+Z 
+p 
+b2PARAMETERS RECORDED ON NDICA
+  RECORD 1 ........... TITLE :                                                                                 
+  RECORD 2 ........... NQEXA =   90  : NUMBER OF NUMERICAL RECORDED VARIABLES
+                       NXMOD =  192  : MAXIMUM NUMBER OF CATEGORIES
+                       NQTEX =    0  : NUMBER OF TEXTUAL RECORDED VARIABLES
+Z 
+p 
+b2PARAMETERS RECORDED ON NDONA
+  RECORD 1 ........... TITLE :                                                                                 
+  RECORD 2 ........... NQEXA =     90     : NUMBER OF NUMERICAL RECORDED VARIABLES
+                       NIDI  =     15     : LENGHT OF CASES'S IDENTIFIER
+                       NIEXA =    192     : NUMBER OF RECORDED CASES
+                       TEST  =-999999.00  : MISSING VALUE FOR CONTINUOUS VARIABLES
+                       NQTEX =      0     : NUMBER OF TEXTUAL RECORDED VARIABLES
+Z 
+b2PROCESS ENDING TIME ON FEBRUARY   5 ,2016 AT   3 - 12 - 57
+Z 
+ 2END OF METHOD ** LBASE **
+Z 
+a1NORMAL END OF ANALYSIS
+Z 

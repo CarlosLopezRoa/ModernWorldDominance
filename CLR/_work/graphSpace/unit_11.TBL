@@ -1,0 +1,55 @@
+ZZD
+XXDis2g-1	1	1
+Model : V89=F1--F2
+Variable number	Variable label
+    89	Rec_SectorLaborFractions
+     1	F  1
+     2	F  2
+XXDis2g-6	1	0
+Result of the FISHER linear discriminant analysis on sample: LEARNING    
+DTM	1	1
+Table of groups counts
+	Assignment group: IndustryAndServices	Assignment group: Agriculture	Total
+Original group: IndustryAndServices	        95	        10	       105
+Original group: Agriculture	        15	        49	        64
+FTM
+DTM	1	1
+Classification table (counts and percentages)
+	Well classified	Misclassified	Total
+Original group: IndustryAndServices	        0.950000E+02	        0.100000E+02	        0.105000E+03
+	        0.904762E+02	        0.952381E+01	        0.100000E+03
+Original group: Agriculture	        0.490000E+02	        0.150000E+02	        0.640000E+02
+	        0.765625E+02	        0.234375E+02	        0.100000E+03
+Total	        0.144000E+03	        0.250000E+02	        0.169000E+03
+	        0.852071E+02	        0.147929E+02	        0.100000E+03
+FTM
+XXDis2g-9	3	1
+Linear discriminant function
+R2 =    0.51622   Fisher =   88.56518   Probability =     0.0000
+D2 (Mahalanobis) =    4.48145   T2 (Hotelling) =  178.19739   Probability =     0.0000
+Axis label	Correlations with L.D.F. (Threshold =  0.154)	L.D.F. coefficients	Regression coefficients	Standard deviation (Regression)	Ratio Coefficient / ST. Deviation
+F  1	       -0.719352E+00	       -0.357500E+00	       -0.848971E-01	        0.638906E-02	       -0.132879E+02
+F  2	        0.405943E-01	        0.578726E-01	        0.137433E-01	        0.183278E-01	        0.749861E+00
+CONSTANT 		        0.543612E+00	        0.873603E-06	        0.539847E-01	        0.161824E-04
+XXDis2g-10	1	1
+FISHER linear function rebuilt starting original variables
+Variable label	Category label	L.D.F. coefficients	Regression coefficients	Standard deviation (Regression)	Ratio Coefficient / ST. Deviation	
+LifeExpectancy		        0.352927E+00	        0.838112E-01	        0.632443E-02	        0.132520E+02
+Population		       -0.248532E-01	       -0.590201E-02	        0.540701E-02	       -0.109155E+01
+TotalFertilityRate		       -0.488712E-01	       -0.116057E-01	        0.953037E-03	       -0.121776E+02
+ForeignExchangeReserves		        0.427018E-02	        0.101406E-02	        0.311610E-02	        0.325426E+00
+GDP		        0.231610E-02	        0.550014E-03	        0.557812E-02	        0.986020E-01
+GDPPerCapita		        0.243410E-01	        0.578037E-02	        0.464316E-03	        0.124492E+02
+LaborForce		       -0.190679E-01	       -0.452814E-02	        0.534107E-02	       -0.847797E+00
+ElectricityProduction		        0.611090E-02	        0.145118E-02	        0.524927E-02	        0.276454E+00
+OilExports		       -0.345940E-02	       -0.821520E-03	        0.295458E-02	       -0.278049E+00
+Airports		       -0.597318E-02	       -0.141848E-02	        0.353806E-02	       -0.400920E+00
+InternetUsers		       -0.628079E-03	       -0.149153E-03	        0.534830E-02	       -0.278880E-01
+RoadLength		       -0.118165E-01	       -0.280613E-02	        0.521904E-02	       -0.537671E+00
+ArableLandArea		       -0.312990E-01	       -0.743272E-02	        0.691380E-02	       -0.107506E+01
+Area		       -0.322880E-01	       -0.766757E-02	        0.611204E-02	       -0.125450E+01
+MilitaryExpenditures		        0.784157E-02	        0.186217E-02	        0.423602E-02	        0.439604E+00
+MilitaryFitPopulation		       -0.174187E-01	       -0.413649E-02	        0.541016E-02	       -0.764579E+00
+	CONSTANT	       -0.240270E+02	       -0.583490E+01
+ZZF
+EOF

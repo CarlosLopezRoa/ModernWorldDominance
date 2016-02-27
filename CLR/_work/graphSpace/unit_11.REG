@@ -1,0 +1,129 @@
+[METHODE]
+METHODE=DIS2G
+VARIABLE_Y=      89
+[VARIABLES]
+NOMBRE DE VARIABLES =  16
+FACTEUR=1
+NOMBRE DE CLASSE =   2
+[VARIABLE   1]
+VAR1=      11
+MOY_GLOBAL =       71.1755
+TERME   1 =        0.3529
+NBMOD=   1
+[VARIABLE   2]
+VAR1=      15
+MOY_GLOBAL =        6.3373
+TERME   1 =       -0.0249
+NBMOD=   1
+[VARIABLE   3]
+VAR1=      18
+MOY_GLOBAL =        2.7340
+TERME   1 =       -0.0489
+NBMOD=   1
+[VARIABLE   4]
+VAR1=      22
+MOY_GLOBAL =        9.8167
+TERME   1 =        0.0043
+NBMOD=   1
+[VARIABLE   5]
+VAR1=      23
+MOY_GLOBAL =       10.4644
+TERME   1 =        0.0023
+NBMOD=   1
+[VARIABLE   6]
+VAR1=      25
+MOY_GLOBAL =        3.6540
+TERME   1 =        0.0243
+NBMOD=   1
+[VARIABLE   7]
+VAR1=      32
+MOY_GLOBAL =        5.9636
+TERME   1 =       -0.0191
+NBMOD=   1
+[VARIABLE   8]
+VAR1=      41
+MOY_GLOBAL =        9.9602
+TERME   1 =        0.0061
+NBMOD=   1
+[VARIABLE   9]
+VAR1=      48
+MOY_GLOBAL =        4.1795
+TERME   1 =       -0.0035
+NBMOD=   1
+[VARIABLE  10]
+VAR1=      52
+MOY_GLOBAL =        1.2169
+TERME   1 =       -0.0060
+NBMOD=   1
+[VARIABLE  11]
+VAR1=      57
+MOY_GLOBAL =        5.4850
+TERME   1 =       -0.0006
+NBMOD=   1
+[VARIABLE  12]
+VAR1=      65
+MOY_GLOBAL =        3.9349
+TERME   1 =       -0.0118
+NBMOD=   1
+[VARIABLE  13]
+VAR1=      69
+MOY_GLOBAL =        3.4852
+TERME   1 =       -0.0313
+NBMOD=   1
+[VARIABLE  14]
+VAR1=      71
+MOY_GLOBAL =        4.4734
+TERME   1 =       -0.0323
+NBMOD=   1
+[VARIABLE  15]
+VAR1=      87
+MOY_GLOBAL =        8.6620
+TERME   1 =        0.0078
+NBMOD=   1
+[VARIABLE  16]
+VAR1=      88
+MOY_GLOBAL =        5.9112
+TERME   1 =       -0.0174
+NBMOD=   1
+[CONSTANTE]
+CONSTANTE =      -24.0270
+[REGLES_EN_CLAIR]
+TYPE_METHODE=DIS2G_QUANTI_FACTEURS
+Y	Rec_SectorLaborFractions	2
+IndustryAndServices
+Agriculture
+NOMBRE_VAR_EXPLICATIVES	  16
+NOMBRE_COEFFICIENTS	  16
+CONSTANTE	       -0.240270E+02
+LifeExpectancy	        0.711755E+02
+Population	        0.633728E+01
+TotalFertilityRate	        0.273404E+01
+ForeignExchangeReserves	        0.981669E+01
+GDP	        0.104644E+02
+GDPPerCapita	        0.365395E+01
+LaborForce	        0.596364E+01
+ElectricityProduction	        0.996024E+01
+OilExports	        0.417949E+01
+Airports	        0.121687E+01
+InternetUsers	        0.548503E+01
+RoadLength	        0.393491E+01
+ArableLandArea	        0.348521E+01
+Area	        0.447337E+01
+MilitaryExpenditures	        0.866198E+01
+MilitaryFitPopulation	        0.591124E+01
+  1	        0.352927E+00	C	LifeExpectancy
+  2	       -0.248532E-01	C	Population
+  3	       -0.488712E-01	C	TotalFertilityRate
+  4	        0.427018E-02	C	ForeignExchangeReserves
+  5	        0.231610E-02	C	GDP
+  6	        0.243410E-01	C	GDPPerCapita
+  7	       -0.190679E-01	C	LaborForce
+  8	        0.611090E-02	C	ElectricityProduction
+  9	       -0.345940E-02	C	OilExports
+ 10	       -0.597318E-02	C	Airports
+ 11	       -0.628079E-03	C	InternetUsers
+ 12	       -0.118165E-01	C	RoadLength
+ 13	       -0.312990E-01	C	ArableLandArea
+ 14	       -0.322880E-01	C	Area
+ 15	        0.784157E-02	C	MilitaryExpenditures
+ 16	       -0.174187E-01	C	MilitaryFitPopulation

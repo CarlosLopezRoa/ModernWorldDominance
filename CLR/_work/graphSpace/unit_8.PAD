@@ -1,0 +1,34 @@
+FBDON = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit.SBA"
+NDICA = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit.LAR"
+NDONA = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit.DAR"
+NDIC = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_8.DIC"
+NDON = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_8.DON"
+NGUS = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_8.GUS"
+FBGUS = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_8.FGF"
+NCOEF = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_8.TBL"
+LOG = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_8.LOG"
+OUT = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_8.LST"
+NAPEL=0
+PROC SELEC
+Selection of cases and variables for the analysis
+:----- PARAMETERS
+LEDIT=1, LESTI=0, LZERO=1, LSELI=0, TIRER=0, IMASS=0
+: ---- RETAINED VARIABLE(S)
+CAT SUP 2,35
+CONT ACT 3--18,20--34,38--88
+END
+:===========================================================================
+PROC COPRI
+Principal Components Analysis
+:----- PARAMETERS
+LCORR=1, NAXE=10, LPERM=0, NAXED=5, LEDIN=0, NAVIR=2, LEXCE=1,LEXIND=0,  >
+LEXCOR=2, LGUS=1, NVEDI=ALL
+:===========================================================================
+PROC ECGUS
+Writing the factorial graphic file
+NIND=50000
+:===========================================================================
+NREGL="C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_8.reg"
+PROC RINDS
+Assignment rules for analyses and typologies
+LTYPE=1

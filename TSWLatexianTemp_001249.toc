@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Data preparation}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Dataset Preprocessing}{1}{subsection.1.1}
+\contentsline {section}{\numberline {2}Data processing}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Exploratory PCA}{1}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Demographics}{2}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Economics}{3}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Energy}{3}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Communication}{4}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5}Geography}{4}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.6}Military}{4}{subsubsection.2.1.6}
+\contentsline {subsection}{\numberline {2.2}PCA}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}CA}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}FDA}{5}{subsection.2.4}
+\contentsline {section}{\numberline {3}Data postprocessing}{5}{section.3}
+\contentsline {section}{\numberline {4}Conclusions and interpretations}{5}{section.4}
+\contentsline {section}{\numberline {A}Appendices}{6}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Dataset Description}{6}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Countries Dictionary}{8}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}Preprocessing Code}{12}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}Figures}{14}{subsection.A.4}

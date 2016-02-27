@@ -1,0 +1,111 @@
+ZZD
+XXCopri-1	1	1
+Summary statistics of continuous variables
+Label variable	Count	Weight	Mean	Standard Deviation	Minimum	Maximum
+MilitaryAgeFemales	     158	        0.158000E+03	        0.582911E+01	        0.797091E+00	        0.400000E+01	        0.800000E+01
+MilitaryAgeMales	     189	        0.189000E+03	        0.566138E+01	        0.982191E+00	        0.300000E+01	        0.800000E+01
+MilitaryAgePopulation	     158	        0.158000E+03	        0.612025E+01	        0.814097E+00	        0.400000E+01	        0.800000E+01
+MilitaryAgeRate	     192	        0.192000E+03	        0.446354E+01	        0.994110E+00	        0.200000E+01	        0.700000E+01
+MilitaryExpenditureFraction	     190	        0.190000E+03	        0.230974E-01	        0.203664E-01	        0.000000E+00	        0.114000E+00
+MilitaryExpenditures	     165	        0.165000E+03	        0.859759E+01	        0.109632E+01	        0.577489E+01	        0.117019E+02
+MilitaryFitPopulation	     192	        0.192000E+03	        0.582292E+01	        0.984196E+00	        0.300000E+01	        0.800000E+01
+XXCopri-2	1	1
+Correlation matrix
+	MilitaryAgeFemales	MilitaryAgeMales	MilitaryAgePopulation	MilitaryAgeRate	MilitaryExpenditureFraction	MilitaryExpenditures	MilitaryFitPopulation
+MilitaryAgeFemales	        0.100000E+01
+MilitaryAgeMales	        0.720023E+00	        0.100000E+01
+MilitaryAgePopulation	        0.841205E+00	        0.633435E+00	        0.100000E+01
+MilitaryAgeRate	        0.667427E+00	        0.904053E+00	        0.611906E+00	        0.100000E+01
+MilitaryExpenditureFraction	        0.396864E-01	        0.218084E+00	        0.121417E+00	        0.255711E+00	        0.100000E+01
+MilitaryExpenditures	        0.606983E+00	        0.499949E+00	        0.636633E+00	        0.394721E+00	        0.337057E+00	        0.100000E+01
+MilitaryFitPopulation	        0.644227E+00	        0.900603E+00	        0.697075E+00	        0.882396E+00	        0.256114E+00	        0.518516E+00	        0.100000E+01
+XXCopri-3	1	1
+Test-values matrix
+	MilitaryAgeFemales	MilitaryAgeMales	MilitaryAgePopulation	MilitaryAgeRate	MilitaryExpenditureFraction	MilitaryExpenditures	MilitaryFitPopulation
+MilitaryAgeFemales	        0.999900E+02
+MilitaryAgeMales	        0.114095E+02	        0.999900E+02
+MilitaryAgePopulation	        0.154015E+02	        0.939130E+01	        0.999900E+02
+MilitaryAgeRate	        0.101324E+02	        0.205387E+02	        0.894924E+01	        0.999900E+02
+MilitaryExpenditureFraction	        0.499112E+00	        0.304710E+01	        0.153375E+01	        0.360472E+01	        0.999900E+02
+MilitaryExpenditures	        0.885078E+01	        0.705510E+01	        0.945867E+01	        0.536134E+01	        0.450570E+01	        0.999900E+02
+MilitaryFitPopulation	        0.962050E+01	        0.202835E+02	        0.108300E+02	        0.192118E+02	        0.361067E+01	        0.737711E+01	        0.999900E+02
+XXCopri-4	2	1
+Control panel of Eigenvalues
+Trace of matrix:         7.00000
+Number	Eigenvalue	Percentage	Cumulated Percentage
+    1	        0.448609E+01	        0.640870E+02	        0.640870E+02
+    2	        0.103571E+01	        0.147959E+02	        0.788829E+02
+    3	        0.822126E+00	        0.117447E+02	        0.906275E+02
+    4	        0.315122E+00	        0.450174E+01	        0.951293E+02
+    5	        0.202069E+00	        0.288671E+01	        0.980160E+02
+    6	        0.863444E-01	        0.123349E+01	        0.992495E+02
+    7	        0.525380E-01	        0.750542E+00	        0.100000E+03
+XXCopri-5	1	1
+Anderson's Laplace intervals (Threshold: 0.95)
+Number	Lower limit	Eigenvalue	Upper limit
+   1	        0.358634E+01	        0.448609E+01	        0.538584E+01
+   2	        0.827987E+00	        0.103571E+01	        0.124344E+01
+   3	        0.657237E+00	        0.822126E+00	        0.987015E+00
+   4	        0.251919E+00	        0.315122E+00	        0.378324E+00
+   5	        0.161541E+00	        0.202069E+00	        0.242597E+00
+XXCopri-6	1	0
+Active variables
+DTM	1	1
+Coordinates of active variables
+Label variable	Axis  1	Axis  2	Axis  3	Axis  4	Axis  5
+MilitaryAgeFemales	        0.857135E+00	       -0.280909E+00	       -0.247485E+00	        0.208888E+00	        0.265401E+00
+MilitaryAgeMales	        0.915321E+00	       -0.431608E-01	        0.300546E+00	       -0.129486E+00	        0.116376E+00
+MilitaryAgePopulation	        0.849047E+00	       -0.180698E+00	       -0.322346E+00	        0.273026E+00	       -0.245470E+00
+MilitaryAgeRate	        0.882855E+00	       -0.114435E-01	        0.405130E+00	        0.841970E-02	        0.639735E-01
+MilitaryExpenditureFraction	        0.296190E+00	        0.933241E+00	        0.178325E-01	        0.197447E+00	        0.354922E-01
+MilitaryExpenditures	        0.700112E+00	        0.226100E+00	       -0.572802E+00	       -0.356303E+00	        0.225481E-01
+MilitaryFitPopulation	        0.914000E+00	        0.995039E-02	        0.272200E+00	       -0.119036E+00	       -0.227974E+00
+FTM
+DTM	1	1
+Active variables-factors correlations
+Label variable	Axis  1	Axis  2	Axis  3	Axis  4	Axis  5
+MilitaryAgeFemales	        0.857135E+00	       -0.280909E+00	       -0.247485E+00	        0.208888E+00	        0.265401E+00
+MilitaryAgeMales	        0.915321E+00	       -0.431608E-01	        0.300546E+00	       -0.129486E+00	        0.116376E+00
+MilitaryAgePopulation	        0.849047E+00	       -0.180698E+00	       -0.322346E+00	        0.273026E+00	       -0.245470E+00
+MilitaryAgeRate	        0.882855E+00	       -0.114435E-01	        0.405130E+00	        0.841970E-02	        0.639735E-01
+MilitaryExpenditureFraction	        0.296190E+00	        0.933241E+00	        0.178325E-01	        0.197447E+00	        0.354922E-01
+MilitaryExpenditures	        0.700112E+00	        0.226100E+00	       -0.572802E+00	       -0.356303E+00	        0.225481E-01
+MilitaryFitPopulation	        0.914000E+00	        0.995039E-02	        0.272200E+00	       -0.119036E+00	       -0.227974E+00
+FTM
+DTM	1	1
+Normed eigenvectors
+Label variable	Axis  1	Axis  2	Axis  3	Axis  4	Axis  5
+MilitaryAgeFemales	        0.404684E+00	       -0.276023E+00	       -0.272948E+00	        0.372112E+00	        0.590408E+00
+MilitaryAgeMales	        0.432155E+00	       -0.424101E-01	        0.331468E+00	       -0.230665E+00	        0.258889E+00
+MilitaryAgePopulation	        0.400865E+00	       -0.177555E+00	       -0.355511E+00	        0.486368E+00	       -0.546069E+00
+MilitaryAgeRate	        0.416827E+00	       -0.112444E-01	        0.446812E+00	        0.149988E-01	        0.142315E+00
+MilitaryExpenditureFraction	        0.139842E+00	        0.917010E+00	        0.196672E-01	        0.351732E+00	        0.789556E-01
+MilitaryExpenditures	        0.330547E+00	        0.222167E+00	       -0.631735E+00	       -0.634718E+00	        0.501603E-01
+MilitaryFitPopulation	        0.431531E+00	        0.977733E-02	        0.300206E+00	       -0.212051E+00	       -0.507149E+00
+FTM
+XXCopri-11	1	1
+Coordinates of supplementary categories
+Label  	Count   	Absolute weight	Distance to origin   	Axis  1	Axis  2	Axis  3	Axis  4	Axis  5
+DTM	1	0
+Continent
+Africa	        0.530000E+02	        0.530000E+02	        0.487346E+00	       -0.161425E+00	       -0.159927E-01	        0.634568E+00	        0.229973E+00	        0.371767E-01
+Asia	        0.480000E+02	        0.480000E+02	        0.158435E+01	        0.109251E+01	        0.609187E+00	        0.922142E-01	        0.103482E+00	       -0.133999E-01
+Europe	        0.420000E+02	        0.420000E+02	        0.467626E+00	       -0.577186E-01	       -0.183894E+00	       -0.519898E+00	       -0.373078E+00	       -0.700554E-02
+NorthAmerica	        0.230000E+02	        0.230000E+02	        0.112650E+01	       -0.934277E+00	       -0.451299E+00	       -0.107606E+00	       -0.131694E+00	       -0.847268E-01
+Oceania	        0.140000E+02	        0.140000E+02	        0.565027E+01	       -0.206326E+01	       -0.472538E+00	       -0.102063E+01	        0.179641E+00	        0.233132E+00
+SouthAmerica	        0.120000E+02	        0.120000E+02	        0.694003E+00	        0.742787E+00	       -0.306193E+00	        0.450982E-01	       -0.810649E-01	       -0.195669E+00
+FTM
+XXCopri-12	1	1
+Test-values of supplementary categories
+Label  	Count   	Absolute weight	Distance to origin   	Axis  1	Axis  2	Axis  3	Axis  4	Axis  5
+DTM	1	0
+Continent
+Africa	        0.530000E+02	        0.530000E+02	        0.487346E+00	       -0.650407E+00	       -0.134106E+00	        0.597250E+01	        0.349611E+01	        0.705778E+00
+Asia	        0.480000E+02	        0.480000E+02	        0.158435E+01	        0.411572E+01	        0.477624E+01	        0.811493E+00	        0.147090E+01	       -0.237851E+00
+Europe	        0.420000E+02	        0.420000E+02	        0.467626E+00	       -0.199286E+00	       -0.132143E+01	       -0.419319E+01	       -0.486023E+01	       -0.113969E+00
+NorthAmerica	        0.230000E+02	        0.230000E+02	        0.112650E+01	       -0.224895E+01	       -0.226090E+01	       -0.605071E+00	       -0.119609E+01	       -0.960966E+00
+Oceania	        0.140000E+02	        0.140000E+02	        0.565027E+01	       -0.377565E+01	       -0.179965E+01	       -0.436285E+01	        0.124033E+01	        0.201012E+01
+SouthAmerica	        0.120000E+02	        0.120000E+02	        0.694003E+00	        0.125141E+01	       -0.107361E+01	        0.177485E+00	       -0.515305E+00	       -0.155325E+01
+FTM
+ZZF
+EOF

@@ -1,0 +1,20 @@
+FBDON = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11\tmp.SBA"
+NDICA = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11\tmp.LAR"
+NDONA = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11\tmp.DAR"
+NGRO = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11.GRO"
+NDIC = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11.DIC"
+NDON = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11.DON"
+NCOEF = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11.NCO"
+NREGL = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11.REG"
+NGUS = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11.GUS"
+LOG = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11.LOG"
+OUT = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11.LST"
+NCOEFB = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_11.TBL"
+PROC DIS2G
+Discriminant on continuous variables
+:----- PARAMETERS
+LVEC=1, LBOOT=0, PROB1=0, COUT1=50, LEDIN=0, LEDIV=0, LEVAL=0, PRCT=0,  >
+LEXCE=1,LEXIND=0, LEXCOR=2, 
+:----- Factors (automatic model) -----
+V89 = F1--F2
+END

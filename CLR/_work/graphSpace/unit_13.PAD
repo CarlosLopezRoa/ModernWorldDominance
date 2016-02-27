@@ -1,0 +1,31 @@
+FBDON = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.SBA"
+NDICA = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.LAR"
+NDONA = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.DAR"
+NDIC = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.DIC"
+NDON = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.DON"
+NGUS = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.GUS"
+FBGUS = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.FGF"
+NCOEF = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.TBL"
+LOG = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.LOG"
+OUT = "C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.LST"
+PROC SELEC
+Selection of cases and variables for the analysis
+:----- PARAMETERS
+LEDIT=1, LESTI=1, LZERO=1, LSELI=0, IMASS=0
+: ---- RETAINED VARIABLE(S)
+FREQ ACT 1--5
+END
+:===========================================================================
+PROC CORBI
+Simple Correspondence Analysis
+:----- PARAMETERS
+NITER=0, NAXE=10, VTCRI=0, NAXED=5, LEDIN=2, LEXCE=1,LEXIND=1, NVEDI=ALL
+:===========================================================================
+PROC ECGUS
+Writing the factorial graphic file
+NIND=50000
+:===========================================================================
+NREGL="C:\Users\carlos\Dropbox\Courseware_\MDA\Project\CLR\_work\graphSpace\unit_13.reg"
+PROC RINDS
+Assignment rules for analyses and typologies
+LTYPE=1

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_71" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="maestro.ui.viewPanels.project.NodePathDescriptor">
+    <void property="filePath">
+     <string>Diagram.graph</string>
+    </void>
+    <void property="fileTypeClass">
+     <string>maestro.filetype.GraphFileType</string>
+    </void>
+    <void property="nodeVirtualPath">
+     <array class="java.lang.String" length="1">
+      <void index="0">
+       <string>Diagram</string>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

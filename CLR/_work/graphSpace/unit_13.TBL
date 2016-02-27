@@ -1,0 +1,60 @@
+ZZD
+XXCorbi-1	2	1
+Control panel of Eigenvalues
+Trace of matrix:         0.44385
+Number	Eigenvalue	Percentage	Cumulated Percentage
+    1	        0.443847E+00	        0.100000E+03	        0.100000E+03
+    2	        0.000000E+00	        0.000000E+00	        0.100000E+03
+    3	        0.000000E+00	        0.000000E+00	        0.100000E+03
+    4	        0.000000E+00	        0.000000E+00	        0.100000E+03
+XXCorbi-2	1	0
+Active frequencies
+DTM	1	1
+Coordinates of active frequencies
+Variable label	Relative Weight	Distance to origin   	Axis  1
+Africa	        0.242604E+02	        0.958780E+00	       -0.979173E+00
+Asia	        0.254438E+02	        0.511223E-01	       -0.226102E+00
+Europe	        0.242604E+02	        0.533539E+00	        0.730437E+00
+Oceania	        0.650888E+01	        0.964148E-03	        0.310515E-01
+America	        0.195266E+02	        0.352008E+00	        0.593303E+00
+FTM
+DTM	1	1
+Contributions of active frequencies
+Variable label	Relative Weight	Distance to origin   	Axis  1
+Africa	        0.242604E+02	        0.958780E+00	        0.524062E+02
+Asia	        0.254438E+02	        0.511223E-01	        0.293061E+01
+Europe	        0.242604E+02	        0.533539E+00	        0.291628E+02
+Oceania	        0.650888E+01	        0.964148E-03	        0.141396E-01
+America	        0.195266E+02	        0.352008E+00	        0.154863E+02
+FTM
+DTM	1	1
+Squared cosines of active frequencies
+Variable label	Relative Weight	Distance to origin   	Axis  1
+Africa	        0.242604E+02	        0.958780E+00	        0.100000E+01
+Asia	        0.254438E+02	        0.511223E-01	        0.999999E+00
+Europe	        0.242604E+02	        0.533539E+00	        0.100000E+01
+Oceania	        0.650888E+01	        0.964148E-03	        0.100005E+01
+America	        0.195266E+02	        0.352008E+00	        0.100000E+01
+FTM
+XXCorbi-4	1	0
+Active cases
+DTM	1	1
+Coordinates of active cases
+Identifier	Relative Weight	Distance to origin   	Axis  1
+IndustryAndServices	        0.621302E+02	        0.270535E+00	        0.520130E+00
+Agriculture	        0.378698E+02	        0.728187E+00	       -0.853339E+00
+FTM
+DTM	1	1
+Contributions of active cases
+Identifier	Relative Weight	Distance to origin   	Axis  1
+IndustryAndServices	        0.621302E+02	        0.270535E+00	        0.378698E+02
+Agriculture	        0.378698E+02	        0.728187E+00	        0.621302E+02
+FTM
+DTM	1	1
+Squared cosines of active cases
+Identifier	Relative Weight	Distance to origin   	Axis  1
+IndustryAndServices	        0.621302E+02	        0.270535E+00	        0.100000E+01
+Agriculture	        0.378698E+02	        0.728187E+00	        0.100000E+01
+FTM
+ZZF
+EOF

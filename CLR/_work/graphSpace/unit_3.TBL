@@ -1,0 +1,160 @@
+ZZD
+XXCopri-1	1	1
+Summary statistics of continuous variables
+Label variable	Count	Weight	Mean	Standard Deviation	Minimum	Maximum
+ElectricityConsumption	     183	        0.183000E+03	        0.977854E+01	        0.115409E+01	        0.711461E+01	        0.125902E+02
+ElectricityExports	      81	        0.810000E+02	        0.866667E+01	        0.115470E+01	        0.500000E+01	        0.100000E+02
+ElectricityImports	      92	        0.920000E+02	        0.858696E+01	        0.109497E+01	        0.400000E+01	        0.100000E+02
+ElectricityProduction	     184	        0.184000E+03	        0.982827E+01	        0.116007E+01	        0.714613E+01	        0.126198E+02
+NaturalGasConsumption	     106	        0.106000E+03	        0.917925E+01	        0.969314E+00	        0.700000E+01	        0.110000E+02
+NaturalGasExports	      43	        0.430000E+02	        0.923256E+01	        0.960552E+00	        0.700000E+01	        0.110000E+02
+NaturalGasImports	      63	        0.630000E+02	        0.914286E+01	        0.813715E+00	        0.700000E+01	        0.110000E+02
+NaturalGasProduction	      90	        0.900000E+02	        0.903333E+01	        0.117804E+01	        0.600000E+01	        0.110000E+02
+NaturalGasReserves	     100	        0.100000E+03	        0.110496E+02	        0.118279E+01	        0.743393E+01	        0.136498E+02
+OilConsumption	     182	        0.182000E+03	        0.419231E+01	        0.104374E+01	        0.200000E+01	        0.700000E+01
+OilExports	     128	        0.128000E+03	        0.417188E+01	        0.131761E+01	        0.100000E+01	        0.600000E+01
+OilImports	     180	        0.180000E+03	        0.410000E+01	        0.983757E+00	        0.200000E+01	        0.700000E+01
+OilProduction	     109	        0.109000E+03	        0.426605E+01	        0.134534E+01	        0.000000E+00	        0.600000E+01
+OilReserves	      96	        0.960000E+02	        0.821875E+01	        0.136323E+01	        0.500000E+01	        0.110000E+02
+XXCopri-2	1	1
+Correlation matrix
+	ElectricityConsumption	ElectricityExports	ElectricityImports	ElectricityProduction	NaturalGasConsumption	NaturalGasExports	NaturalGasImports	NaturalGasProduction	NaturalGasReserves	OilConsumption	OilExports	OilImports	OilProduction	OilReserves
+ElectricityConsumption	        0.100000E+01
+ElectricityExports	        0.231797E+00	        0.100000E+01
+ElectricityImports	        0.343212E+00	        0.531199E+00	        0.100000E+01
+ElectricityProduction	        0.980872E+00	        0.248616E+00	        0.337497E+00	        0.100000E+01
+NaturalGasConsumption	        0.358930E+00	        0.121011E+00	        0.174165E+00	        0.355749E+00	        0.100000E+01
+NaturalGasExports	        0.301226E-01	       -0.112504E+00	       -0.524339E-01	        0.314019E-01	        0.104329E+00	        0.100000E+01
+NaturalGasImports	        0.234245E+00	        0.159628E+00	        0.187115E+00	        0.228252E+00	        0.569607E+00	       -0.380559E-01	        0.100000E+01
+NaturalGasProduction	        0.246199E+00	        0.946152E-01	        0.799492E-01	        0.243271E+00	        0.673650E+00	        0.306249E+00	        0.217377E+00	        0.100000E+01
+NaturalGasReserves	        0.198055E+00	        0.262347E-01	        0.662496E-01	        0.205993E+00	        0.456163E+00	        0.390812E+00	        0.122301E+00	        0.702277E+00	        0.100000E+01
+OilConsumption	        0.914882E+00	        0.177677E+00	        0.360004E+00	        0.891584E+00	        0.378037E+00	        0.511305E-01	        0.276467E+00	        0.250797E+00	        0.225958E+00	        0.100000E+01
+OilExports	        0.429802E+00	        0.191970E+00	        0.200682E+00	        0.416110E+00	        0.370201E+00	        0.151152E+00	        0.309043E+00	        0.367422E+00	        0.371061E+00	        0.431748E+00	        0.100000E+01
+OilImports	        0.848947E+00	        0.235729E+00	        0.399283E+00	        0.834209E+00	        0.303330E+00	       -0.413177E-01	        0.288078E+00	        0.105240E+00	        0.223610E-01	        0.825397E+00	        0.349595E+00	        0.100000E+01
+OilProduction	        0.238266E+00	        0.334163E-01	        0.894707E-01	        0.223200E+00	        0.400871E+00	        0.197499E+00	        0.329370E+00	        0.463199E+00	        0.490381E+00	        0.295227E+00	        0.565863E+00	        0.115590E+00	        0.100000E+01
+OilReserves	        0.179845E+00	        0.352705E-01	        0.583260E-01	        0.184868E+00	        0.311285E+00	        0.305946E+00	        0.153799E+00	        0.509219E+00	        0.695964E+00	        0.219103E+00	        0.475581E+00	        0.107424E-01	        0.572721E+00	        0.100000E+01
+XXCopri-3	1	1
+Test-values matrix
+	ElectricityConsumption	ElectricityExports	ElectricityImports	ElectricityProduction	NaturalGasConsumption	NaturalGasExports	NaturalGasImports	NaturalGasProduction	NaturalGasReserves	OilConsumption	OilExports	OilImports	OilProduction	OilReserves
+ElectricityConsumption	        0.999900E+02
+ElectricityExports	        0.212479E+01	        0.999900E+02
+ElectricityImports	        0.343122E+01	        0.532632E+01	        0.999900E+02
+ElectricityProduction	        0.313854E+02	        0.228543E+01	        0.336922E+01	        0.999900E+02
+NaturalGasConsumption	        0.386763E+01	        0.109446E+01	        0.168774E+01	        0.383008E+01	        0.999900E+02
+NaturalGasExports	        0.197587E+00	       -0.740873E+00	       -0.344148E+00	        0.205983E+00	        0.686632E+00	        0.999900E+02
+NaturalGasImports	        0.189444E+01	        0.127793E+01	        0.150289E+01	        0.184418E+01	        0.513493E+01	       -0.249670E+00	        0.999900E+02
+NaturalGasProduction	        0.238464E+01	        0.854092E+00	        0.760087E+00	        0.235508E+01	        0.775449E+01	        0.207478E+01	        0.175335E+01	        0.999900E+02
+NaturalGasReserves	        0.200707E+01	        0.236167E+00	        0.636376E+00	        0.208983E+01	        0.492456E+01	        0.270663E+01	        0.975618E+00	        0.827043E+01	        0.999900E+02
+OilConsumption	        0.210008E+02	        0.161625E+01	        0.361501E+01	        0.192863E+02	        0.409527E+01	        0.335577E+00	        0.225301E+01	        0.243113E+01	        0.229926E+01	        0.999900E+02
+OilExports	        0.520039E+01	        0.174943E+01	        0.195135E+01	        0.501172E+01	        0.400146E+01	        0.998826E+00	        0.253585E+01	        0.365660E+01	        0.389652E+01	        0.522742E+01	        0.999900E+02
+OilImports	        0.168023E+02	        0.216223E+01	        0.405531E+01	        0.161241E+02	        0.322442E+01	       -0.271092E+00	        0.235315E+01	        0.100211E+01	        0.223647E+00	        0.157444E+02	        0.412930E+01	        0.999900E+02
+OilProduction	        0.253632E+01	        0.300858E+00	        0.860473E+00	        0.237017E+01	        0.437241E+01	        0.131233E+01	        0.271550E+01	        0.475647E+01	        0.536562E+01	        0.317681E+01	        0.669658E+01	        0.121222E+01	        0.999900E+02
+OilReserves	        0.178149E+01	        0.317566E+00	        0.560079E+00	        0.183239E+01	        0.315462E+01	        0.207259E+01	        0.123051E+01	        0.532852E+01	        0.842067E+01	        0.218214E+01	        0.506807E+01	        0.105258E+00	        0.638398E+01	        0.999900E+02
+XXCopri-4	2	1
+Control panel of Eigenvalues
+Trace of matrix:        14.00000
+Number	Eigenvalue	Percentage	Cumulated Percentage
+    1	        0.524163E+01	        0.374402E+02	        0.374402E+02
+    2	        0.271869E+01	        0.194192E+02	        0.568594E+02
+    3	        0.133247E+01	        0.951761E+01	        0.663770E+02
+    4	        0.111961E+01	        0.799720E+01	        0.743743E+02
+    5	        0.882312E+00	        0.630223E+01	        0.806765E+02
+    6	        0.704084E+00	        0.502917E+01	        0.857057E+02
+    7	        0.494128E+00	        0.352948E+01	        0.892351E+02
+    8	        0.432921E+00	        0.309229E+01	        0.923274E+02
+    9	        0.371165E+00	        0.265118E+01	        0.949786E+02
+   10	        0.229846E+00	        0.164175E+01	        0.966204E+02
+   11	        0.184915E+00	        0.132082E+01	        0.979412E+02
+   12	        0.161101E+00	        0.115072E+01	        0.990919E+02
+   13	        0.110310E+00	        0.787929E+00	        0.998798E+02
+   14	        0.168227E-01	        0.120162E+00	        0.100000E+03
+XXCopri-5	1	1
+Anderson's Laplace intervals (Threshold: 0.95)
+Number	Lower limit	Eigenvalue	Upper limit
+   1	        0.419035E+01	        0.524163E+01	        0.629292E+01
+   2	        0.217342E+01	        0.271869E+01	        0.326396E+01
+   3	        0.106522E+01	        0.133247E+01	        0.159971E+01
+   4	        0.895055E+00	        0.111961E+01	        0.134416E+01
+   5	        0.705352E+00	        0.882312E+00	        0.105927E+01
+XXCopri-6	1	0
+Active variables
+DTM	1	1
+Coordinates of active variables
+Label variable	Axis  1	Axis  2	Axis  3	Axis  4	Axis  5
+ElectricityConsumption	        0.829249E+00	        0.444888E+00	        0.271738E+00	        0.925288E-02	       -0.211530E-01
+ElectricityExports	        0.308569E+00	        0.271381E+00	       -0.643668E+00	        0.465659E+00	       -0.484145E-01
+ElectricityImports	        0.425202E+00	        0.338258E+00	       -0.500853E+00	        0.433400E+00	       -0.811176E-01
+ElectricityProduction	        0.820730E+00	        0.440731E+00	        0.264582E+00	        0.233290E-01	       -0.344589E-01
+NaturalGasConsumption	        0.662648E+00	       -0.269867E+00	       -0.262999E+00	       -0.415177E+00	       -0.355410E+00
+NaturalGasExports	        0.195171E+00	       -0.457906E+00	        0.359445E+00	        0.319848E+00	       -0.300561E+00
+NaturalGasImports	        0.469052E+00	       -0.362718E-01	       -0.459573E+00	       -0.581332E+00	        0.128341E-01
+NaturalGasProduction	        0.594319E+00	       -0.559183E+00	       -0.635814E-01	       -0.157002E-01	       -0.366516E+00
+NaturalGasReserves	        0.546864E+00	       -0.651134E+00	        0.797471E-01	        0.201876E+00	       -0.159203E+00
+OilConsumption	        0.831053E+00	        0.387747E+00	        0.257635E+00	       -0.238697E-01	        0.722904E-02
+OilExports	        0.675115E+00	       -0.188736E+00	       -0.561704E-01	        0.346918E-01	        0.484122E+00
+OilImports	        0.713868E+00	        0.575971E+00	        0.161336E+00	       -0.634535E-01	       -0.407686E-01
+OilProduction	        0.574759E+00	       -0.477353E+00	       -0.672076E-01	       -0.759010E-01	        0.443123E+00
+OilReserves	        0.518175E+00	       -0.610238E+00	        0.583237E-01	        0.221636E+00	        0.250620E+00
+FTM
+DTM	1	1
+Active variables-factors correlations
+Label variable	Axis  1	Axis  2	Axis  3	Axis  4	Axis  5
+ElectricityConsumption	        0.829249E+00	        0.444888E+00	        0.271738E+00	        0.925288E-02	       -0.211530E-01
+ElectricityExports	        0.308569E+00	        0.271381E+00	       -0.643668E+00	        0.465659E+00	       -0.484145E-01
+ElectricityImports	        0.425202E+00	        0.338258E+00	       -0.500853E+00	        0.433400E+00	       -0.811176E-01
+ElectricityProduction	        0.820730E+00	        0.440731E+00	        0.264582E+00	        0.233290E-01	       -0.344589E-01
+NaturalGasConsumption	        0.662648E+00	       -0.269867E+00	       -0.262999E+00	       -0.415177E+00	       -0.355410E+00
+NaturalGasExports	        0.195171E+00	       -0.457906E+00	        0.359445E+00	        0.319848E+00	       -0.300561E+00
+NaturalGasImports	        0.469052E+00	       -0.362718E-01	       -0.459573E+00	       -0.581332E+00	        0.128341E-01
+NaturalGasProduction	        0.594319E+00	       -0.559183E+00	       -0.635814E-01	       -0.157002E-01	       -0.366516E+00
+NaturalGasReserves	        0.546864E+00	       -0.651134E+00	        0.797471E-01	        0.201876E+00	       -0.159203E+00
+OilConsumption	        0.831053E+00	        0.387747E+00	        0.257635E+00	       -0.238697E-01	        0.722904E-02
+OilExports	        0.675115E+00	       -0.188736E+00	       -0.561704E-01	        0.346918E-01	        0.484122E+00
+OilImports	        0.713868E+00	        0.575971E+00	        0.161336E+00	       -0.634535E-01	       -0.407686E-01
+OilProduction	        0.574759E+00	       -0.477353E+00	       -0.672076E-01	       -0.759010E-01	        0.443123E+00
+OilReserves	        0.518175E+00	       -0.610238E+00	        0.583237E-01	        0.221636E+00	        0.250620E+00
+FTM
+DTM	1	1
+Normed eigenvectors
+Label variable	Axis  1	Axis  2	Axis  3	Axis  4	Axis  5
+ElectricityConsumption	        0.362203E+00	        0.269818E+00	        0.235409E+00	        0.874468E-02	       -0.225196E-01
+ElectricityExports	        0.134778E+00	        0.164589E+00	       -0.557614E+00	        0.440083E+00	       -0.515424E-01
+ElectricityImports	        0.185721E+00	        0.205148E+00	       -0.433893E+00	        0.409596E+00	       -0.863583E-01
+ElectricityProduction	        0.358482E+00	        0.267297E+00	        0.229209E+00	        0.220477E-01	       -0.366852E-01
+NaturalGasConsumption	        0.289434E+00	       -0.163671E+00	       -0.227838E+00	       -0.392374E+00	       -0.378371E+00
+NaturalGasExports	        0.852477E-01	       -0.277713E+00	        0.311389E+00	        0.302281E+00	       -0.319979E+00
+NaturalGasImports	        0.204874E+00	       -0.219983E-01	       -0.398132E+00	       -0.549403E+00	        0.136633E-01
+NaturalGasProduction	        0.259589E+00	       -0.339137E+00	       -0.550810E-01	       -0.148379E-01	       -0.390195E+00
+NaturalGasReserves	        0.238861E+00	       -0.394903E+00	        0.690855E-01	        0.190788E+00	       -0.169489E+00
+OilConsumption	        0.362991E+00	        0.235163E+00	        0.223191E+00	       -0.225587E-01	        0.769607E-02
+OilExports	        0.294879E+00	       -0.114466E+00	       -0.486608E-01	        0.327864E-01	        0.515399E+00
+OilImports	        0.311806E+00	        0.349318E+00	        0.139767E+00	       -0.599684E-01	       -0.434025E-01
+OilProduction	        0.251045E+00	       -0.289508E+00	       -0.582224E-01	       -0.717322E-01	        0.471751E+00
+OilReserves	        0.226331E+00	       -0.370101E+00	        0.505262E-01	        0.209463E+00	        0.266811E+00
+FTM
+XXCopri-11	1	1
+Coordinates of supplementary categories
+Label  	Count   	Absolute weight	Distance to origin   	Axis  1	Axis  2	Axis  3	Axis  4	Axis  5
+DTM	1	0
+Continent
+Africa	        0.530000E+02	        0.530000E+02	        0.185311E+01	       -0.118046E+01	       -0.563142E+00	       -0.225599E+00	        0.149329E-02	        0.167990E+00
+Asia	        0.480000E+02	        0.480000E+02	        0.149735E+01	        0.107903E+01	       -0.177399E+00	        0.444402E+00	       -0.731687E-01	       -0.907756E-01
+Europe	        0.420000E+02	        0.420000E+02	        0.290238E+01	        0.673477E+00	        0.147498E+01	       -0.375116E+00	        0.247922E+00	       -0.120163E+00
+NorthAmerica	        0.230000E+02	        0.230000E+02	        0.665648E+00	       -0.347822E+00	       -0.513570E+00	        0.120835E+00	       -0.327881E+00	       -0.980863E-01
+Oceania	        0.140000E+02	        0.140000E+02	        0.214641E+01	       -0.103758E+01	       -0.782705E+00	       -0.548772E+00	        0.709686E-01	       -0.565436E-02
+SouthAmerica	        0.120000E+02	        0.120000E+02	        0.174846E+01	        0.417572E+00	       -0.681373E-01	        0.940325E+00	       -0.360042E-01	        0.236320E+00
+FTM
+XXCopri-12	1	1
+Test-values of supplementary categories
+Label  	Count   	Absolute weight	Distance to origin   	Axis  1	Axis  2	Axis  3	Axis  4	Axis  5
+DTM	1	0
+Continent
+Africa	        0.530000E+02	        0.530000E+02	        0.185311E+01	       -0.440014E+01	       -0.291465E+01	       -0.166785E+01	        0.120437E-01	        0.152622E+01
+Asia	        0.480000E+02	        0.480000E+02	        0.149735E+01	        0.376060E+01	       -0.858474E+00	        0.307188E+01	       -0.551757E+00	       -0.771106E+00
+Europe	        0.420000E+02	        0.420000E+02	        0.290238E+01	        0.215122E+01	        0.654188E+01	       -0.237648E+01	        0.171348E+01	       -0.935523E+00
+NorthAmerica	        0.230000E+02	        0.230000E+02	        0.665648E+00	       -0.774571E+00	       -0.158802E+01	        0.533707E+00	       -0.157987E+01	       -0.532395E+00
+Oceania	        0.140000E+02	        0.140000E+02	        0.214641E+01	       -0.175655E+01	       -0.183988E+01	       -0.184261E+01	        0.259958E+00	       -0.233315E-01
+SouthAmerica	        0.120000E+02	        0.120000E+02	        0.174846E+01	        0.650832E+00	       -0.147461E+00	        0.290684E+01	       -0.121420E+00	        0.897760E+00
+FTM
+ZZF
+EOF

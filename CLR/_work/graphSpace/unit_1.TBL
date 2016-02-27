@@ -1,0 +1,174 @@
+ZZD
+XXCopri-1	1	1
+Summary statistics of continuous variables
+Label variable	Count	Weight	Mean	Standard Deviation	Minimum	Maximum
+AdultPopulation	     192	        0.192000E+03	        0.601562E+01	        0.100248E+01	        0.300000E+01	        0.800000E+01
+AnnualBirths	     192	        0.192000E+03	        0.450521E+01	        0.102570E+01	        0.200000E+01	        0.700000E+01
+AnnualDeaths	     192	        0.192000E+03	        0.414583E+01	        0.106046E+01	        0.100000E+01	        0.700000E+01
+BirthRateFraction	     192	        0.192000E+03	        0.219663E-01	        0.115910E-01	        0.739468E-02	        0.881541E-01
+ChildPopulation	     192	        0.192000E+03	        0.562500E+01	        0.102317E+01	        0.300000E+01	        0.800000E+01
+DeathRateFraction	     192	        0.192000E+03	        0.842906E-02	        0.339535E-02	        0.118246E-02	        0.240533E-01
+ElderlyPopulation	     192	        0.192000E+03	        0.502083E+01	        0.107509E+01	        0.200000E+01	        0.800000E+01
+InfantMortalityFraction	     191	        0.191000E+03	        0.337246E-01	        0.329223E-01	        0.231000E-02	        0.180210E+00
+LifeExpectancy	     192	        0.192000E+03	        0.703661E+02	        0.892765E+01	        0.455610E+02	        0.835800E+02
+LiteracyFraction	     188	        0.188000E+03	        0.839236E+00	        0.185514E+00	        0.218000E+00	        0.100000E+01
+MedianAge	     182	        0.182000E+03	        0.275625E+02	        0.838061E+01	        0.150890E+02	        0.448620E+02
+MigrationRateFraction	     191	        0.191000E+03	       -0.186178E-03	        0.434269E-02	       -0.210300E-01	        0.229800E-01
+Population	     192	        0.192000E+03	        0.623438E+01	        0.101153E+01	        0.300000E+01	        0.900000E+01
+PopulationGrowth	     192	        0.192000E+03	        0.123642E-01	        0.993733E-02	       -0.670850E-02	        0.357771E-01
+PovertyFraction	     139	        0.139000E+03	        0.324281E+00	        0.190164E+00	        0.400000E-01	        0.860000E+00
+TotalFertilityRate	     192	        0.192000E+03	        0.281871E+01	        0.140084E+01	        0.118700E+01	        0.756100E+01
+XXCopri-2	1	1
+Correlation matrix
+	AdultPopulation	AnnualBirths	AnnualDeaths	BirthRateFraction	ChildPopulation	DeathRateFraction	ElderlyPopulation	InfantMortalityFraction	LifeExpectancy	LiteracyFraction	MedianAge	MigrationRateFraction	Population	PopulationGrowth	PovertyFraction	TotalFertilityRate
+AdultPopulation	        0.100000E+01
+AnnualBirths	        0.878748E+00	        0.100000E+01
+AnnualDeaths	        0.909120E+00	        0.870784E+00	        0.100000E+01
+BirthRateFraction	       -0.208616E-01	        0.205116E+00	        0.988931E-01	        0.100000E+01
+ChildPopulation	        0.884173E+00	        0.949768E+00	        0.880836E+00	        0.127629E+00	        0.100000E+01
+DeathRateFraction	        0.256369E-01	        0.446479E-01	        0.255069E+00	        0.272821E+00	        0.394750E-01	        0.100000E+01
+ElderlyPopulation	        0.884060E+00	        0.807566E+00	        0.892737E+00	       -0.201460E+00	        0.854642E+00	        0.117649E+00	        0.100000E+01
+InfantMortalityFraction	        0.137992E+00	        0.325663E+00	        0.240863E+00	        0.725692E+00	        0.265563E+00	        0.266990E+00	       -0.389116E-01	        0.100000E+01
+LifeExpectancy	       -0.743497E-01	       -0.267574E+00	       -0.206122E+00	       -0.741761E+00	       -0.197816E+00	       -0.443350E+00	        0.108738E+00	       -0.825678E+00	        0.100000E+01
+LiteracyFraction	       -0.145219E+00	       -0.332266E+00	       -0.224193E+00	       -0.673568E+00	       -0.280190E+00	       -0.113061E+00	        0.248000E-01	       -0.771417E+00	        0.675312E+00	        0.100000E+01
+MedianAge	        0.532179E-01	       -0.170364E+00	        0.265976E-01	       -0.821943E+00	       -0.955805E-01	        0.805705E-01	        0.310778E+00	       -0.731315E+00	        0.747746E+00	        0.706677E+00	        0.100000E+01
+MigrationRateFraction	        0.121419E+00	        0.536762E-01	        0.475555E-01	       -0.245863E+00	        0.760631E-01	       -0.128438E+00	        0.954411E-01	       -0.147306E-01	        0.105495E+00	       -0.342584E-01	        0.158068E+00	        0.100000E+01
+Population	        0.915774E+00	        0.899907E+00	        0.924656E+00	        0.788400E-01	        0.885068E+00	        0.838117E-01	        0.857591E+00	        0.201711E+00	       -0.135424E+00	       -0.234266E+00	       -0.864410E-02	        0.399949E-01	        0.100000E+01
+PopulationGrowth	        0.132861E+00	        0.310103E+00	        0.148917E+00	        0.745073E+00	        0.251689E+00	       -0.163066E+00	       -0.995836E-01	        0.703341E+00	       -0.609481E+00	       -0.719088E+00	       -0.819256E+00	        0.763578E-01	        0.183315E+00	        0.100000E+01
+PovertyFraction	       -0.880984E-01	        0.742965E-01	       -0.182294E-01	        0.558239E+00	        0.161734E-01	        0.137177E+00	       -0.215010E+00	        0.587152E+00	       -0.579145E+00	       -0.480142E+00	       -0.587700E+00	        0.234798E-04	        0.212063E-02	        0.547437E+00	        0.100000E+01
+TotalFertilityRate	        0.399953E-01	        0.265133E+00	        0.156700E+00	        0.890753E+00	        0.190839E+00	        0.204421E+00	       -0.143651E+00	        0.819565E+00	       -0.805254E+00	       -0.772339E+00	       -0.823422E+00	       -0.869735E-01	        0.133627E+00	        0.842327E+00	        0.596280E+00	        0.100000E+01
+XXCopri-3	1	1
+Test-values matrix
+	AdultPopulation	AnnualBirths	AnnualDeaths	BirthRateFraction	ChildPopulation	DeathRateFraction	ElderlyPopulation	InfantMortalityFraction	LifeExpectancy	LiteracyFraction	MedianAge	MigrationRateFraction	Population	PopulationGrowth	PovertyFraction	TotalFertilityRate
+AdultPopulation	        0.999900E+02
+AnnualBirths	        0.189867E+02	        0.999900E+02
+AnnualDeaths	        0.210954E+02	        0.185165E+02	        0.999900E+02
+BirthRateFraction	       -0.289108E+00	        0.288306E+01	        0.137480E+01	        0.999900E+02
+ChildPopulation	        0.193238E+02	        0.253489E+02	        0.191147E+02	        0.177817E+01	        0.999900E+02
+DeathRateFraction	        0.355314E+00	        0.619071E+00	        0.361412E+01	        0.387853E+01	        0.547266E+00	        0.999900E+02
+ElderlyPopulation	        0.193166E+02	        0.155191E+02	        0.198874E+02	       -0.283022E+01	        0.176409E+02	        0.163778E+01	        0.999900E+02
+InfantMortalityFraction	        0.191933E+01	        0.467083E+01	        0.339550E+01	        0.127087E+02	        0.376027E+01	        0.378151E+01	       -0.538040E+00	        0.999900E+02
+LifeExpectancy	       -0.103212E+01	       -0.380010E+01	       -0.289762E+01	       -0.132243E+02	       -0.277764E+01	       -0.660109E+01	        0.151269E+01	       -0.162306E+02	        0.999900E+02
+LiteracyFraction	       -0.200532E+01	       -0.473552E+01	       -0.312709E+01	       -0.112055E+02	       -0.394733E+01	       -0.155687E+01	        0.340111E+00	       -0.140379E+02	        0.112494E+02	        0.999900E+02
+MedianAge	        0.718628E+00	       -0.232097E+01	        0.358905E+00	       -0.156867E+02	       -0.129340E+01	        0.108932E+01	        0.433601E+01	       -0.125673E+02	        0.130566E+02	        0.118788E+02	        0.999900E+02
+MigrationRateFraction	        0.168636E+01	        0.742533E+00	        0.657727E+00	       -0.346895E+01	        0.105325E+01	       -0.178490E+01	        0.132305E+01	       -0.203595E+00	        0.146341E+01	       -0.469911E+00	        0.215048E+01	        0.999900E+02
+Population	        0.216463E+02	        0.203929E+02	        0.224504E+02	        0.109471E+01	        0.193808E+02	        0.116406E+01	        0.177939E+02	        0.282646E+01	       -0.188809E+01	       -0.327287E+01	       -0.116618E+00	        0.553036E+00	        0.999900E+02
+PopulationGrowth	        0.185192E+01	        0.444318E+01	        0.207891E+01	        0.133269E+02	        0.356409E+01	       -0.227986E+01	       -0.138446E+01	        0.120773E+02	       -0.981165E+01	       -0.124191E+02	       -0.155757E+02	        0.105734E+01	        0.256913E+01	        0.999900E+02
+PovertyFraction	       -0.104136E+01	        0.877559E+00	       -0.214945E+00	        0.743080E+01	        0.190698E+00	        0.162756E+01	       -0.257512E+01	        0.793819E+01	       -0.779514E+01	       -0.616808E+01	       -0.794805E+01	        0.276823E-03	        0.250019E-01	        0.724738E+01	        0.999900E+02
+TotalFertilityRate	        0.554487E+00	        0.376370E+01	        0.218933E+01	        0.197531E+02	        0.267717E+01	        0.287301E+01	       -0.200435E+01	        0.159692E+02	       -0.154274E+02	       -0.140691E+02	       -0.157485E+02	       -0.120504E+01	        0.186274E+01	        0.170313E+02	        0.810379E+01	        0.999900E+02
+XXCopri-4	2	1
+Control panel of Eigenvalues
+Trace of matrix:        16.00000
+Number	Eigenvalue	Percentage	Cumulated Percentage
+    1	        0.660528E+01	        0.412830E+02	        0.412830E+02
+    2	        0.508701E+01	        0.317938E+02	        0.730768E+02
+    3	        0.138624E+01	        0.866399E+01	        0.817408E+02
+    4	        0.996961E+00	        0.623101E+01	        0.879718E+02
+    5	        0.540540E+00	        0.337837E+01	        0.913502E+02
+    6	        0.327764E+00	        0.204853E+01	        0.933987E+02
+    7	        0.276756E+00	        0.172973E+01	        0.951285E+02
+    8	        0.178062E+00	        0.111289E+01	        0.962413E+02
+    9	        0.151787E+00	        0.948667E+00	        0.971900E+02
+   10	        0.119162E+00	        0.744762E+00	        0.979348E+02
+   11	        0.836792E-01	        0.522995E+00	        0.984578E+02
+   12	        0.682322E-01	        0.426451E+00	        0.988842E+02
+   13	        0.644046E-01	        0.402529E+00	        0.992867E+02
+   14	        0.405254E-01	        0.253284E+00	        0.995400E+02
+   15	        0.377601E-01	        0.236001E+00	        0.997760E+02
+   16	        0.358353E-01	        0.223970E+00	        0.100000E+03
+XXCopri-5	1	1
+Anderson's Laplace intervals (Threshold: 0.95)
+Number	Lower limit	Eigenvalue	Upper limit
+   1	        0.528050E+01	        0.660528E+01	        0.793007E+01
+   2	        0.406673E+01	        0.508701E+01	        0.610728E+01
+   3	        0.110821E+01	        0.138624E+01	        0.166427E+01
+   4	        0.797006E+00	        0.996961E+00	        0.119692E+01
+   5	        0.432127E+00	        0.540540E+00	        0.648953E+00
+XXCopri-6	1	0
+Active variables
+DTM	1	1
+Coordinates of active variables
+Label variable	Axis  1	Axis  2	Axis  3	Axis  4
+AdultPopulation	        0.507058E+00	       -0.814845E+00	       -0.740317E-01	       -0.207541E-01
+AnnualBirths	        0.691328E+00	       -0.665107E+00	       -0.787842E-01	       -0.795432E-01
+AnnualDeaths	        0.593470E+00	       -0.758659E+00	        0.142540E+00	        0.287108E-01
+BirthRateFraction	        0.759985E+00	        0.488761E+00	        0.136137E+00	       -0.155116E+00
+ChildPopulation	        0.632616E+00	       -0.718907E+00	       -0.793131E-01	       -0.608157E-01
+DeathRateFraction	        0.220761E+00	        0.139185E-01	        0.890100E+00	        0.356825E+00
+ElderlyPopulation	        0.315664E+00	       -0.916960E+00	        0.657337E-01	        0.141648E-01
+InfantMortalityFraction	        0.831235E+00	        0.339906E+00	        0.693204E-01	        0.143193E+00
+LifeExpectancy	       -0.785252E+00	       -0.388865E+00	       -0.279357E+00	       -0.128976E+00
+LiteracyFraction	       -0.789567E+00	       -0.295161E+00	        0.115639E+00	       -0.874669E-01
+MedianAge	       -0.722911E+00	       -0.555357E+00	        0.199897E+00	        0.205257E+00
+MigrationRateFraction	       -0.325117E-01	       -0.147117E+00	       -0.487142E+00	        0.842631E+00
+Population	        0.582181E+00	       -0.761422E+00	       -0.113180E-01	       -0.654205E-01
+PopulationGrowth	        0.777344E+00	        0.359875E+00	       -0.398733E+00	       -0.530139E-01
+PovertyFraction	        0.546548E+00	        0.454404E+00	       -0.137037E-01	        0.173148E+00
+TotalFertilityRate	        0.833854E+00	        0.456820E+00	        0.466817E-02	       -0.879777E-02
+FTM
+DTM	1	1
+Active variables-factors correlations
+Label variable	Axis  1	Axis  2	Axis  3	Axis  4
+AdultPopulation	        0.507058E+00	       -0.814845E+00	       -0.740317E-01	       -0.207541E-01
+AnnualBirths	        0.691328E+00	       -0.665107E+00	       -0.787842E-01	       -0.795432E-01
+AnnualDeaths	        0.593470E+00	       -0.758659E+00	        0.142540E+00	        0.287108E-01
+BirthRateFraction	        0.759985E+00	        0.488761E+00	        0.136137E+00	       -0.155116E+00
+ChildPopulation	        0.632616E+00	       -0.718907E+00	       -0.793131E-01	       -0.608157E-01
+DeathRateFraction	        0.220761E+00	        0.139185E-01	        0.890100E+00	        0.356825E+00
+ElderlyPopulation	        0.315664E+00	       -0.916960E+00	        0.657337E-01	        0.141648E-01
+InfantMortalityFraction	        0.831235E+00	        0.339906E+00	        0.693204E-01	        0.143193E+00
+LifeExpectancy	       -0.785252E+00	       -0.388865E+00	       -0.279357E+00	       -0.128976E+00
+LiteracyFraction	       -0.789567E+00	       -0.295161E+00	        0.115639E+00	       -0.874669E-01
+MedianAge	       -0.722911E+00	       -0.555357E+00	        0.199897E+00	        0.205257E+00
+MigrationRateFraction	       -0.325117E-01	       -0.147117E+00	       -0.487142E+00	        0.842631E+00
+Population	        0.582181E+00	       -0.761422E+00	       -0.113180E-01	       -0.654205E-01
+PopulationGrowth	        0.777344E+00	        0.359875E+00	       -0.398733E+00	       -0.530139E-01
+PovertyFraction	        0.546548E+00	        0.454404E+00	       -0.137037E-01	        0.173148E+00
+TotalFertilityRate	        0.833854E+00	        0.456820E+00	        0.466817E-02	       -0.879777E-02
+FTM
+DTM	1	1
+Normed eigenvectors
+Label variable	Axis  1	Axis  2	Axis  3	Axis  4
+AdultPopulation	        0.197293E+00	       -0.361280E+00	       -0.628780E-01	       -0.207858E-01
+AnnualBirths	        0.268991E+00	       -0.294890E+00	       -0.669145E-01	       -0.796643E-01
+AnnualDeaths	        0.230915E+00	       -0.336369E+00	        0.121065E+00	        0.287546E-01
+BirthRateFraction	        0.295705E+00	        0.216703E+00	        0.115626E+00	       -0.155352E+00
+ChildPopulation	        0.246147E+00	       -0.318744E+00	       -0.673637E-01	       -0.609083E-01
+DeathRateFraction	        0.858969E-01	        0.617108E-02	        0.755997E+00	        0.357369E+00
+ElderlyPopulation	        0.122823E+00	       -0.406555E+00	        0.558302E-01	        0.141863E-01
+InfantMortalityFraction	        0.323428E+00	        0.150705E+00	        0.588765E-01	        0.143411E+00
+LifeExpectancy	       -0.305537E+00	       -0.172412E+00	       -0.237269E+00	       -0.129172E+00
+LiteracyFraction	       -0.307216E+00	       -0.130866E+00	        0.982164E-01	       -0.876001E-01
+MedianAge	       -0.281280E+00	       -0.246230E+00	        0.169781E+00	        0.205570E+00
+MigrationRateFraction	       -0.126501E-01	       -0.652275E-01	       -0.413748E+00	        0.843914E+00
+Population	        0.226523E+00	       -0.337594E+00	       -0.961283E-02	       -0.655201E-01
+PopulationGrowth	        0.302460E+00	        0.159559E+00	       -0.338659E+00	       -0.530946E-01
+PovertyFraction	        0.212658E+00	        0.201470E+00	       -0.116391E-01	        0.173412E+00
+TotalFertilityRate	        0.324448E+00	        0.202541E+00	        0.396486E-02	       -0.881117E-02
+FTM
+XXCopri-11	1	1
+Coordinates of supplementary categories
+Label  	Count   	Absolute weight	Distance to origin   	Axis  1	Axis  2	Axis  3	Axis  4
+DTM	1	0
+Continent
+Africa	        0.530000E+02	        0.530000E+02	        0.904765E+01	        0.275487E+01	        0.114415E+01	        0.297340E+00	        0.179714E+00
+Asia	        0.480000E+02	        0.480000E+02	        0.178262E+01	        0.183426E+00	       -0.106018E+01	       -0.695683E+00	       -0.283793E+00
+Europe	        0.420000E+02	        0.420000E+02	        0.804611E+01	       -0.236168E+01	       -0.119098E+01	        0.673603E+00	        0.712670E+00
+NorthAmerica	        0.230000E+02	        0.230000E+02	        0.246484E+01	       -0.129329E+01	        0.495876E+00	       -0.241389E+00	       -0.610361E+00
+Oceania	        0.140000E+02	        0.140000E+02	        0.113033E+02	       -0.170438E+01	        0.282313E+01	        0.522648E-02	       -0.452474E+00
+SouthAmerica	        0.120000E+02	        0.120000E+02	        0.187522E+01	       -0.167911E+00	       -0.888267E+00	       -0.431569E+00	       -0.455171E+00
+FTM
+XXCopri-12	1	1
+Test-values of supplementary categories
+Label  	Count   	Absolute weight	Distance to origin   	Axis  1	Axis  2	Axis  3	Axis  4
+DTM	1	0
+Continent
+Africa	        0.530000E+02	        0.530000E+02	        0.904765E+01	        0.914751E+01	        0.432911E+01	        0.215517E+01	        0.153600E+01
+Asia	        0.480000E+02	        0.480000E+02	        0.178262E+01	        0.569470E+00	       -0.375062E+01	       -0.471464E+01	       -0.226787E+01
+Europe	        0.420000E+02	        0.420000E+02	        0.804611E+01	       -0.672004E+01	       -0.386161E+01	        0.418390E+01	        0.521969E+01
+NorthAmerica	        0.230000E+02	        0.230000E+02	        0.246484E+01	       -0.256560E+01	        0.112093E+01	       -0.104529E+01	       -0.311663E+01
+Oceania	        0.140000E+02	        0.140000E+02	        0.113033E+02	       -0.257035E+01	        0.485143E+01	        0.172052E-01	       -0.175641E+01
+SouthAmerica	        0.120000E+02	        0.120000E+02	        0.187522E+01	       -0.233133E+00	       -0.140535E+01	       -0.130798E+01	       -0.162669E+01
+FTM
+ZZF
+EOF

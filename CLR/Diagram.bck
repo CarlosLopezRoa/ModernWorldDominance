@@ -1,0 +1,4953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_71" class="java.beans.XMLDecoder">
+ <object class="maestro.units.containerUnits.RootUnit" id="RootUnit0">
+  <void property="children">
+   <void method="add">
+    <object class="maestro.units.etl.store.ExcelExtractStoreUnit">
+     <void property="columnInfoList">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columRole">
+          <int>1</int>
+         </void>
+         <void property="columType">
+          <int>1</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>CountryCode</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>1</int>
+         </void>
+         <void property="columRole">
+          <int>3</int>
+         </void>
+         <void property="columType">
+          <int>1</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>FullName</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>2</int>
+         </void>
+         <void property="columRole">
+          <int>3</int>
+         </void>
+         <void property="columType">
+          <int>1</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>Continent</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>3</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>IndependenceYear</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>4</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>AdultPopulation</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>5</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>AnnualBirths</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>6</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>AnnualDeaths</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>7</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>BirthRateFraction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>8</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ChildPopulation</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>9</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>DeathRateFraction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>10</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ElderlyPopulation</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>11</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>InfantMortalityFraction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>12</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>LifeExpectancy</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>13</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>LiteracyFraction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>14</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MedianAge</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>15</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MigrationRateFraction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>16</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>Population</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>17</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>PopulationGrowth</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>18</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>PovertyFraction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>19</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>TotalFertilityRate</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>20</int>
+         </void>
+         <void property="columRole">
+          <int>3</int>
+         </void>
+         <void property="columType">
+          <int>1</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>CurrencyCode</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>21</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ExchangeRate</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>22</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ExternalDebt</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>23</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ForeignExchangeReserves</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>24</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>GDP</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>25</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>GDPAtParity</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>26</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>GDPPerCapita</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>27</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>GDPRealGrowth</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>28</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>GovernmentDebt</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>29</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>GovernmentExpenditures</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>30</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>GovernmentReceipts</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>31</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>IndustrialProductionGrowth</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>32</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>InflationRate</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>33</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>LaborForce</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>34</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>PriceIndex</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>35</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>UnemploymentFraction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>36</int>
+         </void>
+         <void property="columRole">
+          <int>3</int>
+         </void>
+         <void property="columType">
+          <int>1</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>SectorLaborFractions</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>37</int>
+         </void>
+         <void property="columRole">
+          <int>3</int>
+         </void>
+         <void property="columType">
+          <int>1</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ExportPartnersFractions</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>38</int>
+         </void>
+         <void property="columRole">
+          <int>3</int>
+         </void>
+         <void property="columType">
+          <int>1</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ImportPartnersFractions</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>39</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ElectricityConsumption</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>40</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ElectricityExports</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>41</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ElectricityImports</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>42</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ElectricityProduction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>43</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>NaturalGasConsumption</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>44</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>NaturalGasExports</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>45</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>NaturalGasImports</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>46</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>NaturalGasProduction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>47</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>NaturalGasReserves</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>48</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>OilConsumption</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>49</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>OilExports</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>50</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>OilImports</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>51</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>OilProduction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>52</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>OilReserves</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>53</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>Airports</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>54</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>AMRadioStations</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>55</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>CellularPhones</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>56</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>FMRadioStations</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>57</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>InternetHosts</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>58</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>InternetUsers</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>59</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MerchantShips</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>60</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MerchantShipsDeadWeight</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>61</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MerchantShipsGross</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>62</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>PavedAirports</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>63</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>PhoneLines</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>64</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>RadioStations</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>65</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>RailwayLength</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>66</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>RoadLength</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>67</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ShortWaveRadioStations</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>68</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>TelevisionStations</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>69</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>UnpavedAirports</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>70</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ArableLandArea</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>71</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>ArableLandFraction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>72</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>Area</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>73</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>BoundaryLength</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>74</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>CoastlineLength</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>75</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>CropsLandArea</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>76</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>CropsLandFraction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>77</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>HighestElevation</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>78</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>IrrigatedLandArea</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>79</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>IrrigatedLandFraction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>80</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>LandArea</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>81</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>LowestElevation</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>82</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>WaterArea</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>83</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MilitaryAgeFemales</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>84</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MilitaryAgeMales</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>85</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MilitaryAgePopulation</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>86</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MilitaryAgeRate</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>87</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MilitaryExpenditureFraction</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>88</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>2</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MilitaryExpenditures</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.ImportColumnInfosOptimized">
+         <void property="columIndex">
+          <int>89</int>
+         </void>
+         <void property="columRole">
+          <int>4</int>
+         </void>
+         <void property="columType">
+          <int>3</int>
+         </void>
+         <void property="imported">
+          <boolean>true</boolean>
+         </void>
+         <void property="originColumName">
+          <string>MilitaryFitPopulation</string>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="connectionPoints">
+      <void property="outputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList0" property="unitIdList">
+         <void method="add">
+          <string>unit_1</string>
+         </void>
+         <void method="add">
+          <string>unit_2</string>
+         </void>
+         <void method="add">
+          <string>unit_3</string>
+         </void>
+         <void method="add">
+          <string>unit_4</string>
+         </void>
+         <void method="add">
+          <string>unit_5</string>
+         </void>
+         <void method="add">
+          <string>unit_6</string>
+         </void>
+         <void method="add">
+          <string>unit_7</string>
+         </void>
+         <void method="add">
+          <string>unit_8</string>
+         </void>
+         <void method="add">
+          <string>unit_10</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList0"/>
+        </void>
+        <void id="HashSet0" property="weakLinkStatusIdSet">
+         <void method="add">
+          <string>unit_10</string>
+         </void>
+         <void method="add">
+          <string>unit_1</string>
+         </void>
+         <void method="add">
+          <string>unit_2</string>
+         </void>
+         <void method="add">
+          <string>unit_5</string>
+         </void>
+         <void method="add">
+          <string>unit_6</string>
+         </void>
+         <void method="add">
+          <string>unit_3</string>
+         </void>
+         <void method="add">
+          <string>unit_4</string>
+         </void>
+         <void method="add">
+          <string>unit_7</string>
+         </void>
+         <void method="add">
+          <string>unit_8</string>
+         </void>
+        </void>
+        <void property="weakLinkStatusIdSet">
+         <object idref="HashSet0"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454595402529</long>
+     </void>
+     <void property="excelFile">
+      <string>C:\Users\carlos\Dropbox\Courseware_\MDA\Project\s1.xls</string>
+     </void>
+     <void property="id">
+      <string>unit</string>
+     </void>
+     <void property="importMode">
+      <string>importModeDirect</string>
+     </void>
+     <void property="name">
+      <string>s1.Sheet1</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>71.0</double>
+       </void>
+       <void index="1">
+        <double>208.734375</double>
+       </void>
+      </array>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object class="maestro.units.etl.table.sba.SbaColumnDescriptor" id="SbaColumnDescriptor0">
+       <void property="columnNames">
+        <array class="java.lang.String" length="88">
+         <void index="0">
+          <string>FullName</string>
+         </void>
+         <void index="1">
+          <string>Continent</string>
+         </void>
+         <void index="2">
+          <string>AdultPopulation</string>
+         </void>
+         <void index="3">
+          <string>AnnualBirths</string>
+         </void>
+         <void index="4">
+          <string>AnnualDeaths</string>
+         </void>
+         <void index="5">
+          <string>BirthRateFraction</string>
+         </void>
+         <void index="6">
+          <string>ChildPopulation</string>
+         </void>
+         <void index="7">
+          <string>DeathRateFraction</string>
+         </void>
+         <void index="8">
+          <string>ElderlyPopulation</string>
+         </void>
+         <void index="9">
+          <string>InfantMortalityFraction</string>
+         </void>
+         <void index="10">
+          <string>LifeExpectancy</string>
+         </void>
+         <void index="11">
+          <string>LiteracyFraction</string>
+         </void>
+         <void index="12">
+          <string>MedianAge</string>
+         </void>
+         <void index="13">
+          <string>MigrationRateFraction</string>
+         </void>
+         <void index="14">
+          <string>Population</string>
+         </void>
+         <void index="15">
+          <string>PopulationGrowth</string>
+         </void>
+         <void index="16">
+          <string>PovertyFraction</string>
+         </void>
+         <void index="17">
+          <string>TotalFertilityRate</string>
+         </void>
+         <void index="18">
+          <string>CurrencyCode</string>
+         </void>
+         <void index="19">
+          <string>ExchangeRate</string>
+         </void>
+         <void index="20">
+          <string>ExternalDebt</string>
+         </void>
+         <void index="21">
+          <string>ForeignExchangeReserves</string>
+         </void>
+         <void index="22">
+          <string>GDP</string>
+         </void>
+         <void index="23">
+          <string>GDPAtParity</string>
+         </void>
+         <void index="24">
+          <string>GDPPerCapita</string>
+         </void>
+         <void index="25">
+          <string>GDPRealGrowth</string>
+         </void>
+         <void index="26">
+          <string>GovernmentDebt</string>
+         </void>
+         <void index="27">
+          <string>GovernmentExpenditures</string>
+         </void>
+         <void index="28">
+          <string>GovernmentReceipts</string>
+         </void>
+         <void index="29">
+          <string>IndustrialProductionGrowth</string>
+         </void>
+         <void index="30">
+          <string>InflationRate</string>
+         </void>
+         <void index="31">
+          <string>LaborForce</string>
+         </void>
+         <void index="32">
+          <string>PriceIndex</string>
+         </void>
+         <void index="33">
+          <string>UnemploymentFraction</string>
+         </void>
+         <void index="34">
+          <string>SectorLaborFractions</string>
+         </void>
+         <void index="35">
+          <string>ExportPartnersFractions</string>
+         </void>
+         <void index="36">
+          <string>ImportPartnersFractions</string>
+         </void>
+         <void index="37">
+          <string>ElectricityConsumption</string>
+         </void>
+         <void index="38">
+          <string>ElectricityExports</string>
+         </void>
+         <void index="39">
+          <string>ElectricityImports</string>
+         </void>
+         <void index="40">
+          <string>ElectricityProduction</string>
+         </void>
+         <void index="41">
+          <string>NaturalGasConsumption</string>
+         </void>
+         <void index="42">
+          <string>NaturalGasExports</string>
+         </void>
+         <void index="43">
+          <string>NaturalGasImports</string>
+         </void>
+         <void index="44">
+          <string>NaturalGasProduction</string>
+         </void>
+         <void index="45">
+          <string>NaturalGasReserves</string>
+         </void>
+         <void index="46">
+          <string>OilConsumption</string>
+         </void>
+         <void index="47">
+          <string>OilExports</string>
+         </void>
+         <void index="48">
+          <string>OilImports</string>
+         </void>
+         <void index="49">
+          <string>OilProduction</string>
+         </void>
+         <void index="50">
+          <string>OilReserves</string>
+         </void>
+         <void index="51">
+          <string>Airports</string>
+         </void>
+         <void index="52">
+          <string>AMRadioStations</string>
+         </void>
+         <void index="53">
+          <string>CellularPhones</string>
+         </void>
+         <void index="54">
+          <string>FMRadioStations</string>
+         </void>
+         <void index="55">
+          <string>InternetHosts</string>
+         </void>
+         <void index="56">
+          <string>InternetUsers</string>
+         </void>
+         <void index="57">
+          <string>MerchantShips</string>
+         </void>
+         <void index="58">
+          <string>MerchantShipsDeadWeight</string>
+         </void>
+         <void index="59">
+          <string>MerchantShipsGross</string>
+         </void>
+         <void index="60">
+          <string>PavedAirports</string>
+         </void>
+         <void index="61">
+          <string>PhoneLines</string>
+         </void>
+         <void index="62">
+          <string>RadioStations</string>
+         </void>
+         <void index="63">
+          <string>RailwayLength</string>
+         </void>
+         <void index="64">
+          <string>RoadLength</string>
+         </void>
+         <void index="65">
+          <string>ShortWaveRadioStations</string>
+         </void>
+         <void index="66">
+          <string>TelevisionStations</string>
+         </void>
+         <void index="67">
+          <string>UnpavedAirports</string>
+         </void>
+         <void index="68">
+          <string>ArableLandArea</string>
+         </void>
+         <void index="69">
+          <string>ArableLandFraction</string>
+         </void>
+         <void index="70">
+          <string>Area</string>
+         </void>
+         <void index="71">
+          <string>BoundaryLength</string>
+         </void>
+         <void index="72">
+          <string>CoastlineLength</string>
+         </void>
+         <void index="73">
+          <string>CropsLandArea</string>
+         </void>
+         <void index="74">
+          <string>CropsLandFraction</string>
+         </void>
+         <void index="75">
+          <string>HighestElevation</string>
+         </void>
+         <void index="76">
+          <string>IrrigatedLandArea</string>
+         </void>
+         <void index="77">
+          <string>IrrigatedLandFraction</string>
+         </void>
+         <void index="78">
+          <string>LandArea</string>
+         </void>
+         <void index="79">
+          <string>LowestElevation</string>
+         </void>
+         <void index="80">
+          <string>WaterArea</string>
+         </void>
+         <void index="81">
+          <string>MilitaryAgeFemales</string>
+         </void>
+         <void index="82">
+          <string>MilitaryAgeMales</string>
+         </void>
+         <void index="83">
+          <string>MilitaryAgePopulation</string>
+         </void>
+         <void index="84">
+          <string>MilitaryAgeRate</string>
+         </void>
+         <void index="85">
+          <string>MilitaryExpenditureFraction</string>
+         </void>
+         <void index="86">
+          <string>MilitaryExpenditures</string>
+         </void>
+         <void index="87">
+          <string>MilitaryFitPopulation</string>
+         </void>
+        </array>
+       </void>
+       <void property="columnRoles">
+        <array class="int" length="88">
+         <void index="0">
+          <int>3</int>
+         </void>
+         <void index="1">
+          <int>3</int>
+         </void>
+         <void index="2">
+          <int>4</int>
+         </void>
+         <void index="3">
+          <int>4</int>
+         </void>
+         <void index="4">
+          <int>4</int>
+         </void>
+         <void index="5">
+          <int>4</int>
+         </void>
+         <void index="6">
+          <int>4</int>
+         </void>
+         <void index="7">
+          <int>4</int>
+         </void>
+         <void index="8">
+          <int>4</int>
+         </void>
+         <void index="9">
+          <int>4</int>
+         </void>
+         <void index="10">
+          <int>4</int>
+         </void>
+         <void index="11">
+          <int>4</int>
+         </void>
+         <void index="12">
+          <int>4</int>
+         </void>
+         <void index="13">
+          <int>4</int>
+         </void>
+         <void index="14">
+          <int>4</int>
+         </void>
+         <void index="15">
+          <int>4</int>
+         </void>
+         <void index="16">
+          <int>4</int>
+         </void>
+         <void index="17">
+          <int>4</int>
+         </void>
+         <void index="18">
+          <int>3</int>
+         </void>
+         <void index="19">
+          <int>4</int>
+         </void>
+         <void index="20">
+          <int>4</int>
+         </void>
+         <void index="21">
+          <int>4</int>
+         </void>
+         <void index="22">
+          <int>4</int>
+         </void>
+         <void index="23">
+          <int>4</int>
+         </void>
+         <void index="24">
+          <int>4</int>
+         </void>
+         <void index="25">
+          <int>4</int>
+         </void>
+         <void index="26">
+          <int>4</int>
+         </void>
+         <void index="27">
+          <int>4</int>
+         </void>
+         <void index="28">
+          <int>4</int>
+         </void>
+         <void index="29">
+          <int>4</int>
+         </void>
+         <void index="30">
+          <int>4</int>
+         </void>
+         <void index="31">
+          <int>4</int>
+         </void>
+         <void index="32">
+          <int>4</int>
+         </void>
+         <void index="33">
+          <int>4</int>
+         </void>
+         <void index="34">
+          <int>3</int>
+         </void>
+         <void index="35">
+          <int>3</int>
+         </void>
+         <void index="36">
+          <int>3</int>
+         </void>
+         <void index="37">
+          <int>4</int>
+         </void>
+         <void index="38">
+          <int>4</int>
+         </void>
+         <void index="39">
+          <int>4</int>
+         </void>
+         <void index="40">
+          <int>4</int>
+         </void>
+         <void index="41">
+          <int>4</int>
+         </void>
+         <void index="42">
+          <int>4</int>
+         </void>
+         <void index="43">
+          <int>4</int>
+         </void>
+         <void index="44">
+          <int>4</int>
+         </void>
+         <void index="45">
+          <int>4</int>
+         </void>
+         <void index="46">
+          <int>4</int>
+         </void>
+         <void index="47">
+          <int>4</int>
+         </void>
+         <void index="48">
+          <int>4</int>
+         </void>
+         <void index="49">
+          <int>4</int>
+         </void>
+         <void index="50">
+          <int>4</int>
+         </void>
+         <void index="51">
+          <int>4</int>
+         </void>
+         <void index="52">
+          <int>4</int>
+         </void>
+         <void index="53">
+          <int>4</int>
+         </void>
+         <void index="54">
+          <int>4</int>
+         </void>
+         <void index="55">
+          <int>4</int>
+         </void>
+         <void index="56">
+          <int>4</int>
+         </void>
+         <void index="57">
+          <int>4</int>
+         </void>
+         <void index="58">
+          <int>4</int>
+         </void>
+         <void index="59">
+          <int>4</int>
+         </void>
+         <void index="60">
+          <int>4</int>
+         </void>
+         <void index="61">
+          <int>4</int>
+         </void>
+         <void index="62">
+          <int>4</int>
+         </void>
+         <void index="63">
+          <int>4</int>
+         </void>
+         <void index="64">
+          <int>4</int>
+         </void>
+         <void index="65">
+          <int>4</int>
+         </void>
+         <void index="66">
+          <int>4</int>
+         </void>
+         <void index="67">
+          <int>4</int>
+         </void>
+         <void index="68">
+          <int>4</int>
+         </void>
+         <void index="69">
+          <int>4</int>
+         </void>
+         <void index="70">
+          <int>4</int>
+         </void>
+         <void index="71">
+          <int>4</int>
+         </void>
+         <void index="72">
+          <int>4</int>
+         </void>
+         <void index="73">
+          <int>4</int>
+         </void>
+         <void index="74">
+          <int>4</int>
+         </void>
+         <void index="75">
+          <int>4</int>
+         </void>
+         <void index="76">
+          <int>4</int>
+         </void>
+         <void index="77">
+          <int>4</int>
+         </void>
+         <void index="78">
+          <int>4</int>
+         </void>
+         <void index="79">
+          <int>4</int>
+         </void>
+         <void index="80">
+          <int>4</int>
+         </void>
+         <void index="81">
+          <int>4</int>
+         </void>
+         <void index="82">
+          <int>4</int>
+         </void>
+         <void index="83">
+          <int>4</int>
+         </void>
+         <void index="84">
+          <int>4</int>
+         </void>
+         <void index="85">
+          <int>4</int>
+         </void>
+         <void index="86">
+          <int>4</int>
+         </void>
+         <void index="87">
+          <int>4</int>
+         </void>
+        </array>
+       </void>
+      </object>
+     </void>
+     <void property="sheetName">
+      <string>Sheet1</string>
+     </void>
+     <void property="startTime">
+      <long>1454595402046</long>
+     </void>
+     <void property="status">
+      <int>12</int>
+     </void>
+     <void property="workPercent">
+      <int>191</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.spadUnits.methodUnits.CopriMethodUnit">
+     <void id="CategorySerializationMap0" property="categoryMap">
+      <void property="categoryVariableMatrix">
+       <void index="0">
+        <array class="java.lang.String" length="17">
+         <void index="0">
+          <string>IndependenceYear</string>
+         </void>
+         <void index="1">
+          <string>AdultPopulation</string>
+         </void>
+         <void index="2">
+          <string>AnnualBirths</string>
+         </void>
+         <void index="3">
+          <string>AnnualDeaths</string>
+         </void>
+         <void index="4">
+          <string>BirthRateFraction</string>
+         </void>
+         <void index="5">
+          <string>ChildPopulation</string>
+         </void>
+         <void index="6">
+          <string>DeathRateFraction</string>
+         </void>
+         <void index="7">
+          <string>ElderlyPopulation</string>
+         </void>
+         <void index="8">
+          <string>InfantMortalityFraction</string>
+         </void>
+         <void index="9">
+          <string>LifeExpectancy</string>
+         </void>
+         <void index="10">
+          <string>LiteracyFraction</string>
+         </void>
+         <void index="11">
+          <string>MedianAge</string>
+         </void>
+         <void index="12">
+          <string>MigrationRateFraction</string>
+         </void>
+         <void index="13">
+          <string>Population</string>
+         </void>
+         <void index="14">
+          <string>PopulationGrowth</string>
+         </void>
+         <void index="15">
+          <string>PovertyFraction</string>
+         </void>
+         <void index="16">
+          <string>TotalFertilityRate</string>
+         </void>
+        </array>
+       </void>
+       <void index="1">
+        <array class="java.lang.String" length="1">
+         <void index="0">
+          <string>Continent</string>
+         </void>
+        </array>
+       </void>
+      </void>
+     </void>
+     <void property="categoryMap">
+      <object idref="CategorySerializationMap0"/>
+     </void>
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList1" property="unitIdList">
+         <void method="add">
+          <string>unit</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList1"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454454770898</long>
+     </void>
+     <void property="filterDescriptor">
+      <object class="maestro.units.spadUnits.methodUnits.util.PADFilterDescriptor">
+       <void property="visiblePanel">
+        <string>NONE</string>
+       </void>
+      </object>
+     </void>
+     <void property="id">
+      <string>unit_1</string>
+     </void>
+     <void property="name">
+      <string>Demographic</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>195.75652582804742</double>
+       </void>
+       <void index="1">
+        <double>64.734375</double>
+       </void>
+      </array>
+     </void>
+     <void property="savedCoordinates">
+      <int>4</int>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object idref="SbaColumnDescriptor0"/>
+     </void>
+     <void property="startTime">
+      <long>1454454769712</long>
+     </void>
+     <void property="vsgAdditionalContent">
+      <string>LISTE_FICHIERS=unit_1.FGF</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.spadUnits.methodUnits.CopriMethodUnit">
+     <void id="CategorySerializationMap1" property="categoryMap">
+      <void property="categoryVariableMatrix">
+       <void index="0">
+        <array class="java.lang.String" length="15">
+         <void index="0">
+          <string>ExchangeRate</string>
+         </void>
+         <void index="1">
+          <string>ExternalDebt</string>
+         </void>
+         <void index="2">
+          <string>ForeignExchangeReserves</string>
+         </void>
+         <void index="3">
+          <string>GDP</string>
+         </void>
+         <void index="4">
+          <string>GDPAtParity</string>
+         </void>
+         <void index="5">
+          <string>GDPPerCapita</string>
+         </void>
+         <void index="6">
+          <string>GDPRealGrowth</string>
+         </void>
+         <void index="7">
+          <string>GovernmentDebt</string>
+         </void>
+         <void index="8">
+          <string>GovernmentExpenditures</string>
+         </void>
+         <void index="9">
+          <string>GovernmentReceipts</string>
+         </void>
+         <void index="10">
+          <string>IndustrialProductionGrowth</string>
+         </void>
+         <void index="11">
+          <string>InflationRate</string>
+         </void>
+         <void index="12">
+          <string>LaborForce</string>
+         </void>
+         <void index="13">
+          <string>PriceIndex</string>
+         </void>
+         <void index="14">
+          <string>UnemploymentFraction</string>
+         </void>
+        </array>
+       </void>
+       <void index="1">
+        <array class="java.lang.String" length="2">
+         <void index="0">
+          <string>Continent</string>
+         </void>
+         <void index="1">
+          <string>SectorLaborFractions</string>
+         </void>
+        </array>
+       </void>
+      </void>
+     </void>
+     <void property="categoryMap">
+      <object idref="CategorySerializationMap1"/>
+     </void>
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList2" property="unitIdList">
+         <void method="add">
+          <string>unit</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList2"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454505817071</long>
+     </void>
+     <void property="filterDescriptor">
+      <object class="maestro.units.spadUnits.methodUnits.util.PADFilterDescriptor">
+       <void property="visiblePanel">
+        <string>NONE</string>
+       </void>
+      </object>
+     </void>
+     <void property="id">
+      <string>unit_2</string>
+     </void>
+     <void property="name">
+      <string>Economics</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>194.0</double>
+       </void>
+       <void index="1">
+        <double>137.734375</double>
+       </void>
+      </array>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object idref="SbaColumnDescriptor0"/>
+     </void>
+     <void property="startTime">
+      <long>1454505815387</long>
+     </void>
+     <void property="vsgAdditionalContent">
+      <string>LISTE_FICHIERS=unit_2.FGF</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.spadUnits.methodUnits.CopriMethodUnit">
+     <void id="CategorySerializationMap2" property="categoryMap">
+      <void property="categoryVariableMatrix">
+       <void index="0">
+        <array class="java.lang.String" length="14">
+         <void index="0">
+          <string>ElectricityConsumption</string>
+         </void>
+         <void index="1">
+          <string>ElectricityExports</string>
+         </void>
+         <void index="2">
+          <string>ElectricityImports</string>
+         </void>
+         <void index="3">
+          <string>ElectricityProduction</string>
+         </void>
+         <void index="4">
+          <string>NaturalGasConsumption</string>
+         </void>
+         <void index="5">
+          <string>NaturalGasExports</string>
+         </void>
+         <void index="6">
+          <string>NaturalGasImports</string>
+         </void>
+         <void index="7">
+          <string>NaturalGasProduction</string>
+         </void>
+         <void index="8">
+          <string>NaturalGasReserves</string>
+         </void>
+         <void index="9">
+          <string>OilConsumption</string>
+         </void>
+         <void index="10">
+          <string>OilExports</string>
+         </void>
+         <void index="11">
+          <string>OilImports</string>
+         </void>
+         <void index="12">
+          <string>OilProduction</string>
+         </void>
+         <void index="13">
+          <string>OilReserves</string>
+         </void>
+        </array>
+       </void>
+       <void index="1">
+        <array class="java.lang.String" length="1">
+         <void index="0">
+          <string>Continent</string>
+         </void>
+        </array>
+       </void>
+      </void>
+     </void>
+     <void property="categoryMap">
+      <object idref="CategorySerializationMap2"/>
+     </void>
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList3" property="unitIdList">
+         <void method="add">
+          <string>unit</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList3"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454457550872</long>
+     </void>
+     <void property="filterDescriptor">
+      <object class="maestro.units.spadUnits.methodUnits.util.PADFilterDescriptor">
+       <void property="visiblePanel">
+        <string>NONE</string>
+       </void>
+      </object>
+     </void>
+     <void property="id">
+      <string>unit_3</string>
+     </void>
+     <void property="name">
+      <string>Energy</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>190.8960962588079</double>
+       </void>
+       <void index="1">
+        <double>203.09017180460916</double>
+       </void>
+      </array>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object idref="SbaColumnDescriptor0"/>
+     </void>
+     <void property="startTime">
+      <long>1454457549914</long>
+     </void>
+     <void property="vsgAdditionalContent">
+      <string>LISTE_FICHIERS=unit_3.FGF</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.spadUnits.methodUnits.CopriMethodUnit">
+     <void id="CategorySerializationMap3" property="categoryMap">
+      <void property="categoryVariableMatrix">
+       <void index="0">
+        <array class="java.lang.String" length="17">
+         <void index="0">
+          <string>Airports</string>
+         </void>
+         <void index="1">
+          <string>AMRadioStations</string>
+         </void>
+         <void index="2">
+          <string>CellularPhones</string>
+         </void>
+         <void index="3">
+          <string>FMRadioStations</string>
+         </void>
+         <void index="4">
+          <string>InternetHosts</string>
+         </void>
+         <void index="5">
+          <string>InternetUsers</string>
+         </void>
+         <void index="6">
+          <string>MerchantShips</string>
+         </void>
+         <void index="7">
+          <string>MerchantShipsDeadWeight</string>
+         </void>
+         <void index="8">
+          <string>MerchantShipsGross</string>
+         </void>
+         <void index="9">
+          <string>PavedAirports</string>
+         </void>
+         <void index="10">
+          <string>PhoneLines</string>
+         </void>
+         <void index="11">
+          <string>RadioStations</string>
+         </void>
+         <void index="12">
+          <string>RailwayLength</string>
+         </void>
+         <void index="13">
+          <string>RoadLength</string>
+         </void>
+         <void index="14">
+          <string>ShortWaveRadioStations</string>
+         </void>
+         <void index="15">
+          <string>TelevisionStations</string>
+         </void>
+         <void index="16">
+          <string>UnpavedAirports</string>
+         </void>
+        </array>
+       </void>
+       <void index="1">
+        <array class="java.lang.String" length="1">
+         <void index="0">
+          <string>Continent</string>
+         </void>
+        </array>
+       </void>
+      </void>
+     </void>
+     <void property="categoryMap">
+      <object idref="CategorySerializationMap3"/>
+     </void>
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList4" property="unitIdList">
+         <void method="add">
+          <string>unit</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList4"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454457667681</long>
+     </void>
+     <void property="filterDescriptor">
+      <object class="maestro.units.spadUnits.methodUnits.util.PADFilterDescriptor">
+       <void property="visiblePanel">
+        <string>NONE</string>
+       </void>
+      </object>
+     </void>
+     <void property="id">
+      <string>unit_4</string>
+     </void>
+     <void property="name">
+      <string>Communication</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>190.93765775528465</double>
+       </void>
+       <void index="1">
+        <double>275.99190430431884</double>
+       </void>
+      </array>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object idref="SbaColumnDescriptor0"/>
+     </void>
+     <void property="startTime">
+      <long>1454457666645</long>
+     </void>
+     <void property="vsgAdditionalContent">
+      <string>LISTE_FICHIERS=unit_4.FGF</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.spadUnits.methodUnits.CopriMethodUnit">
+     <void id="CategorySerializationMap4" property="categoryMap">
+      <void property="categoryVariableMatrix">
+       <void index="0">
+        <array class="java.lang.String" length="13">
+         <void index="0">
+          <string>ArableLandArea</string>
+         </void>
+         <void index="1">
+          <string>ArableLandFraction</string>
+         </void>
+         <void index="2">
+          <string>Area</string>
+         </void>
+         <void index="3">
+          <string>BoundaryLength</string>
+         </void>
+         <void index="4">
+          <string>CoastlineLength</string>
+         </void>
+         <void index="5">
+          <string>CropsLandArea</string>
+         </void>
+         <void index="6">
+          <string>CropsLandFraction</string>
+         </void>
+         <void index="7">
+          <string>HighestElevation</string>
+         </void>
+         <void index="8">
+          <string>IrrigatedLandArea</string>
+         </void>
+         <void index="9">
+          <string>IrrigatedLandFraction</string>
+         </void>
+         <void index="10">
+          <string>LandArea</string>
+         </void>
+         <void index="11">
+          <string>LowestElevation</string>
+         </void>
+         <void index="12">
+          <string>WaterArea</string>
+         </void>
+        </array>
+       </void>
+       <void index="1">
+        <array class="java.lang.String" length="1">
+         <void index="0">
+          <string>Continent</string>
+         </void>
+        </array>
+       </void>
+      </void>
+     </void>
+     <void property="categoryMap">
+      <object idref="CategorySerializationMap4"/>
+     </void>
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList5" property="unitIdList">
+         <void method="add">
+          <string>unit</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList5"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454457789584</long>
+     </void>
+     <void property="filterDescriptor">
+      <object class="maestro.units.spadUnits.methodUnits.util.PADFilterDescriptor">
+       <void property="visiblePanel">
+        <string>NONE</string>
+       </void>
+      </object>
+     </void>
+     <void property="id">
+      <string>unit_5</string>
+     </void>
+     <void property="name">
+      <string>Geography</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>191.9584385035232</double>
+       </void>
+       <void index="1">
+        <double>340.3010914433387</double>
+       </void>
+      </array>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object idref="SbaColumnDescriptor0"/>
+     </void>
+     <void property="startTime">
+      <long>1454457788418</long>
+     </void>
+     <void property="vsgAdditionalContent">
+      <string>LISTE_FICHIERS=unit_5.FGF</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.spadUnits.methodUnits.CopriMethodUnit">
+     <void id="CategorySerializationMap5" property="categoryMap">
+      <void property="categoryVariableMatrix">
+       <void index="0">
+        <array class="java.lang.String" length="7">
+         <void index="0">
+          <string>MilitaryAgeFemales</string>
+         </void>
+         <void index="1">
+          <string>MilitaryAgeMales</string>
+         </void>
+         <void index="2">
+          <string>MilitaryAgePopulation</string>
+         </void>
+         <void index="3">
+          <string>MilitaryAgeRate</string>
+         </void>
+         <void index="4">
+          <string>MilitaryExpenditureFraction</string>
+         </void>
+         <void index="5">
+          <string>MilitaryExpenditures</string>
+         </void>
+         <void index="6">
+          <string>MilitaryFitPopulation</string>
+         </void>
+        </array>
+       </void>
+       <void index="1">
+        <array class="java.lang.String" length="1">
+         <void index="0">
+          <string>Continent</string>
+         </void>
+        </array>
+       </void>
+      </void>
+     </void>
+     <void property="categoryMap">
+      <object idref="CategorySerializationMap5"/>
+     </void>
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList6" property="unitIdList">
+         <void method="add">
+          <string>unit</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList6"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454458019560</long>
+     </void>
+     <void property="filterDescriptor">
+      <object class="maestro.units.spadUnits.methodUnits.util.PADFilterDescriptor">
+       <void property="visiblePanel">
+        <string>NONE</string>
+       </void>
+      </object>
+     </void>
+     <void property="id">
+      <string>unit_6</string>
+     </void>
+     <void property="name">
+      <string>Military</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>192.26130751673682</double>
+       </void>
+       <void index="1">
+        <double>408.17740251576345</double>
+       </void>
+      </array>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object idref="SbaColumnDescriptor0"/>
+     </void>
+     <void property="startTime">
+      <long>1454458018874</long>
+     </void>
+     <void property="vsgAdditionalContent">
+      <string>LISTE_FICHIERS=unit_6.FGF</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.spadUnits.methodUnits.CopriMethodUnit">
+     <void id="CategorySerializationMap6" property="categoryMap">
+      <void property="categoryVariableMatrix">
+       <void index="0">
+        <array class="java.lang.String" length="16">
+         <void index="0">
+          <string>LifeExpectancy</string>
+         </void>
+         <void index="1">
+          <string>Population</string>
+         </void>
+         <void index="2">
+          <string>TotalFertilityRate</string>
+         </void>
+         <void index="3">
+          <string>ForeignExchangeReserves</string>
+         </void>
+         <void index="4">
+          <string>GDP</string>
+         </void>
+         <void index="5">
+          <string>GDPPerCapita</string>
+         </void>
+         <void index="6">
+          <string>LaborForce</string>
+         </void>
+         <void index="7">
+          <string>ElectricityProduction</string>
+         </void>
+         <void index="8">
+          <string>OilExports</string>
+         </void>
+         <void index="9">
+          <string>Airports</string>
+         </void>
+         <void index="10">
+          <string>InternetUsers</string>
+         </void>
+         <void index="11">
+          <string>RoadLength</string>
+         </void>
+         <void index="12">
+          <string>ArableLandArea</string>
+         </void>
+         <void index="13">
+          <string>Area</string>
+         </void>
+         <void index="14">
+          <string>MilitaryExpenditures</string>
+         </void>
+         <void index="15">
+          <string>MilitaryFitPopulation</string>
+         </void>
+        </array>
+       </void>
+       <void index="1">
+        <array class="java.lang.String" length="69">
+         <void index="0">
+          <string>Continent</string>
+         </void>
+         <void index="1">
+          <string>IndependenceYear</string>
+         </void>
+         <void index="2">
+          <string>AdultPopulation</string>
+         </void>
+         <void index="3">
+          <string>AnnualBirths</string>
+         </void>
+         <void index="4">
+          <string>AnnualDeaths</string>
+         </void>
+         <void index="5">
+          <string>BirthRateFraction</string>
+         </void>
+         <void index="6">
+          <string>ChildPopulation</string>
+         </void>
+         <void index="7">
+          <string>DeathRateFraction</string>
+         </void>
+         <void index="8">
+          <string>ElderlyPopulation</string>
+         </void>
+         <void index="9">
+          <string>InfantMortalityFraction</string>
+         </void>
+         <void index="10">
+          <string>LiteracyFraction</string>
+         </void>
+         <void index="11">
+          <string>MedianAge</string>
+         </void>
+         <void index="12">
+          <string>MigrationRateFraction</string>
+         </void>
+         <void index="13">
+          <string>PopulationGrowth</string>
+         </void>
+         <void index="14">
+          <string>PovertyFraction</string>
+         </void>
+         <void index="15">
+          <string>ExchangeRate</string>
+         </void>
+         <void index="16">
+          <string>ExternalDebt</string>
+         </void>
+         <void index="17">
+          <string>GDPAtParity</string>
+         </void>
+         <void index="18">
+          <string>GDPRealGrowth</string>
+         </void>
+         <void index="19">
+          <string>GovernmentDebt</string>
+         </void>
+         <void index="20">
+          <string>GovernmentExpenditures</string>
+         </void>
+         <void index="21">
+          <string>GovernmentReceipts</string>
+         </void>
+         <void index="22">
+          <string>IndustrialProductionGrowth</string>
+         </void>
+         <void index="23">
+          <string>InflationRate</string>
+         </void>
+         <void index="24">
+          <string>PriceIndex</string>
+         </void>
+         <void index="25">
+          <string>UnemploymentFraction</string>
+         </void>
+         <void index="26">
+          <string>SectorLaborFractions</string>
+         </void>
+         <void index="27">
+          <string>ElectricityConsumption</string>
+         </void>
+         <void index="28">
+          <string>ElectricityExports</string>
+         </void>
+         <void index="29">
+          <string>ElectricityImports</string>
+         </void>
+         <void index="30">
+          <string>NaturalGasConsumption</string>
+         </void>
+         <void index="31">
+          <string>NaturalGasExports</string>
+         </void>
+         <void index="32">
+          <string>NaturalGasImports</string>
+         </void>
+         <void index="33">
+          <string>NaturalGasProduction</string>
+         </void>
+         <void index="34">
+          <string>NaturalGasReserves</string>
+         </void>
+         <void index="35">
+          <string>OilConsumption</string>
+         </void>
+         <void index="36">
+          <string>OilImports</string>
+         </void>
+         <void index="37">
+          <string>OilProduction</string>
+         </void>
+         <void index="38">
+          <string>OilReserves</string>
+         </void>
+         <void index="39">
+          <string>AMRadioStations</string>
+         </void>
+         <void index="40">
+          <string>CellularPhones</string>
+         </void>
+         <void index="41">
+          <string>FMRadioStations</string>
+         </void>
+         <void index="42">
+          <string>InternetHosts</string>
+         </void>
+         <void index="43">
+          <string>MerchantShips</string>
+         </void>
+         <void index="44">
+          <string>MerchantShipsDeadWeight</string>
+         </void>
+         <void index="45">
+          <string>MerchantShipsGross</string>
+         </void>
+         <void index="46">
+          <string>PavedAirports</string>
+         </void>
+         <void index="47">
+          <string>PhoneLines</string>
+         </void>
+         <void index="48">
+          <string>RadioStations</string>
+         </void>
+         <void index="49">
+          <string>RailwayLength</string>
+         </void>
+         <void index="50">
+          <string>ShortWaveRadioStations</string>
+         </void>
+         <void index="51">
+          <string>TelevisionStations</string>
+         </void>
+         <void index="52">
+          <string>UnpavedAirports</string>
+         </void>
+         <void index="53">
+          <string>ArableLandFraction</string>
+         </void>
+         <void index="54">
+          <string>BoundaryLength</string>
+         </void>
+         <void index="55">
+          <string>CoastlineLength</string>
+         </void>
+         <void index="56">
+          <string>CropsLandArea</string>
+         </void>
+         <void index="57">
+          <string>CropsLandFraction</string>
+         </void>
+         <void index="58">
+          <string>HighestElevation</string>
+         </void>
+         <void index="59">
+          <string>IrrigatedLandArea</string>
+         </void>
+         <void index="60">
+          <string>IrrigatedLandFraction</string>
+         </void>
+         <void index="61">
+          <string>LandArea</string>
+         </void>
+         <void index="62">
+          <string>LowestElevation</string>
+         </void>
+         <void index="63">
+          <string>WaterArea</string>
+         </void>
+         <void index="64">
+          <string>MilitaryAgeFemales</string>
+         </void>
+         <void index="65">
+          <string>MilitaryAgeMales</string>
+         </void>
+         <void index="66">
+          <string>MilitaryAgePopulation</string>
+         </void>
+         <void index="67">
+          <string>MilitaryAgeRate</string>
+         </void>
+         <void index="68">
+          <string>MilitaryExpenditureFraction</string>
+         </void>
+        </array>
+       </void>
+      </void>
+     </void>
+     <void property="categoryMap">
+      <object idref="CategorySerializationMap6"/>
+     </void>
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList7" property="unitIdList">
+         <void method="add">
+          <string>unit</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList7"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454596805020</long>
+     </void>
+     <void property="filterDescriptor">
+      <object class="maestro.units.spadUnits.methodUnits.util.PADFilterDescriptor">
+       <void property="visiblePanel">
+        <string>NONE</string>
+       </void>
+      </object>
+     </void>
+     <void property="id">
+      <string>unit_7</string>
+     </void>
+     <void property="name">
+      <string>PCA_1</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>291.0751274203872</double>
+       </void>
+       <void index="1">
+        <double>140.003717371414</double>
+       </void>
+      </array>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object idref="SbaColumnDescriptor0"/>
+     </void>
+     <void property="startTime">
+      <long>1454596803656</long>
+     </void>
+     <void property="status">
+      <int>12</int>
+     </void>
+     <void property="vsgAdditionalContent">
+      <string>LISTE_FICHIERS=unit_7.FGF</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.spadUnits.methodUnits.CopriMethodUnit">
+     <void id="CategorySerializationMap7" property="categoryMap">
+      <void property="categoryVariableMatrix">
+       <void index="0">
+        <array class="java.lang.String" length="83">
+         <void index="0">
+          <string>IndependenceYear</string>
+         </void>
+         <void index="1">
+          <string>AdultPopulation</string>
+         </void>
+         <void index="2">
+          <string>AnnualBirths</string>
+         </void>
+         <void index="3">
+          <string>AnnualDeaths</string>
+         </void>
+         <void index="4">
+          <string>BirthRateFraction</string>
+         </void>
+         <void index="5">
+          <string>ChildPopulation</string>
+         </void>
+         <void index="6">
+          <string>DeathRateFraction</string>
+         </void>
+         <void index="7">
+          <string>ElderlyPopulation</string>
+         </void>
+         <void index="8">
+          <string>InfantMortalityFraction</string>
+         </void>
+         <void index="9">
+          <string>LifeExpectancy</string>
+         </void>
+         <void index="10">
+          <string>LiteracyFraction</string>
+         </void>
+         <void index="11">
+          <string>MedianAge</string>
+         </void>
+         <void index="12">
+          <string>MigrationRateFraction</string>
+         </void>
+         <void index="13">
+          <string>Population</string>
+         </void>
+         <void index="14">
+          <string>PopulationGrowth</string>
+         </void>
+         <void index="15">
+          <string>PovertyFraction</string>
+         </void>
+         <void index="16">
+          <string>TotalFertilityRate</string>
+         </void>
+         <void index="17">
+          <string>ExchangeRate</string>
+         </void>
+         <void index="18">
+          <string>ExternalDebt</string>
+         </void>
+         <void index="19">
+          <string>ForeignExchangeReserves</string>
+         </void>
+         <void index="20">
+          <string>GDP</string>
+         </void>
+         <void index="21">
+          <string>GDPAtParity</string>
+         </void>
+         <void index="22">
+          <string>GDPPerCapita</string>
+         </void>
+         <void index="23">
+          <string>GDPRealGrowth</string>
+         </void>
+         <void index="24">
+          <string>GovernmentDebt</string>
+         </void>
+         <void index="25">
+          <string>GovernmentExpenditures</string>
+         </void>
+         <void index="26">
+          <string>GovernmentReceipts</string>
+         </void>
+         <void index="27">
+          <string>IndustrialProductionGrowth</string>
+         </void>
+         <void index="28">
+          <string>InflationRate</string>
+         </void>
+         <void index="29">
+          <string>LaborForce</string>
+         </void>
+         <void index="30">
+          <string>PriceIndex</string>
+         </void>
+         <void index="31">
+          <string>UnemploymentFraction</string>
+         </void>
+         <void index="32">
+          <string>ElectricityConsumption</string>
+         </void>
+         <void index="33">
+          <string>ElectricityExports</string>
+         </void>
+         <void index="34">
+          <string>ElectricityImports</string>
+         </void>
+         <void index="35">
+          <string>ElectricityProduction</string>
+         </void>
+         <void index="36">
+          <string>NaturalGasConsumption</string>
+         </void>
+         <void index="37">
+          <string>NaturalGasExports</string>
+         </void>
+         <void index="38">
+          <string>NaturalGasImports</string>
+         </void>
+         <void index="39">
+          <string>NaturalGasProduction</string>
+         </void>
+         <void index="40">
+          <string>NaturalGasReserves</string>
+         </void>
+         <void index="41">
+          <string>OilConsumption</string>
+         </void>
+         <void index="42">
+          <string>OilExports</string>
+         </void>
+         <void index="43">
+          <string>OilImports</string>
+         </void>
+         <void index="44">
+          <string>OilProduction</string>
+         </void>
+         <void index="45">
+          <string>OilReserves</string>
+         </void>
+         <void index="46">
+          <string>Airports</string>
+         </void>
+         <void index="47">
+          <string>AMRadioStations</string>
+         </void>
+         <void index="48">
+          <string>CellularPhones</string>
+         </void>
+         <void index="49">
+          <string>FMRadioStations</string>
+         </void>
+         <void index="50">
+          <string>InternetHosts</string>
+         </void>
+         <void index="51">
+          <string>InternetUsers</string>
+         </void>
+         <void index="52">
+          <string>MerchantShips</string>
+         </void>
+         <void index="53">
+          <string>MerchantShipsDeadWeight</string>
+         </void>
+         <void index="54">
+          <string>MerchantShipsGross</string>
+         </void>
+         <void index="55">
+          <string>PavedAirports</string>
+         </void>
+         <void index="56">
+          <string>PhoneLines</string>
+         </void>
+         <void index="57">
+          <string>RadioStations</string>
+         </void>
+         <void index="58">
+          <string>RailwayLength</string>
+         </void>
+         <void index="59">
+          <string>RoadLength</string>
+         </void>
+         <void index="60">
+          <string>ShortWaveRadioStations</string>
+         </void>
+         <void index="61">
+          <string>TelevisionStations</string>
+         </void>
+         <void index="62">
+          <string>UnpavedAirports</string>
+         </void>
+         <void index="63">
+          <string>ArableLandArea</string>
+         </void>
+         <void index="64">
+          <string>ArableLandFraction</string>
+         </void>
+         <void index="65">
+          <string>Area</string>
+         </void>
+         <void index="66">
+          <string>BoundaryLength</string>
+         </void>
+         <void index="67">
+          <string>CoastlineLength</string>
+         </void>
+         <void index="68">
+          <string>CropsLandArea</string>
+         </void>
+         <void index="69">
+          <string>CropsLandFraction</string>
+         </void>
+         <void index="70">
+          <string>HighestElevation</string>
+         </void>
+         <void index="71">
+          <string>IrrigatedLandArea</string>
+         </void>
+         <void index="72">
+          <string>IrrigatedLandFraction</string>
+         </void>
+         <void index="73">
+          <string>LandArea</string>
+         </void>
+         <void index="74">
+          <string>LowestElevation</string>
+         </void>
+         <void index="75">
+          <string>WaterArea</string>
+         </void>
+         <void index="76">
+          <string>MilitaryAgeFemales</string>
+         </void>
+         <void index="77">
+          <string>MilitaryAgeMales</string>
+         </void>
+         <void index="78">
+          <string>MilitaryAgePopulation</string>
+         </void>
+         <void index="79">
+          <string>MilitaryAgeRate</string>
+         </void>
+         <void index="80">
+          <string>MilitaryExpenditureFraction</string>
+         </void>
+         <void index="81">
+          <string>MilitaryExpenditures</string>
+         </void>
+         <void index="82">
+          <string>MilitaryFitPopulation</string>
+         </void>
+        </array>
+       </void>
+       <void index="1">
+        <array class="java.lang.String" length="2">
+         <void index="0">
+          <string>Continent</string>
+         </void>
+         <void index="1">
+          <string>SectorLaborFractions</string>
+         </void>
+        </array>
+       </void>
+      </void>
+     </void>
+     <void property="categoryMap">
+      <object idref="CategorySerializationMap7"/>
+     </void>
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList8" property="unitIdList">
+         <void method="add">
+          <string>unit</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList8"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454377929326</long>
+     </void>
+     <void property="filterDescriptor">
+      <object class="maestro.units.spadUnits.methodUnits.util.PADFilterDescriptor">
+       <void property="visiblePanel">
+        <string>NONE</string>
+       </void>
+      </object>
+     </void>
+     <void property="id">
+      <string>unit_8</string>
+     </void>
+     <void property="name">
+      <string>Naive PCA</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>294.95633773786517</double>
+       </void>
+       <void index="1">
+        <double>68.21254386893257</double>
+       </void>
+      </array>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object idref="SbaColumnDescriptor0"/>
+     </void>
+     <void property="startTime">
+      <long>1454377926409</long>
+     </void>
+     <void property="vsgAdditionalContent">
+      <string>LISTE_FICHIERS=unit_8.FGF</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.etl.store.MultiCrossTableUnit">
+     <void property="additionalInfosArray">
+      <array class="java.lang.String" length="6">
+       <void index="0">
+        <string>TEST_VALUE</string>
+       </void>
+       <void index="1">
+        <string>CRAMER_V</string>
+       </void>
+       <void index="2">
+        <string>CHI_SQUARE</string>
+       </void>
+       <void index="3">
+        <string>TCHUPROW_T</string>
+       </void>
+       <void index="4">
+        <string>DEGREES_OF_FREEDOM</string>
+       </void>
+       <void index="5">
+        <string>LOW_CELL_COUNT_5</string>
+       </void>
+      </array>
+     </void>
+     <void property="colorForTest">
+      <array class="java.awt.Color" length="4">
+       <void index="0">
+        <object class="java.awt.Color">
+         <int>230</int>
+         <int>145</int>
+         <int>100</int>
+         <int>255</int>
+        </object>
+       </void>
+       <void index="1">
+        <object class="java.awt.Color">
+         <int>240</int>
+         <int>50</int>
+         <int>50</int>
+         <int>255</int>
+        </object>
+       </void>
+       <void index="2">
+        <object class="java.awt.Color">
+         <int>100</int>
+         <int>145</int>
+         <int>230</int>
+         <int>255</int>
+        </object>
+       </void>
+       <void index="3">
+        <object class="java.awt.Color">
+         <int>50</int>
+         <int>50</int>
+         <int>240</int>
+         <int>255</int>
+        </object>
+       </void>
+      </array>
+     </void>
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList9" property="unitIdList">
+         <void method="add">
+          <string>unit_10</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList9"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454633658410</long>
+     </void>
+     <void property="id">
+      <string>unit_9</string>
+     </void>
+     <void property="lastExecutionReportType">
+      <int>8</int>
+     </void>
+     <void property="modelList">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="maestro.units.etl.store.multiCrossTable.FilteredMultiCrossTableModel">
+         <void property="columnVariables">
+          <void method="add">
+           <string>Rec_SectorLaborFractions</string>
+          </void>
+         </void>
+         <void property="rowVariables">
+          <void method="add">
+           <string>Rec_Continent</string>
+          </void>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="name">
+      <string>Cross tables</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>391.07807482384135</double>
+       </void>
+       <void index="1">
+        <double>211.79489087389632</double>
+       </void>
+      </array>
+     </void>
+     <void property="reportModelListName">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <string>def_Count/weights and percentages</string>
+       </void>
+       <void method="add">
+        <string>def_Mean and standard deviation</string>
+       </void>
+      </object>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object class="maestro.units.etl.table.sba.SbaColumnDescriptor" id="SbaColumnDescriptor1">
+       <void property="columnNames">
+        <array class="java.lang.String" length="90">
+         <void index="0">
+          <string>FullName</string>
+         </void>
+         <void index="1">
+          <string>Continent</string>
+         </void>
+         <void index="2">
+          <string>AdultPopulation</string>
+         </void>
+         <void index="3">
+          <string>AnnualBirths</string>
+         </void>
+         <void index="4">
+          <string>AnnualDeaths</string>
+         </void>
+         <void index="5">
+          <string>BirthRateFraction</string>
+         </void>
+         <void index="6">
+          <string>ChildPopulation</string>
+         </void>
+         <void index="7">
+          <string>DeathRateFraction</string>
+         </void>
+         <void index="8">
+          <string>ElderlyPopulation</string>
+         </void>
+         <void index="9">
+          <string>InfantMortalityFraction</string>
+         </void>
+         <void index="10">
+          <string>LifeExpectancy</string>
+         </void>
+         <void index="11">
+          <string>LiteracyFraction</string>
+         </void>
+         <void index="12">
+          <string>MedianAge</string>
+         </void>
+         <void index="13">
+          <string>MigrationRateFraction</string>
+         </void>
+         <void index="14">
+          <string>Population</string>
+         </void>
+         <void index="15">
+          <string>PopulationGrowth</string>
+         </void>
+         <void index="16">
+          <string>PovertyFraction</string>
+         </void>
+         <void index="17">
+          <string>TotalFertilityRate</string>
+         </void>
+         <void index="18">
+          <string>CurrencyCode</string>
+         </void>
+         <void index="19">
+          <string>ExchangeRate</string>
+         </void>
+         <void index="20">
+          <string>ExternalDebt</string>
+         </void>
+         <void index="21">
+          <string>ForeignExchangeReserves</string>
+         </void>
+         <void index="22">
+          <string>GDP</string>
+         </void>
+         <void index="23">
+          <string>GDPAtParity</string>
+         </void>
+         <void index="24">
+          <string>GDPPerCapita</string>
+         </void>
+         <void index="25">
+          <string>GDPRealGrowth</string>
+         </void>
+         <void index="26">
+          <string>GovernmentDebt</string>
+         </void>
+         <void index="27">
+          <string>GovernmentExpenditures</string>
+         </void>
+         <void index="28">
+          <string>GovernmentReceipts</string>
+         </void>
+         <void index="29">
+          <string>IndustrialProductionGrowth</string>
+         </void>
+         <void index="30">
+          <string>InflationRate</string>
+         </void>
+         <void index="31">
+          <string>LaborForce</string>
+         </void>
+         <void index="32">
+          <string>PriceIndex</string>
+         </void>
+         <void index="33">
+          <string>UnemploymentFraction</string>
+         </void>
+         <void index="34">
+          <string>SectorLaborFractions</string>
+         </void>
+         <void index="35">
+          <string>ExportPartnersFractions</string>
+         </void>
+         <void index="36">
+          <string>ImportPartnersFractions</string>
+         </void>
+         <void index="37">
+          <string>ElectricityConsumption</string>
+         </void>
+         <void index="38">
+          <string>ElectricityExports</string>
+         </void>
+         <void index="39">
+          <string>ElectricityImports</string>
+         </void>
+         <void index="40">
+          <string>ElectricityProduction</string>
+         </void>
+         <void index="41">
+          <string>NaturalGasConsumption</string>
+         </void>
+         <void index="42">
+          <string>NaturalGasExports</string>
+         </void>
+         <void index="43">
+          <string>NaturalGasImports</string>
+         </void>
+         <void index="44">
+          <string>NaturalGasProduction</string>
+         </void>
+         <void index="45">
+          <string>NaturalGasReserves</string>
+         </void>
+         <void index="46">
+          <string>OilConsumption</string>
+         </void>
+         <void index="47">
+          <string>OilExports</string>
+         </void>
+         <void index="48">
+          <string>OilImports</string>
+         </void>
+         <void index="49">
+          <string>OilProduction</string>
+         </void>
+         <void index="50">
+          <string>OilReserves</string>
+         </void>
+         <void index="51">
+          <string>Airports</string>
+         </void>
+         <void index="52">
+          <string>AMRadioStations</string>
+         </void>
+         <void index="53">
+          <string>CellularPhones</string>
+         </void>
+         <void index="54">
+          <string>FMRadioStations</string>
+         </void>
+         <void index="55">
+          <string>InternetHosts</string>
+         </void>
+         <void index="56">
+          <string>InternetUsers</string>
+         </void>
+         <void index="57">
+          <string>MerchantShips</string>
+         </void>
+         <void index="58">
+          <string>MerchantShipsDeadWeight</string>
+         </void>
+         <void index="59">
+          <string>MerchantShipsGross</string>
+         </void>
+         <void index="60">
+          <string>PavedAirports</string>
+         </void>
+         <void index="61">
+          <string>PhoneLines</string>
+         </void>
+         <void index="62">
+          <string>RadioStations</string>
+         </void>
+         <void index="63">
+          <string>RailwayLength</string>
+         </void>
+         <void index="64">
+          <string>RoadLength</string>
+         </void>
+         <void index="65">
+          <string>ShortWaveRadioStations</string>
+         </void>
+         <void index="66">
+          <string>TelevisionStations</string>
+         </void>
+         <void index="67">
+          <string>UnpavedAirports</string>
+         </void>
+         <void index="68">
+          <string>ArableLandArea</string>
+         </void>
+         <void index="69">
+          <string>ArableLandFraction</string>
+         </void>
+         <void index="70">
+          <string>Area</string>
+         </void>
+         <void index="71">
+          <string>BoundaryLength</string>
+         </void>
+         <void index="72">
+          <string>CoastlineLength</string>
+         </void>
+         <void index="73">
+          <string>CropsLandArea</string>
+         </void>
+         <void index="74">
+          <string>CropsLandFraction</string>
+         </void>
+         <void index="75">
+          <string>HighestElevation</string>
+         </void>
+         <void index="76">
+          <string>IrrigatedLandArea</string>
+         </void>
+         <void index="77">
+          <string>IrrigatedLandFraction</string>
+         </void>
+         <void index="78">
+          <string>LandArea</string>
+         </void>
+         <void index="79">
+          <string>LowestElevation</string>
+         </void>
+         <void index="80">
+          <string>WaterArea</string>
+         </void>
+         <void index="81">
+          <string>MilitaryAgeFemales</string>
+         </void>
+         <void index="82">
+          <string>MilitaryAgeMales</string>
+         </void>
+         <void index="83">
+          <string>MilitaryAgePopulation</string>
+         </void>
+         <void index="84">
+          <string>MilitaryAgeRate</string>
+         </void>
+         <void index="85">
+          <string>MilitaryExpenditureFraction</string>
+         </void>
+         <void index="86">
+          <string>MilitaryExpenditures</string>
+         </void>
+         <void index="87">
+          <string>MilitaryFitPopulation</string>
+         </void>
+         <void index="88">
+          <string>Rec_SectorLaborFractions</string>
+         </void>
+         <void index="89">
+          <string>Rec_Continent</string>
+         </void>
+        </array>
+       </void>
+       <void property="columnRoles">
+        <array class="int" length="90">
+         <void index="0">
+          <int>3</int>
+         </void>
+         <void index="1">
+          <int>3</int>
+         </void>
+         <void index="2">
+          <int>4</int>
+         </void>
+         <void index="3">
+          <int>4</int>
+         </void>
+         <void index="4">
+          <int>4</int>
+         </void>
+         <void index="5">
+          <int>4</int>
+         </void>
+         <void index="6">
+          <int>4</int>
+         </void>
+         <void index="7">
+          <int>4</int>
+         </void>
+         <void index="8">
+          <int>4</int>
+         </void>
+         <void index="9">
+          <int>4</int>
+         </void>
+         <void index="10">
+          <int>4</int>
+         </void>
+         <void index="11">
+          <int>4</int>
+         </void>
+         <void index="12">
+          <int>4</int>
+         </void>
+         <void index="13">
+          <int>4</int>
+         </void>
+         <void index="14">
+          <int>4</int>
+         </void>
+         <void index="15">
+          <int>4</int>
+         </void>
+         <void index="16">
+          <int>4</int>
+         </void>
+         <void index="17">
+          <int>4</int>
+         </void>
+         <void index="18">
+          <int>3</int>
+         </void>
+         <void index="19">
+          <int>4</int>
+         </void>
+         <void index="20">
+          <int>4</int>
+         </void>
+         <void index="21">
+          <int>4</int>
+         </void>
+         <void index="22">
+          <int>4</int>
+         </void>
+         <void index="23">
+          <int>4</int>
+         </void>
+         <void index="24">
+          <int>4</int>
+         </void>
+         <void index="25">
+          <int>4</int>
+         </void>
+         <void index="26">
+          <int>4</int>
+         </void>
+         <void index="27">
+          <int>4</int>
+         </void>
+         <void index="28">
+          <int>4</int>
+         </void>
+         <void index="29">
+          <int>4</int>
+         </void>
+         <void index="30">
+          <int>4</int>
+         </void>
+         <void index="31">
+          <int>4</int>
+         </void>
+         <void index="32">
+          <int>4</int>
+         </void>
+         <void index="33">
+          <int>4</int>
+         </void>
+         <void index="34">
+          <int>3</int>
+         </void>
+         <void index="35">
+          <int>3</int>
+         </void>
+         <void index="36">
+          <int>3</int>
+         </void>
+         <void index="37">
+          <int>4</int>
+         </void>
+         <void index="38">
+          <int>4</int>
+         </void>
+         <void index="39">
+          <int>4</int>
+         </void>
+         <void index="40">
+          <int>4</int>
+         </void>
+         <void index="41">
+          <int>4</int>
+         </void>
+         <void index="42">
+          <int>4</int>
+         </void>
+         <void index="43">
+          <int>4</int>
+         </void>
+         <void index="44">
+          <int>4</int>
+         </void>
+         <void index="45">
+          <int>4</int>
+         </void>
+         <void index="46">
+          <int>4</int>
+         </void>
+         <void index="47">
+          <int>4</int>
+         </void>
+         <void index="48">
+          <int>4</int>
+         </void>
+         <void index="49">
+          <int>4</int>
+         </void>
+         <void index="50">
+          <int>4</int>
+         </void>
+         <void index="51">
+          <int>4</int>
+         </void>
+         <void index="52">
+          <int>4</int>
+         </void>
+         <void index="53">
+          <int>4</int>
+         </void>
+         <void index="54">
+          <int>4</int>
+         </void>
+         <void index="55">
+          <int>4</int>
+         </void>
+         <void index="56">
+          <int>4</int>
+         </void>
+         <void index="57">
+          <int>4</int>
+         </void>
+         <void index="58">
+          <int>4</int>
+         </void>
+         <void index="59">
+          <int>4</int>
+         </void>
+         <void index="60">
+          <int>4</int>
+         </void>
+         <void index="61">
+          <int>4</int>
+         </void>
+         <void index="62">
+          <int>4</int>
+         </void>
+         <void index="63">
+          <int>4</int>
+         </void>
+         <void index="64">
+          <int>4</int>
+         </void>
+         <void index="65">
+          <int>4</int>
+         </void>
+         <void index="66">
+          <int>4</int>
+         </void>
+         <void index="67">
+          <int>4</int>
+         </void>
+         <void index="68">
+          <int>4</int>
+         </void>
+         <void index="69">
+          <int>4</int>
+         </void>
+         <void index="70">
+          <int>4</int>
+         </void>
+         <void index="71">
+          <int>4</int>
+         </void>
+         <void index="72">
+          <int>4</int>
+         </void>
+         <void index="73">
+          <int>4</int>
+         </void>
+         <void index="74">
+          <int>4</int>
+         </void>
+         <void index="75">
+          <int>4</int>
+         </void>
+         <void index="76">
+          <int>4</int>
+         </void>
+         <void index="77">
+          <int>4</int>
+         </void>
+         <void index="78">
+          <int>4</int>
+         </void>
+         <void index="79">
+          <int>4</int>
+         </void>
+         <void index="80">
+          <int>4</int>
+         </void>
+         <void index="81">
+          <int>4</int>
+         </void>
+         <void index="82">
+          <int>4</int>
+         </void>
+         <void index="83">
+          <int>4</int>
+         </void>
+         <void index="84">
+          <int>4</int>
+         </void>
+         <void index="85">
+          <int>4</int>
+         </void>
+         <void index="86">
+          <int>4</int>
+         </void>
+         <void index="87">
+          <int>4</int>
+         </void>
+         <void index="88">
+          <int>3</int>
+         </void>
+         <void index="89">
+          <int>3</int>
+         </void>
+        </array>
+       </void>
+      </object>
+     </void>
+     <void property="startTime">
+      <long>1454633657864</long>
+     </void>
+     <void property="status">
+      <int>9</int>
+     </void>
+     <void property="thresholdValuesForColor">
+      <array class="double" length="2">
+       <void index="0">
+        <double>2.0</double>
+       </void>
+       <void index="1">
+        <double>3.5</double>
+       </void>
+      </array>
+     </void>
+     <void property="titlePattern">
+      <array class="boolean" length="4">
+       <void index="0">
+        <boolean>true</boolean>
+       </void>
+       <void index="1">
+        <boolean>true</boolean>
+       </void>
+       <void index="2">
+        <boolean>true</boolean>
+       </void>
+       <void index="3">
+        <boolean>true</boolean>
+       </void>
+      </array>
+     </void>
+     <void property="workPercent">
+      <int>191</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.etl.store.RegroupInClassUnit">
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList10" property="unitIdList">
+         <void method="add">
+          <string>unit</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList10"/>
+        </void>
+       </void>
+      </void>
+      <void property="outputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList11" property="unitIdList">
+         <void method="add">
+          <string>unit_9</string>
+         </void>
+         <void method="add">
+          <string>unit_11</string>
+         </void>
+         <void method="add">
+          <string>unit_13</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList11"/>
+        </void>
+        <void id="HashSet1" property="weakLinkStatusIdSet">
+         <void method="add">
+          <string>unit_11</string>
+         </void>
+         <void method="add">
+          <string>unit_13</string>
+         </void>
+         <void method="add">
+          <string>unit_9</string>
+         </void>
+        </void>
+        <void property="weakLinkStatusIdSet">
+         <object idref="HashSet1"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454630642488</long>
+     </void>
+     <void property="excludedColumnsLabelList">
+      <object class="java.util.ArrayList"/>
+     </void>
+     <void property="holderList">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="maestro.units.etl.store.regroupInClass.NominalInGroupHolder">
+         <void property="neededColumnLabels">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>SectorLaborFractions</string>
+           </void>
+          </object>
+         </void>
+         <void property="newRole">
+          <int>3</int>
+         </void>
+         <void property="newType">
+          <int>1</int>
+         </void>
+         <void property="recodValueMap">
+          <object class="java.util.HashMap">
+           <void method="put">
+            <string>Agriculture</string>
+            <string>Agriculture</string>
+           </void>
+           <void method="put">
+            <string>Services</string>
+            <string>IndustryAndServices</string>
+           </void>
+           <void method="put">
+            <string>IndustryAndServices</string>
+            <string>IndustryAndServices</string>
+           </void>
+           <void method="put">
+            <string>Industry</string>
+            <string>IndustryAndServices</string>
+           </void>
+          </object>
+         </void>
+         <void property="valuesList">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>IndustryAndServices</string>
+           </void>
+           <void method="add">
+            <string>Agriculture</string>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="maestro.units.etl.store.regroupInClass.NominalInGroupHolder">
+         <void property="neededColumnLabels">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>Continent</string>
+           </void>
+          </object>
+         </void>
+         <void property="newRole">
+          <int>3</int>
+         </void>
+         <void property="newType">
+          <int>1</int>
+         </void>
+         <void property="recodValueMap">
+          <object class="java.util.HashMap">
+           <void method="put">
+            <string>NorthAmerica</string>
+            <string>America</string>
+           </void>
+           <void method="put">
+            <string>SouthAmerica</string>
+            <string>America</string>
+           </void>
+           <void method="put">
+            <string>Oceania</string>
+            <string>Oceania</string>
+           </void>
+           <void method="put">
+            <string>Africa</string>
+            <string>Africa</string>
+           </void>
+           <void method="put">
+            <string>Europe</string>
+            <string>Europe</string>
+           </void>
+           <void method="put">
+            <string>Asia</string>
+            <string>Asia</string>
+           </void>
+          </object>
+         </void>
+         <void property="valuesList">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>Africa</string>
+           </void>
+           <void method="add">
+            <string>Asia</string>
+           </void>
+           <void method="add">
+            <string>Europe</string>
+           </void>
+           <void method="add">
+            <string>Oceania</string>
+           </void>
+           <void method="add">
+            <string>America</string>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="id">
+      <string>unit_10</string>
+     </void>
+     <void property="name">
+      <string>Binning - Grouping 
+Crossing</string>
+     </void>
+     <void property="newLabelList">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <string>Rec_SectorLaborFractions</string>
+       </void>
+       <void method="add">
+        <string>Rec_Continent</string>
+       </void>
+      </object>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>291.0</double>
+       </void>
+       <void index="1">
+        <double>209.1875</double>
+       </void>
+      </array>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object idref="SbaColumnDescriptor1"/>
+     </void>
+     <void property="startTime">
+      <long>1454630642254</long>
+     </void>
+     <void property="status">
+      <int>9</int>
+     </void>
+     <void property="storeFluxMode">
+      <int>1</int>
+     </void>
+     <void property="workPercent">
+      <int>191</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.spadUnits.methodUnits.DiscriminantMethodUnit">
+     <void id="CategorySerializationMap8" property="categoryMap">
+      <void property="categoryVariableMatrix">
+       <void index="0">
+        <array class="java.lang.String" length="1">
+         <void index="0">
+          <string>Rec_SectorLaborFractions</string>
+         </void>
+        </array>
+       </void>
+       <void index="1">
+        <array class="java.lang.String" length="16">
+         <void index="0">
+          <string>LifeExpectancy</string>
+         </void>
+         <void index="1">
+          <string>Population</string>
+         </void>
+         <void index="2">
+          <string>TotalFertilityRate</string>
+         </void>
+         <void index="3">
+          <string>ForeignExchangeReserves</string>
+         </void>
+         <void index="4">
+          <string>GDP</string>
+         </void>
+         <void index="5">
+          <string>GDPPerCapita</string>
+         </void>
+         <void index="6">
+          <string>LaborForce</string>
+         </void>
+         <void index="7">
+          <string>ElectricityProduction</string>
+         </void>
+         <void index="8">
+          <string>OilExports</string>
+         </void>
+         <void index="9">
+          <string>Airports</string>
+         </void>
+         <void index="10">
+          <string>InternetUsers</string>
+         </void>
+         <void index="11">
+          <string>RoadLength</string>
+         </void>
+         <void index="12">
+          <string>ArableLandArea</string>
+         </void>
+         <void index="13">
+          <string>Area</string>
+         </void>
+         <void index="14">
+          <string>MilitaryExpenditures</string>
+         </void>
+         <void index="15">
+          <string>MilitaryFitPopulation</string>
+         </void>
+        </array>
+       </void>
+      </void>
+     </void>
+     <void property="categoryMap">
+      <object idref="CategorySerializationMap8"/>
+     </void>
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList12" property="unitIdList">
+         <void method="add">
+          <string>unit_10</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList12"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454636386312</long>
+     </void>
+     <void property="id">
+      <string>unit_11</string>
+     </void>
+     <void property="methodType">
+      <object class="java.lang.Enum" method="valueOf">
+       <class>maestro.units.spadUnits.methodUnits.DiscriminantMethodUnit$DiscriminantType</class>
+       <string>DIS2GFP</string>
+      </object>
+     </void>
+     <void property="modelColumnHolder">
+      <object class="maestro.units.model.ModelColumnNamesHolder">
+       <void property="modelType">
+        <object class="java.lang.Enum" method="valueOf">
+         <class>maestro.units.model.ModelColumnNamesHolder$ModelType</class>
+         <string>DISCRIMINANT</string>
+        </object>
+       </void>
+       <void property="modelTypePrefix">
+        <string>DISCRI</string>
+       </void>
+       <void property="variableNames">
+        <array class="java.lang.String" length="5">
+         <void index="0">
+          <string>LDF</string>
+         </void>
+         <void index="1">
+          <string>Decision</string>
+         </void>
+         <void index="2">
+          <string>Event_Proba</string>
+         </void>
+         <void index="3">
+          <string>Non_Event_Proba</string>
+         </void>
+         <void index="4">
+          <string>Partition</string>
+         </void>
+        </array>
+       </void>
+       <void property="variableStatus">
+        <array class="boolean" length="5">
+         <void index="0">
+          <boolean>true</boolean>
+         </void>
+         <void index="1">
+          <boolean>true</boolean>
+         </void>
+         <void index="2">
+          <boolean>true</boolean>
+         </void>
+        </array>
+       </void>
+      </object>
+     </void>
+     <void property="name">
+      <string>Discriminant analysis based on factors (PCA)</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="partitionDescriptor">
+      <object class="com.dataxpresso.tools.algo.PartitionDescriptionHolder">
+       <void property="learnProba">
+        <double>1.0</double>
+       </void>
+       <void property="testProba">
+        <double>0.0</double>
+       </void>
+      </object>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>389.56360428699355</double>
+       </void>
+       <void index="1">
+        <double>310.8134465317089</double>
+       </void>
+      </array>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object idref="SbaColumnDescriptor1"/>
+     </void>
+     <void property="startTime">
+      <long>1454636384815</long>
+     </void>
+     <void property="status">
+      <int>12</int>
+     </void>
+     <void property="targetModality">
+      <string>IndustryAndServices</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="maestro.units.spadUnits.methodUnits.TabCorbiMethodUnit">
+     <void property="connectionPoints">
+      <void property="inputConnectionPoints">
+       <void index="0">
+        <void id="ArrayList13" property="unitIdList">
+         <void method="add">
+          <string>unit_10</string>
+         </void>
+        </void>
+        <void property="unitIdList">
+         <object idref="ArrayList13"/>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="endTime">
+      <long>1454635071591</long>
+     </void>
+     <void property="id">
+      <string>unit_13</string>
+     </void>
+     <void property="modelCategories">
+      <void index="0">
+       <void property="columnNameList">
+        <void method="add">
+         <string>Rec_SectorLaborFractions</string>
+        </void>
+       </void>
+      </void>
+      <void index="1">
+       <void property="columnNameList">
+        <void method="add">
+         <string>Rec_Continent</string>
+        </void>
+       </void>
+      </void>
+     </void>
+     <void property="name">
+      <string>Cross tables and SCA</string>
+     </void>
+     <void property="parent">
+      <object idref="RootUnit0"/>
+     </void>
+     <void property="position">
+      <array class="double" length="2">
+       <void index="0">
+        <double>392.6259465317087</double>
+       </void>
+       <void index="1">
+        <double>106.54077272005301</double>
+       </void>
+      </array>
+     </void>
+     <void property="sbaColumnDescriptor">
+      <object class="maestro.units.etl.table.sba.SbaColumnDescriptor">
+       <void property="columnNames">
+        <array class="java.lang.String" length="5">
+         <void index="0">
+          <string>Africa</string>
+         </void>
+         <void index="1">
+          <string>Asia</string>
+         </void>
+         <void index="2">
+          <string>Europe</string>
+         </void>
+         <void index="3">
+          <string>Oceania</string>
+         </void>
+         <void index="4">
+          <string>America</string>
+         </void>
+        </array>
+       </void>
+       <void property="columnRoles">
+        <array class="int" length="5">
+         <void index="0">
+          <int>4</int>
+         </void>
+         <void index="1">
+          <int>4</int>
+         </void>
+         <void index="2">
+          <int>4</int>
+         </void>
+         <void index="3">
+          <int>4</int>
+         </void>
+         <void index="4">
+          <int>4</int>
+         </void>
+        </array>
+       </void>
+      </object>
+     </void>
+     <void property="startTime">
+      <long>1454635069836</long>
+     </void>
+     <void property="status">
+      <int>9</int>
+     </void>
+     <void property="subSpaceDimension">
+      <int>-1</int>
+     </void>
+     <void property="vsgAdditionalContent">
+      <string>LISTE_FICHIERS=unit_13.FGF</string>
+     </void>
+     <void property="workPercent">
+      <int>191</int>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="diagramVersion">
+   <string>8.2.18</string>
+  </void>
+ </object>
+</java>
